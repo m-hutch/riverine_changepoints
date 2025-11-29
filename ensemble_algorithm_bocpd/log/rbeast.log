@@ -1,0 +1,732 @@
+========================================================================= 
+Log Path: /Users/maehutch/GitHub_m-hutch/riverine_changepoints/ensemble_algorithm_bocpd/log/rbeast.log 
+Program Path: /Users/maehutch/GitHub_m-hutch/riverine_changepoints/ensemble_algorithm_bocpd/rbeast.R 
+Working Directory: /Users/maehutch/GitHub_m-hutch/riverine_changepoints/ensemble_algorithm_bocpd 
+User Name: maehutch 
+R Version: 4.5.1 (2025-06-13) 
+Machine: Maes-MacBook-Pro-2.local x86_64 
+Operating System: Darwin 25.1.0 Darwin Kernel Version 25.1.0: Mon Oct 20 19:26:51 PDT 2025; root:xnu-12377.41.6~2/RELEASE_X86_64 
+Base Packages: stats graphics grDevices utils datasets methods base 
+Other Packages: Rbeast_1.0.1 bayesplot_1.14.0 logr_1.3.9 common_1.1.3 posterior_1.6.1 cmdstanr_0.9.0 Rcpp_1.1.0 lmomco_2.5.3 PearsonDS_1.3.2 kdensity_1.1.1 lmom_3.2 tidyr_1.3.1 dplyr_1.1.4 dataRetrieval_2.7.21 pacman_0.5.1 
+Log Start Time: 2025-11-27 21:31:08.73211 
+========================================================================= 
+
+[1;31m#####################################################################
+#                      Seasonal  Changepoints                       #
+#####################################################################
+[0m No seasonal/periodic component present (i.e., season='none')
+
+
+[1;31m#####################################################################
+#                      Trend  Changepoints                          #
+#####################################################################
+[0m.-------------------------------------------------------------------.
+| Ascii plot of probability distribution for number of chgpts (ncp) |
+.-------------------------------------------------------------------.
+|Pr(ncp = 0 )=0.000|*                                               |
+|Pr(ncp = 1 )=0.000|*                                               |
+|Pr(ncp = 2 )=0.001|*                                               |
+|Pr(ncp = 3 )=0.429|***************************************         |
+|Pr(ncp = 4 )=0.522|*********************************************** |
+|Pr(ncp = 5 )=0.046|*****                                           |
+|Pr(ncp = 6 )=0.001|*                                               |
+|Pr(ncp = 7 )=0.000|*                                               |
+|Pr(ncp = 8 )=0.000|*                                               |
+|Pr(ncp = 9 )=0.000|*                                               |
+|Pr(ncp = 10)=0.000|*                                               |
+.-------------------------------------------------------------------.
+|    Summary for number of Trend ChangePoints (tcp)                 |
+.-------------------------------------------------------------------.
+|ncp_max    = 10   | MaxTrendKnotNum: A parameter you set           |
+|ncp_mode   = 4    | Pr(ncp= 4)=0.52: There is a 52.2% probability  |
+|                  | that the trend component has  4 changepoint(s).|
+|ncp_mean   = 3.62 | Sum{ncp*Pr(ncp)} for ncp = 0,...,10            |
+|ncp_pct10  = 3.00 | 10% percentile for number of changepoints      |
+|ncp_median = 4.00 | 50% percentile: Median number of changepoints  |
+|ncp_pct90  = 4.00 | 90% percentile for number of changepoints      |
+.-------------------------------------------------------------------.
+| List of probable trend changepoints ranked by probability of      |
+| occurrence: Please combine the ncp reported above to determine    |
+| which changepoints below are  practically meaningful              |
+'-------------------------------------------------------------------'
+|tcp#              |time (cp)                  |prob(cpPr)          |
+|------------------|---------------------------|--------------------|
+|1                 |44.000000                  |1.00000             |
+|2                 |48.000000                  |0.99417             |
+|3                 |35.000000                  |0.88871             |
+|4                 |65.000000                  |0.26592             |
+|5                 |61.000000                  |0.13296             |
+.-------------------------------------------------------------------.
+
+
+
+NOTE: the beast output object 'o' is a LIST. Type 'str(o)' to see all 
+the elements in it. Or use 'plot(o)' or 'plot(o,interactive=TRUE)' to 
+plot the model output.
+
+NOTE: Log Print Time:  2025-11-27 21:33:31.015129 
+NOTE: Elapsed Time: 2.3713693022728 mins 
+
+Warning: number of items to replace is not a multiple of replacement length 
+
+NOTE: Log Print Time:  2025-11-27 21:33:31.016117 
+NOTE: Elapsed Time: 0.000988006591796875 secs 
+
+[1;31m#####################################################################
+#                      Seasonal  Changepoints                       #
+#####################################################################
+[0m No seasonal/periodic component present (i.e., season='none')
+
+
+[1;31m#####################################################################
+#                      Trend  Changepoints                          #
+#####################################################################
+[0m.-------------------------------------------------------------------.
+| Ascii plot of probability distribution for number of chgpts (ncp) |
+.-------------------------------------------------------------------.
+|Pr(ncp = 0 )=0.275|***************************************         |
+|Pr(ncp = 1 )=0.334|*********************************************** |
+|Pr(ncp = 2 )=0.209|******************************                  |
+|Pr(ncp = 3 )=0.091|*************                                   |
+|Pr(ncp = 4 )=0.047|*******                                         |
+|Pr(ncp = 5 )=0.023|****                                            |
+|Pr(ncp = 6 )=0.012|**                                              |
+|Pr(ncp = 7 )=0.005|*                                               |
+|Pr(ncp = 8 )=0.003|*                                               |
+|Pr(ncp = 9 )=0.001|*                                               |
+|Pr(ncp = 10)=0.000|*                                               |
+.-------------------------------------------------------------------.
+|    Summary for number of Trend ChangePoints (tcp)                 |
+.-------------------------------------------------------------------.
+|ncp_max    = 10   | MaxTrendKnotNum: A parameter you set           |
+|ncp_mode   = 1    | Pr(ncp= 1)=0.33: There is a 33.4% probability  |
+|                  | that the trend component has  1 changepoint(s).|
+|ncp_mean   = 1.46 | Sum{ncp*Pr(ncp)} for ncp = 0,...,10            |
+|ncp_pct10  = 0.00 | 10% percentile for number of changepoints      |
+|ncp_median = 1.00 | 50% percentile: Median number of changepoints  |
+|ncp_pct90  = 3.00 | 90% percentile for number of changepoints      |
+.-------------------------------------------------------------------.
+| List of probable trend changepoints ranked by probability of      |
+| occurrence: Please combine the ncp reported above to determine    |
+| which changepoints below are  practically meaningful              |
+'-------------------------------------------------------------------'
+|tcp#              |time (cp)                  |prob(cpPr)          |
+|------------------|---------------------------|--------------------|
+|1                 |34.000000                  |0.33654             |
+|2                 |44.000000                  |0.05642             |
+|3                 |52.000000                  |0.05608             |
+|4                 |15.000000                  |0.05250             |
+|5                 |63.000000                  |0.04904             |
+|6                 |71.000000                  |0.04875             |
+|7                 |22.000000                  |0.04817             |
+|8                 |12.000000                  |0.04729             |
+|9                 |77.000000                  |0.04588             |
+|10                |84.000000                  |0.04433             |
+.-------------------------------------------------------------------.
+
+
+
+NOTE: the beast output object 'o' is a LIST. Type 'str(o)' to see all 
+the elements in it. Or use 'plot(o)' or 'plot(o,interactive=TRUE)' to 
+plot the model output.
+
+NOTE: Log Print Time:  2025-11-27 21:33:31.097672 
+NOTE: Elapsed Time: 0.0815548896789551 secs 
+
+Warning: number of items to replace is not a multiple of replacement length 
+
+NOTE: Log Print Time:  2025-11-27 21:33:31.098698 
+NOTE: Elapsed Time: 0.00102591514587402 secs 
+
+[1;31m#####################################################################
+#                      Seasonal  Changepoints                       #
+#####################################################################
+[0m No seasonal/periodic component present (i.e., season='none')
+
+
+[1;31m#####################################################################
+#                      Trend  Changepoints                          #
+#####################################################################
+[0m.-------------------------------------------------------------------.
+| Ascii plot of probability distribution for number of chgpts (ncp) |
+.-------------------------------------------------------------------.
+|Pr(ncp = 0 )=0.000|*                                               |
+|Pr(ncp = 1 )=0.000|*                                               |
+|Pr(ncp = 2 )=0.139|***********                                     |
+|Pr(ncp = 3 )=0.602|*********************************************** |
+|Pr(ncp = 4 )=0.249|********************                            |
+|Pr(ncp = 5 )=0.011|*                                               |
+|Pr(ncp = 6 )=0.001|*                                               |
+|Pr(ncp = 7 )=0.000|*                                               |
+|Pr(ncp = 8 )=0.000|*                                               |
+|Pr(ncp = 9 )=0.000|*                                               |
+|Pr(ncp = 10)=0.000|*                                               |
+.-------------------------------------------------------------------.
+|    Summary for number of Trend ChangePoints (tcp)                 |
+.-------------------------------------------------------------------.
+|ncp_max    = 10   | MaxTrendKnotNum: A parameter you set           |
+|ncp_mode   = 3    | Pr(ncp= 3)=0.60: There is a 60.2% probability  |
+|                  | that the trend component has  3 changepoint(s).|
+|ncp_mean   = 3.13 | Sum{ncp*Pr(ncp)} for ncp = 0,...,10            |
+|ncp_pct10  = 2.00 | 10% percentile for number of changepoints      |
+|ncp_median = 3.00 | 50% percentile: Median number of changepoints  |
+|ncp_pct90  = 4.00 | 90% percentile for number of changepoints      |
+.-------------------------------------------------------------------.
+| List of probable trend changepoints ranked by probability of      |
+| occurrence: Please combine the ncp reported above to determine    |
+| which changepoints below are  practically meaningful              |
+'-------------------------------------------------------------------'
+|tcp#              |time (cp)                  |prob(cpPr)          |
+|------------------|---------------------------|--------------------|
+|1                 |44.000000                  |1.00000             |
+|2                 |39.000000                  |1.00000             |
+|3                 |34.000000                  |0.79788             |
+|4                 |48.000000                  |0.09421             |
+|5                 |60.000000                  |0.06808             |
+.-------------------------------------------------------------------.
+
+
+
+NOTE: the beast output object 'o' is a LIST. Type 'str(o)' to see all 
+the elements in it. Or use 'plot(o)' or 'plot(o,interactive=TRUE)' to 
+plot the model output.
+
+NOTE: Log Print Time:  2025-11-27 21:33:31.177316 
+NOTE: Elapsed Time: 0.078618049621582 secs 
+
+Warning: number of items to replace is not a multiple of replacement length 
+
+NOTE: Log Print Time:  2025-11-27 21:33:31.178196 
+NOTE: Elapsed Time: 0.000880002975463867 secs 
+
+[1;31m#####################################################################
+#                      Seasonal  Changepoints                       #
+#####################################################################
+[0m No seasonal/periodic component present (i.e., season='none')
+
+
+[1;31m#####################################################################
+#                      Trend  Changepoints                          #
+#####################################################################
+[0m.-------------------------------------------------------------------.
+| Ascii plot of probability distribution for number of chgpts (ncp) |
+.-------------------------------------------------------------------.
+|Pr(ncp = 0 )=0.000|*                                               |
+|Pr(ncp = 1 )=0.000|*                                               |
+|Pr(ncp = 2 )=0.003|*                                               |
+|Pr(ncp = 3 )=0.405|*************************************           |
+|Pr(ncp = 4 )=0.520|*********************************************** |
+|Pr(ncp = 5 )=0.066|******                                          |
+|Pr(ncp = 6 )=0.006|*                                               |
+|Pr(ncp = 7 )=0.000|*                                               |
+|Pr(ncp = 8 )=0.000|*                                               |
+|Pr(ncp = 9 )=0.000|*                                               |
+|Pr(ncp = 10)=0.000|*                                               |
+.-------------------------------------------------------------------.
+|    Summary for number of Trend ChangePoints (tcp)                 |
+.-------------------------------------------------------------------.
+|ncp_max    = 10   | MaxTrendKnotNum: A parameter you set           |
+|ncp_mode   = 4    | Pr(ncp= 4)=0.52: There is a 52.0% probability  |
+|                  | that the trend component has  4 changepoint(s).|
+|ncp_mean   = 3.67 | Sum{ncp*Pr(ncp)} for ncp = 0,...,10            |
+|ncp_pct10  = 3.00 | 10% percentile for number of changepoints      |
+|ncp_median = 4.00 | 50% percentile: Median number of changepoints  |
+|ncp_pct90  = 4.00 | 90% percentile for number of changepoints      |
+.-------------------------------------------------------------------.
+| List of probable trend changepoints ranked by probability of      |
+| occurrence: Please combine the ncp reported above to determine    |
+| which changepoints below are  practically meaningful              |
+'-------------------------------------------------------------------'
+|tcp#              |time (cp)                  |prob(cpPr)          |
+|------------------|---------------------------|--------------------|
+|1                 |44.000000                  |1.00000             |
+|2                 |48.000000                  |0.99471             |
+|3                 |35.000000                  |0.84958             |
+|4                 |64.000000                  |0.24808             |
+|5                 |61.000000                  |0.15483             |
+.-------------------------------------------------------------------.
+
+
+
+NOTE: the beast output object 'o' is a LIST. Type 'str(o)' to see all 
+the elements in it. Or use 'plot(o)' or 'plot(o,interactive=TRUE)' to 
+plot the model output.
+
+NOTE: Log Print Time:  2025-11-27 21:34:03.144756 
+NOTE: Elapsed Time: 31.966560125351 secs 
+
+[1;31m#####################################################################
+#                      Seasonal  Changepoints                       #
+#####################################################################
+[0m No seasonal/periodic component present (i.e., season='none')
+
+
+[1;31m#####################################################################
+#                      Trend  Changepoints                          #
+#####################################################################
+[0m.-------------------------------------------------------------------.
+| Ascii plot of probability distribution for number of chgpts (ncp) |
+.-------------------------------------------------------------------.
+|Pr(ncp = 0 )=0.118|*********                                       |
+|Pr(ncp = 1 )=0.140|***********                                     |
+|Pr(ncp = 2 )=0.648|*********************************************** |
+|Pr(ncp = 3 )=0.059|*****                                           |
+|Pr(ncp = 4 )=0.020|**                                              |
+|Pr(ncp = 5 )=0.009|*                                               |
+|Pr(ncp = 6 )=0.004|*                                               |
+|Pr(ncp = 7 )=0.001|*                                               |
+|Pr(ncp = 8 )=0.000|*                                               |
+|Pr(ncp = 9 )=0.000|*                                               |
+|Pr(ncp = 10)=0.000|*                                               |
+.-------------------------------------------------------------------.
+|    Summary for number of Trend ChangePoints (tcp)                 |
+.-------------------------------------------------------------------.
+|ncp_max    = 10   | MaxTrendKnotNum: A parameter you set           |
+|ncp_mode   = 2    | Pr(ncp= 2)=0.65: There is a 64.8% probability  |
+|                  | that the trend component has  2 changepoint(s).|
+|ncp_mean   = 1.77 | Sum{ncp*Pr(ncp)} for ncp = 0,...,10            |
+|ncp_pct10  = 0.00 | 10% percentile for number of changepoints      |
+|ncp_median = 2.00 | 50% percentile: Median number of changepoints  |
+|ncp_pct90  = 2.00 | 90% percentile for number of changepoints      |
+.-------------------------------------------------------------------.
+| List of probable trend changepoints ranked by probability of      |
+| occurrence: Please combine the ncp reported above to determine    |
+| which changepoints below are  practically meaningful              |
+'-------------------------------------------------------------------'
+|tcp#              |time (cp)                  |prob(cpPr)          |
+|------------------|---------------------------|--------------------|
+|1                 |34.000000                  |0.72379             |
+|2                 |43.000000                  |0.02333             |
+|3                 |20.000000                  |0.02179             |
+|4                 |56.000000                  |0.02142             |
+|5                 |69.000000                  |0.02108             |
+|6                 |50.000000                  |0.02013             |
+|7                 |82.000000                  |0.01950             |
+|8                 |77.000000                  |0.01946             |
+|9                 |73.000000                  |0.01900             |
+|10                |63.000000                  |0.01888             |
+.-------------------------------------------------------------------.
+
+
+
+NOTE: the beast output object 'o' is a LIST. Type 'str(o)' to see all 
+the elements in it. Or use 'plot(o)' or 'plot(o,interactive=TRUE)' to 
+plot the model output.
+
+NOTE: Log Print Time:  2025-11-27 21:34:03.2185 
+NOTE: Elapsed Time: 0.0737438201904297 secs 
+
+[1;31m#####################################################################
+#                      Seasonal  Changepoints                       #
+#####################################################################
+[0m No seasonal/periodic component present (i.e., season='none')
+
+
+[1;31m#####################################################################
+#                      Trend  Changepoints                          #
+#####################################################################
+[0m.-------------------------------------------------------------------.
+| Ascii plot of probability distribution for number of chgpts (ncp) |
+.-------------------------------------------------------------------.
+|Pr(ncp = 0 )=0.000|*                                               |
+|Pr(ncp = 1 )=0.000|*                                               |
+|Pr(ncp = 2 )=0.141|************                                    |
+|Pr(ncp = 3 )=0.601|*********************************************** |
+|Pr(ncp = 4 )=0.246|********************                            |
+|Pr(ncp = 5 )=0.011|*                                               |
+|Pr(ncp = 6 )=0.000|*                                               |
+|Pr(ncp = 7 )=0.000|*                                               |
+|Pr(ncp = 8 )=0.000|*                                               |
+|Pr(ncp = 9 )=0.000|*                                               |
+|Pr(ncp = 10)=0.000|*                                               |
+.-------------------------------------------------------------------.
+|    Summary for number of Trend ChangePoints (tcp)                 |
+.-------------------------------------------------------------------.
+|ncp_max    = 10   | MaxTrendKnotNum: A parameter you set           |
+|ncp_mode   = 3    | Pr(ncp= 3)=0.60: There is a 60.1% probability  |
+|                  | that the trend component has  3 changepoint(s).|
+|ncp_mean   = 3.13 | Sum{ncp*Pr(ncp)} for ncp = 0,...,10            |
+|ncp_pct10  = 2.00 | 10% percentile for number of changepoints      |
+|ncp_median = 3.00 | 50% percentile: Median number of changepoints  |
+|ncp_pct90  = 4.00 | 90% percentile for number of changepoints      |
+.-------------------------------------------------------------------.
+| List of probable trend changepoints ranked by probability of      |
+| occurrence: Please combine the ncp reported above to determine    |
+| which changepoints below are  practically meaningful              |
+'-------------------------------------------------------------------'
+|tcp#              |time (cp)                  |prob(cpPr)          |
+|------------------|---------------------------|--------------------|
+|1                 |44.000000                  |1.00000             |
+|2                 |39.000000                  |1.00000             |
+|3                 |34.000000                  |0.79692             |
+|4                 |49.000000                  |0.09462             |
+|5                 |60.000000                  |0.06200             |
+.-------------------------------------------------------------------.
+
+
+
+NOTE: the beast output object 'o' is a LIST. Type 'str(o)' to see all 
+the elements in it. Or use 'plot(o)' or 'plot(o,interactive=TRUE)' to 
+plot the model output.
+
+NOTE: Log Print Time:  2025-11-27 21:34:03.370343 
+NOTE: Elapsed Time: 0.151843070983887 secs 
+
+[1;31m#####################################################################
+#                      Seasonal  Changepoints                       #
+#####################################################################
+[0m No seasonal/periodic component present (i.e., season='none')
+
+
+[1;31m#####################################################################
+#                      Trend  Changepoints                          #
+#####################################################################
+[0m.-------------------------------------------------------------------.
+| Ascii plot of probability distribution for number of chgpts (ncp) |
+.-------------------------------------------------------------------.
+|Pr(ncp = 0 )=0.000|*                                               |
+|Pr(ncp = 1 )=0.000|*                                               |
+|Pr(ncp = 2 )=0.011|*                                               |
+|Pr(ncp = 3 )=0.258|***********************                         |
+|Pr(ncp = 4 )=0.533|*********************************************** |
+|Pr(ncp = 5 )=0.156|**************                                  |
+|Pr(ncp = 6 )=0.033|***                                             |
+|Pr(ncp = 7 )=0.007|*                                               |
+|Pr(ncp = 8 )=0.001|*                                               |
+|Pr(ncp = 9 )=0.000|*                                               |
+|Pr(ncp = 10)=0.000|*                                               |
+.-------------------------------------------------------------------.
+|    Summary for number of Trend ChangePoints (tcp)                 |
+.-------------------------------------------------------------------.
+|ncp_max    = 10   | MaxTrendKnotNum: A parameter you set           |
+|ncp_mode   = 4    | Pr(ncp= 4)=0.53: There is a 53.3% probability  |
+|                  | that the trend component has  4 changepoint(s).|
+|ncp_mean   = 3.97 | Sum{ncp*Pr(ncp)} for ncp = 0,...,10            |
+|ncp_pct10  = 3.00 | 10% percentile for number of changepoints      |
+|ncp_median = 4.00 | 50% percentile: Median number of changepoints  |
+|ncp_pct90  = 5.00 | 90% percentile for number of changepoints      |
+.-------------------------------------------------------------------.
+| List of probable trend changepoints ranked by probability of      |
+| occurrence: Please combine the ncp reported above to determine    |
+| which changepoints below are  practically meaningful              |
+'-------------------------------------------------------------------'
+|tcp#              |time (cp)                  |prob(cpPr)          |
+|------------------|---------------------------|--------------------|
+|1                 |47.000000                  |1.00000             |
+|2                 |35.000000                  |0.70633             |
+|3                 |64.000000                  |0.26308             |
+|4                 |59.000000                  |0.19046             |
+|5                 |6.000000                   |0.01504             |
+|6                 |18.000000                  |0.01263             |
+|7                 |14.000000                  |0.01146             |
+|8                 |82.000000                  |0.01062             |
+.-------------------------------------------------------------------.
+
+
+
+NOTE: the beast output object 'o' is a LIST. Type 'str(o)' to see all 
+the elements in it. Or use 'plot(o)' or 'plot(o,interactive=TRUE)' to 
+plot the model output.
+
+NOTE: Log Print Time:  2025-11-27 21:34:38.617363 
+NOTE: Elapsed Time: 35.2470200061798 secs 
+
+[1;31m#####################################################################
+#                      Seasonal  Changepoints                       #
+#####################################################################
+[0m No seasonal/periodic component present (i.e., season='none')
+
+
+[1;31m#####################################################################
+#                      Trend  Changepoints                          #
+#####################################################################
+[0m.-------------------------------------------------------------------.
+| Ascii plot of probability distribution for number of chgpts (ncp) |
+.-------------------------------------------------------------------.
+|Pr(ncp = 0 )=0.283|****************************************        |
+|Pr(ncp = 1 )=0.341|*********************************************** |
+|Pr(ncp = 2 )=0.175|*************************                       |
+|Pr(ncp = 3 )=0.101|**************                                  |
+|Pr(ncp = 4 )=0.054|********                                        |
+|Pr(ncp = 5 )=0.027|****                                            |
+|Pr(ncp = 6 )=0.013|**                                              |
+|Pr(ncp = 7 )=0.005|*                                               |
+|Pr(ncp = 8 )=0.002|*                                               |
+|Pr(ncp = 9 )=0.000|*                                               |
+|Pr(ncp = 10)=0.000|*                                               |
+.-------------------------------------------------------------------.
+|    Summary for number of Trend ChangePoints (tcp)                 |
+.-------------------------------------------------------------------.
+|ncp_max    = 10   | MaxTrendKnotNum: A parameter you set           |
+|ncp_mode   = 1    | Pr(ncp= 1)=0.34: There is a 34.1% probability  |
+|                  | that the trend component has  1 changepoint(s).|
+|ncp_mean   = 1.47 | Sum{ncp*Pr(ncp)} for ncp = 0,...,10            |
+|ncp_pct10  = 0.00 | 10% percentile for number of changepoints      |
+|ncp_median = 1.00 | 50% percentile: Median number of changepoints  |
+|ncp_pct90  = 4.00 | 90% percentile for number of changepoints      |
+.-------------------------------------------------------------------.
+| List of probable trend changepoints ranked by probability of      |
+| occurrence: Please combine the ncp reported above to determine    |
+| which changepoints below are  practically meaningful              |
+'-------------------------------------------------------------------'
+|tcp#              |time (cp)                  |prob(cpPr)          |
+|------------------|---------------------------|--------------------|
+|1                 |34.000000                  |0.31325             |
+|2                 |44.000000                  |0.06021             |
+|3                 |49.000000                  |0.05475             |
+|4                 |58.000000                  |0.05413             |
+|5                 |20.000000                  |0.05246             |
+|6                 |81.000000                  |0.05142             |
+|7                 |8.000000                   |0.05042             |
+|8                 |65.000000                  |0.04975             |
+|9                 |71.000000                  |0.04967             |
+|10                |77.000000                  |0.04604             |
+.-------------------------------------------------------------------.
+
+
+
+NOTE: the beast output object 'o' is a LIST. Type 'str(o)' to see all 
+the elements in it. Or use 'plot(o)' or 'plot(o,interactive=TRUE)' to 
+plot the model output.
+
+NOTE: Log Print Time:  2025-11-27 21:34:38.799815 
+NOTE: Elapsed Time: 0.182451963424683 secs 
+
+[1;31m#####################################################################
+#                      Seasonal  Changepoints                       #
+#####################################################################
+[0m No seasonal/periodic component present (i.e., season='none')
+
+
+[1;31m#####################################################################
+#                      Trend  Changepoints                          #
+#####################################################################
+[0m.-------------------------------------------------------------------.
+| Ascii plot of probability distribution for number of chgpts (ncp) |
+.-------------------------------------------------------------------.
+|Pr(ncp = 0 )=0.000|*                                               |
+|Pr(ncp = 1 )=0.000|*                                               |
+|Pr(ncp = 2 )=0.140|***********                                     |
+|Pr(ncp = 3 )=0.619|*********************************************** |
+|Pr(ncp = 4 )=0.231|******************                              |
+|Pr(ncp = 5 )=0.010|*                                               |
+|Pr(ncp = 6 )=0.000|*                                               |
+|Pr(ncp = 7 )=0.000|*                                               |
+|Pr(ncp = 8 )=0.000|*                                               |
+|Pr(ncp = 9 )=0.000|*                                               |
+|Pr(ncp = 10)=0.000|*                                               |
+.-------------------------------------------------------------------.
+|    Summary for number of Trend ChangePoints (tcp)                 |
+.-------------------------------------------------------------------.
+|ncp_max    = 10   | MaxTrendKnotNum: A parameter you set           |
+|ncp_mode   = 3    | Pr(ncp= 3)=0.62: There is a 61.9% probability  |
+|                  | that the trend component has  3 changepoint(s).|
+|ncp_mean   = 3.11 | Sum{ncp*Pr(ncp)} for ncp = 0,...,10            |
+|ncp_pct10  = 2.00 | 10% percentile for number of changepoints      |
+|ncp_median = 3.00 | 50% percentile: Median number of changepoints  |
+|ncp_pct90  = 4.00 | 90% percentile for number of changepoints      |
+.-------------------------------------------------------------------.
+| List of probable trend changepoints ranked by probability of      |
+| occurrence: Please combine the ncp reported above to determine    |
+| which changepoints below are  practically meaningful              |
+'-------------------------------------------------------------------'
+|tcp#              |time (cp)                  |prob(cpPr)          |
+|------------------|---------------------------|--------------------|
+|1                 |39.000000                  |0.99933             |
+|2                 |44.000000                  |0.99850             |
+|3                 |34.000000                  |0.80196             |
+|4                 |48.000000                  |0.08987             |
+|5                 |60.000000                  |0.05592             |
+.-------------------------------------------------------------------.
+
+
+
+NOTE: the beast output object 'o' is a LIST. Type 'str(o)' to see all 
+the elements in it. Or use 'plot(o)' or 'plot(o,interactive=TRUE)' to 
+plot the model output.
+
+NOTE: Log Print Time:  2025-11-27 21:34:39.118362 
+NOTE: Elapsed Time: 0.318547010421753 secs 
+
+[1;31m#####################################################################
+#                      Seasonal  Changepoints                       #
+#####################################################################
+[0m No seasonal/periodic component present (i.e., season='none')
+
+
+[1;31m#####################################################################
+#                      Trend  Changepoints                          #
+#####################################################################
+[0m.-------------------------------------------------------------------.
+| Ascii plot of probability distribution for number of chgpts (ncp) |
+.-------------------------------------------------------------------.
+|Pr(ncp = 0 )=0.000|*                                               |
+|Pr(ncp = 1 )=0.000|*                                               |
+|Pr(ncp = 2 )=0.001|*                                               |
+|Pr(ncp = 3 )=0.410|**************************************          |
+|Pr(ncp = 4 )=0.518|*********************************************** |
+|Pr(ncp = 5 )=0.065|******                                          |
+|Pr(ncp = 6 )=0.005|*                                               |
+|Pr(ncp = 7 )=0.001|*                                               |
+|Pr(ncp = 8 )=0.000|*                                               |
+|Pr(ncp = 9 )=0.000|*                                               |
+|Pr(ncp = 10)=0.000|*                                               |
+.-------------------------------------------------------------------.
+|    Summary for number of Trend ChangePoints (tcp)                 |
+.-------------------------------------------------------------------.
+|ncp_max    = 10   | MaxTrendKnotNum: A parameter you set           |
+|ncp_mode   = 4    | Pr(ncp= 4)=0.52: There is a 51.8% probability  |
+|                  | that the trend component has  4 changepoint(s).|
+|ncp_mean   = 3.67 | Sum{ncp*Pr(ncp)} for ncp = 0,...,10            |
+|ncp_pct10  = 3.00 | 10% percentile for number of changepoints      |
+|ncp_median = 4.00 | 50% percentile: Median number of changepoints  |
+|ncp_pct90  = 4.00 | 90% percentile for number of changepoints      |
+.-------------------------------------------------------------------.
+| List of probable trend changepoints ranked by probability of      |
+| occurrence: Please combine the ncp reported above to determine    |
+| which changepoints below are  practically meaningful              |
+'-------------------------------------------------------------------'
+|tcp#              |time (cp)                  |prob(cpPr)          |
+|------------------|---------------------------|--------------------|
+|1                 |44.000000                  |1.00000             |
+|2                 |48.000000                  |0.99383             |
+|3                 |35.000000                  |0.89125             |
+|4                 |65.000000                  |0.25787             |
+|5                 |61.000000                  |0.14425             |
+.-------------------------------------------------------------------.
+
+
+
+NOTE: the beast output object 'o' is a LIST. Type 'str(o)' to see all 
+the elements in it. Or use 'plot(o)' or 'plot(o,interactive=TRUE)' to 
+plot the model output.
+
+NOTE: Log Print Time:  2025-11-27 21:35:00.466059 
+NOTE: Elapsed Time: 21.347697019577 secs 
+
+[1;31m#####################################################################
+#                      Seasonal  Changepoints                       #
+#####################################################################
+[0m No seasonal/periodic component present (i.e., season='none')
+
+
+[1;31m#####################################################################
+#                      Trend  Changepoints                          #
+#####################################################################
+[0m.-------------------------------------------------------------------.
+| Ascii plot of probability distribution for number of chgpts (ncp) |
+.-------------------------------------------------------------------.
+|Pr(ncp = 0 )=0.234|***********************************             |
+|Pr(ncp = 1 )=0.280|*****************************************       |
+|Pr(ncp = 2 )=0.322|*********************************************** |
+|Pr(ncp = 3 )=0.084|*************                                   |
+|Pr(ncp = 4 )=0.041|******                                          |
+|Pr(ncp = 5 )=0.022|****                                            |
+|Pr(ncp = 6 )=0.010|**                                              |
+|Pr(ncp = 7 )=0.005|*                                               |
+|Pr(ncp = 8 )=0.002|*                                               |
+|Pr(ncp = 9 )=0.001|*                                               |
+|Pr(ncp = 10)=0.000|*                                               |
+.-------------------------------------------------------------------.
+|    Summary for number of Trend ChangePoints (tcp)                 |
+.-------------------------------------------------------------------.
+|ncp_max    = 10   | MaxTrendKnotNum: A parameter you set           |
+|ncp_mode   = 2    | Pr(ncp= 2)=0.32: There is a 32.2% probability  |
+|                  | that the trend component has  2 changepoint(s).|
+|ncp_mean   = 1.57 | Sum{ncp*Pr(ncp)} for ncp = 0,...,10            |
+|ncp_pct10  = 0.00 | 10% percentile for number of changepoints      |
+|ncp_median = 1.00 | 50% percentile: Median number of changepoints  |
+|ncp_pct90  = 3.00 | 90% percentile for number of changepoints      |
+.-------------------------------------------------------------------.
+| List of probable trend changepoints ranked by probability of      |
+| occurrence: Please combine the ncp reported above to determine    |
+| which changepoints below are  practically meaningful              |
+'-------------------------------------------------------------------'
+|tcp#              |time (cp)                  |prob(cpPr)          |
+|------------------|---------------------------|--------------------|
+|1                 |35.000000                  |0.44033             |
+|2                 |53.000000                  |0.04638             |
+|3                 |59.000000                  |0.04438             |
+|4                 |14.000000                  |0.04279             |
+|5                 |66.000000                  |0.04088             |
+|6                 |79.000000                  |0.04021             |
+|7                 |16.000000                  |0.03996             |
+|8                 |82.000000                  |0.03617             |
+.-------------------------------------------------------------------.
+
+
+
+NOTE: the beast output object 'o' is a LIST. Type 'str(o)' to see all 
+the elements in it. Or use 'plot(o)' or 'plot(o,interactive=TRUE)' to 
+plot the model output.
+
+NOTE: Log Print Time:  2025-11-27 21:35:00.625359 
+NOTE: Elapsed Time: 0.159300088882446 secs 
+
+[1;31m#####################################################################
+#                      Seasonal  Changepoints                       #
+#####################################################################
+[0m No seasonal/periodic component present (i.e., season='none')
+
+
+[1;31m#####################################################################
+#                      Trend  Changepoints                          #
+#####################################################################
+[0m.-------------------------------------------------------------------.
+| Ascii plot of probability distribution for number of chgpts (ncp) |
+.-------------------------------------------------------------------.
+|Pr(ncp = 0 )=0.000|*                                               |
+|Pr(ncp = 1 )=0.000|*                                               |
+|Pr(ncp = 2 )=0.148|************                                    |
+|Pr(ncp = 3 )=0.616|*********************************************** |
+|Pr(ncp = 4 )=0.222|*****************                               |
+|Pr(ncp = 5 )=0.014|**                                              |
+|Pr(ncp = 6 )=0.001|*                                               |
+|Pr(ncp = 7 )=0.000|*                                               |
+|Pr(ncp = 8 )=0.000|*                                               |
+|Pr(ncp = 9 )=0.000|*                                               |
+|Pr(ncp = 10)=0.000|*                                               |
+.-------------------------------------------------------------------.
+|    Summary for number of Trend ChangePoints (tcp)                 |
+.-------------------------------------------------------------------.
+|ncp_max    = 10   | MaxTrendKnotNum: A parameter you set           |
+|ncp_mode   = 3    | Pr(ncp= 3)=0.62: There is a 61.6% probability  |
+|                  | that the trend component has  3 changepoint(s).|
+|ncp_mean   = 3.10 | Sum{ncp*Pr(ncp)} for ncp = 0,...,10            |
+|ncp_pct10  = 2.00 | 10% percentile for number of changepoints      |
+|ncp_median = 3.00 | 50% percentile: Median number of changepoints  |
+|ncp_pct90  = 4.00 | 90% percentile for number of changepoints      |
+.-------------------------------------------------------------------.
+| List of probable trend changepoints ranked by probability of      |
+| occurrence: Please combine the ncp reported above to determine    |
+| which changepoints below are  practically meaningful              |
+'-------------------------------------------------------------------'
+|tcp#              |time (cp)                  |prob(cpPr)          |
+|------------------|---------------------------|--------------------|
+|1                 |39.000000                  |1.00000             |
+|2                 |44.000000                  |1.00000             |
+|3                 |34.000000                  |0.79733             |
+|4                 |49.000000                  |0.09054             |
+|5                 |60.000000                  |0.05612             |
+.-------------------------------------------------------------------.
+
+
+
+NOTE: the beast output object 'o' is a LIST. Type 'str(o)' to see all 
+the elements in it. Or use 'plot(o)' or 'plot(o,interactive=TRUE)' to 
+plot the model output.
+
+NOTE: Log Print Time:  2025-11-27 21:35:00.79896 
+NOTE: Elapsed Time: 0.173600912094116 secs 
+
+Error in na.rm(o$trend$cp) : could not find function "na.rm" 
+Traceback: 
+No traceback available 
+
+NOTE: Log Print Time:  2025-11-27 21:40:45.154836 
+NOTE: Elapsed Time: 5.73926459948222 mins 
+
+========================================================================= 
+Log End Time: 2025-11-27 21:40:45.157407 
+Log Elapsed Time: 0 00:09:36 
+========================================================================= 

@@ -1,0 +1,346 @@
+\documentclass[beamer]{beamer}
+\usetheme{Ilmenau}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+ \usepackage{caption}
+ 
+\usepackage{natbib}
+
+\usepackage{appendixnumberbeamer}
+
+
+\usecolortheme{beaver}
+% Define UT Dallas colors 
+\definecolor{utdOrange}{HTML}{e87500} 
+\definecolor{utdGreen}{HTML}{154734}
+\definecolor{utdTeal}{HTML}{5fe0b7}
+\definecolor{utdGrey}{HTML}{A8A49E}
+
+% Apply the colors to the beamer color palettes
+% This is an example; you may need to experiment with different palette names
+\setbeamercolor*{palette primary}{bg=utdGreen, fg=black}
+\setbeamercolor*{palette secondary}{bg=utdOrange, fg=black}
+\setbeamercolor*{palette tertiary}{bg=utdGrey, fg=black}
+\setbeamercolor*{palette quaternary}{bg=utdTeal, fg=black}
+
+\setbeamercolor{institute in head/foot}{fg=black}
+\setbeamercolor{title}{fg=white}
+\setbeamercolor{frametitle}{fg=utdGreen}
+\setbeamercolor{title in head/foot}{fg=black}
+\setbeamercolor{itemize item}{fg=utdGreen}
+\setbeamertemplate{itemize item}[square]
+
+\setbeamercolor{itemize subitem}{fg=utdOrange}
+\setbeamertemplate{itemize subitem}[triangle]
+
+\setbeamertemplate{caption}[numbered]
+
+\captionsetup[figure]{labelfont={color=utdGreen}}
+
+\makeatletter
+%change the footline template to include frame numbers
+\defbeamertemplate*{footline}{myminiframes theme}
+  {%
+    \begin{beamercolorbox}[colsep=1.5pt]{upper separation line foot}
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+      leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}%
+      \leavevmode{\usebeamerfont{author in head/foot}\insertshortauthor}%
+      \hfill%
+      {\usebeamerfont{institute in head/foot}\usebeamercolor[fg]{institute in head/foot}\insertshortinstitute}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+      leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+      {\usebeamerfont{title in head/foot}\insertshorttitle\hfill \insertframenumber/\inserttotalframenumber}%<-here
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[colsep=1.5pt]{lower separation line foot}
+    \end{beamercolorbox}
+  }
+\makeatother
+
+%change look of sections in ToC
+\defbeamertemplate*{section in toc}{mysections in toc}
+{\leavevmode ---\,\inserttocsection\par}
+
+%change look of subsections in ToC
+\defbeamertemplate*{subsection in toc}{mysections in toc}
+{\leavevmode\leftskip=2.5em --\,\inserttocsubsection\par}
+
+\title{Riverine Discharge Changepoint Detection}
+\subtitle{An exploration of Sequential Bayesian Onlince Change Point Detection (BOCPD)}
+\institute{School of Economics Political and Policy Sciences, UT Dallas}
+\author{Mae Hutchison}
+\date{December 2, 2025}
+
+
+\setcounter{framenumber}{0}
+
+\begin{document}
+
+{
+\begin{frame}[plain, noframenumbering]
+\maketitle
+\end{frame}
+}
+
+\begin{frame}
+\frametitle{Table of Contents}
+\tableofcontents 
+\end{frame}
+
+\section{Introduction}
+
+\begin{frame}
+\frametitle{USGS riverine gage data}
+The U.S. Geological Survey (USGS) river gage data provides continuous monitoring of streamflow conditions. 
+
+\begin{figure}[h!] 
+    \centering 
+    \includegraphics[width=0.5\linewidth]{gage_map.png}
+    \caption{Three hydrologically connected gages in Kerr County, TX}
+    \label{fig:gage_map}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}<beamer:0>[noframenumbering]
+\frametitle{Local flow conditions}
+\begin{itemize}
+	\item These sites are directly connected by the stream network
+	\item Water flows from the northernmost gage site (USGS-08166140) through the central gage site (USGS-08166200) to the southernmost gage site (USGS-08166250)
+	\item Due to Kerr County’s proximity to the gulf, weather systems frequently move from south to north
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}<beamer:0>[noframenumbering]
+\frametitle{Local flow conditions}
+\begin{figure}[h!] 
+    \centering 
+    \includegraphics[width=0.7\linewidth]{discharge_summer_2025} 
+    \caption{Flow Discharge in Summer 2025. Data retrieved from USGS API \citep{dataRetrieval}} 
+    \label{fig:discharge2025} 
+\end{figure}
+
+\end{frame}
+
+\section{Flow Model}
+\begin{frame}
+\frametitle{Distribution}
+The Log-Pearson Type III distribution is widely used in hydrology to model 
+peak streamflows \citep{England2018Bulletin17C}. It applies a Pearson Type III distribution to the 
+log-transformed discharge data.
+
+Let \(Q\) be the daily peak discharge. Define:
+
+\[X = \log_{10}(Q)\]
+
+\[X \sim \text{PearsonIII}(\kappa, \theta, \tau)\]
+
+\end{frame}
+
+\begin{frame}<beamer:0>[noframenumbering]
+\frametitle{Probability Density Function (PDF)}
+The PDF of the Pearson Type III distribution for \(X\) is:
+
+\[
+f(x|\kappa, \theta,\tau) = \frac{(x - \tau)^{\kappa - 1} e^{-(x - \tau)/\theta}}
+            {\theta^{\kappa} \Gamma(\kappa)}, \quad x > \tau
+\]
+
+Where:  
+\begin{itemize}
+
+\item \( \kappa > 0 \) is the shape parameter  
+\item \( \theta > 0 \) is the scale parameter  
+\item \( \tau \) is the location parameter  
+\item \( \Gamma(\cdot) \) is the gamma function
+\end{itemize}
+\end{frame}
+
+\begin{frame}<beamer:0>[noframenumbering]
+\frametitle{Estimating Parameters}
+The parameters can be estimated using the first three L-moments of past observed data (mean $\mu$, standard deviation $\sigma$, skewness $\gamma$).
+\begin{itemize}
+\item shape $\kappa = (2/\gamma)^2$
+\item scale $\theta = 2\sigma/\gamma $
+\item location $\tau = \mu - \theta \cdot \beta$
+\end{itemize}
+\end{frame}
+
+\section{Analytical Solution}
+\begin{frame}
+\frametitle{Bayesian Framework}
+For this solution, we use a simplified model where $X \sim \Gamma(\alpha,\beta)$  with shape parameter $\alpha$
+and rate parameter $\beta$ (inverse of scale).
+
+With a Gamma-Gamma conjugage prior, the likelihood is Gamma and the conjugate prior for the rate 
+parameter $\beta$ (given $\alpha$) is also Gamma.
+\begin{itemize}
+ \item Prior: $\beta \sim \Gamma(a_0, b_0)$   
+ \item Likelihood: $x_i | \beta \sim \Gamma(\alpha, \beta)$
+ \item Analytical posterior (with $n$ observed data points): $\beta | x_{1:n}\sim \Gamma(a_0+n\alpha, b_0+\sum_{i=1}^n x_i)$
+\end{itemize}
+\end{frame}
+
+\begin{frame}<beamer:0>[noframenumbering]
+\frametitle{Online Update}
+With online updates, we can only see past data at each timestep. When a new observation $x_t$ arrives:
+\begin{itemize}
+\item update sufficent statistics
+	\begin{itemize}
+		\item $n \gets n+1$
+		\item $S \gets S+x_t$
+	\end{itemize}
+\item Posterior becomes $\beta|x_{1:n} \sim \Gamma(a_0+n\alpha, b_0 +S)$
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}<beamer:0>[noframenumbering]
+\frametitle{Changepoint Detection}
+Using \citet{AdamsMacKay2007} BOCPD framework,
+\begin{itemize}
+	\item Maintain a run-length distribution $\Pr(r_t|x_{1:t})$ where $r_t = \text{number of observations since last changepoint}$
+	\item For each possible run length, compute predictive probability $\Pr (x_t | r_t) = \int \Pr(x_t|\beta) \Pr(\beta | \text{data in run}) \delta \beta$
+\end{itemize}
+\end{frame}
+
+\begin{frame}<beamer:0>[noframenumbering]
+\begin{figure}[h!] 
+    \centering 
+    \includegraphics[width=0.5\linewidth]{runlength_probs.png} 
+    \caption{Runlength Probabiliites, adapted from \citet{AdamsMacKay2007}}
+    \label{fig:runlegthprobs} 
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Analytical Results}
+\begin{figure}
+\centering
+\includegraphics[height=0.7\textheight]{bocpd_cojugate_cpp_withData.png}
+\caption{Results of analytical solution on Kerr County streamgage data}
+\end{figure}
+\end{frame}
+
+
+\section{Numerical Solution}
+
+\begin{frame}<beamer:0>[noframenumbering]
+\frametitle{Stan Model}
+\begin{figure}
+\centering
+\includegraphics[height=0.7\textheight]{stan_model.png}
+\caption{Stan model with custom target function}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Sampler}
+For each time step:
+\begin{itemize}
+\item sample for each run length before current timestep
+\item calculate the predictive probability of the observed posterior
+\item calculate the run length probability
+\item calculate changepoint probability {\small  \[
+P(r_t = 0 \mid x_{1:t}) \propto \sum_{r_{t-1}} P(r_t = 0 \mid r_{t-1}) \cdot P(x_t \mid r_{t-1}, x_{1:t-1}) \cdot P(r_{t-1}, x_{1:t-1})
+\]}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Numerical Results (simplified version)}
+\begin{figure}
+\centering
+\includegraphics[height=0.7\textheight]{numerical_changepoints.png}
+\caption{Change in parameter points on Kerr County streamgage data}
+\end{figure}
+\end{frame}
+
+\section{Ensemble Algorithm}
+\begin{frame}
+\frametitle{Rbeast}
+Rbeast is an R package that uses Bayesian Estimator of Abrupt change, Seasonal change, and Trend (BEAST) \citep{ZHAO2019}
+
+Combines:
+\begin{itemize}
+\item Bayesian changepoint detection for time series.
+\item Ensemble modeling to improve robustness and uncertainty quantification.
+\end{itemize}
+\end{frame}
+
+\begin{frame}<beamer:0>[noframenumbering]
+\frametitle{Ensemble Components}
+Each model in the ensemble estimates:
+\begin{itemize}
+\item Number and location of changepoints.
+\item Segment-specific parameters (mean, trend, seasonality).
+\end{itemize}
+
+Models differ by:
+\begin{itemize}
+	\item Prior settings (e.g., hazard rate, variance).
+	\item Sampling seeds.
+	\item Possibly different likelihood structures.
+\end{itemize}
+\end{frame}
+
+\begin{frame}<beamer:0>[noframenumbering]
+\frametitle{Bayesian Framework}
+For each model:
+\begin{itemize}
+\item sample posterior over changepoints and parameters:
+{\tiny $\Pr(changepoints,params|data)\Pr(changepoints, params data)\Pr(changepoints,params|data)$}
+
+\item Can be computed analytically or computed via MCMC depending on likelihood structure.
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}<beamer:0>[noframenumbering]
+\frametitle{Ensemble Aggregation}
+Combines posterior samples from all models.  
+
+Compute:  
+\begin{itemize}
+	\item Posterior inclusion probability for each time point being a changepoint.
+	\item Credible intervals for trends and seasonal components.
+\end{itemize}
+
+This reduces sensitivity to prior choices and improves stability.
+\end{frame}
+
+\begin{frame}
+\frametitle{EA Results}
+\begin{figure}
+\centering
+\includegraphics[height=0.7\textheight]{beast_changepoints.png}
+\caption{Rbeast calculated changepoints on Kerr County streamgage data}
+\end{figure}
+\end{frame}
+
+\section{Future Work}
+\begin{frame}
+\frametitle{Future Work}
+Improve numerical solution with particle filtering
+\begin{itemize}
+\item Save samples from previous run lengths 
+\item Each particle represents the current rung length, segment parameters, and weight
+\item Compute likelihood of new observation under particle's parameters
+\item Update and normalize weights 
+\item Resample particles after certain metrics are triggered (e.g., effective sample size drops).
+\end{itemize}
+\end{frame}
+
+\appendix
+\begin{frame}[allowframebreaks]
+        \frametitle{References}
+        \bibliographystyle{apalike}
+        \bibliography{references.bib}
+\end{frame}
+
+
+
+\end{document}

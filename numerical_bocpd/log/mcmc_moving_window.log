@@ -1,0 +1,4398 @@
+========================================================================= 
+Log Path: /Users/maehutch/GitHub_m-hutch/riverine_changepoints/numerical_bocpd/log/mcmc_moving_window.log 
+Program Path: /Users/maehutch/GitHub_m-hutch/riverine_changepoints/numerical_bocpd/mcmc_moving_window.R 
+Working Directory: /Users/maehutch/GitHub_m-hutch/riverine_changepoints/numerical_bocpd 
+User Name: maehutch 
+R Version: 4.5.1 (2025-06-13) 
+Machine: Maes-MacBook-Pro-2.local x86_64 
+Operating System: Darwin 25.1.0 Darwin Kernel Version 25.1.0: Mon Oct 20 19:26:51 PDT 2025; root:xnu-12377.41.6~2/RELEASE_X86_64 
+Base Packages: stats graphics grDevices utils datasets methods base 
+Other Packages: bayesplot_1.14.0 logr_1.3.9 common_1.1.3 posterior_1.6.1 cmdstanr_0.9.0 Rcpp_1.1.0 lmomco_2.5.3 PearsonDS_1.3.2 kdensity_1.1.1 lmom_3.2 tidyr_1.3.1 dplyr_1.1.4 dataRetrieval_2.7.21 pacman_0.5.1 
+Log Start Time: 2025-11-27 20:45:18.502164 
+========================================================================= 
+
+Processing time step 10 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:45:22.386826 
+NOTE: Elapsed Time: 3.88370299339294 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -33.04    -32.67     1.34     1.05   -35.76    -31.63 1.00
+ shape    183905.32 174218.40 76816.47 74788.25 76368.85 322659.15 1.02
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.02
+ location    -66.57    -66.53     2.00     2.04   -69.86    -63.35 1.01
+ ess_bulk ess_tail
+      579      602
+      237      387
+      240      376
+      370      630
+
+NOTE: Log Print Time:  2025-11-27 20:45:28.360982 
+NOTE: Elapsed Time: 5.97415590286255 secs 
+
+Processing time step 11 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:45:28.365978 
+NOTE: Elapsed Time: 0.00499606132507324 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -35.12    -34.76     1.31     1.04   -37.70    -33.75 1.00
+ shape    130887.33 121780.20 54553.19 49957.97 56377.65 231054.37 1.02
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.02
+ location    -66.55    -66.55     1.98     1.89   -69.83    -63.24 1.00
+ ess_bulk ess_tail
+      624     1031
+      241      510
+      247      534
+      468      627
+
+NOTE: Log Print Time:  2025-11-27 20:45:33.537192 
+NOTE: Elapsed Time: 5.17121410369873 secs 
+
+Processing time step 12 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:45:33.542152 
+NOTE: Elapsed Time: 0.0049598217010498 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -35.93    -35.59     1.27     1.01   -38.44    -34.55 1.01
+ shape    122277.37 114017.37 52563.31 47762.47 52091.34 214784.70 1.01
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.01
+ location    -66.53    -66.51     1.97     1.92   -69.80    -63.31 1.01
+ ess_bulk ess_tail
+      754     1041
+      329      422
+      332      405
+      478      732
+
+NOTE: Log Print Time:  2025-11-27 20:45:38.577381 
+NOTE: Elapsed Time: 5.03522896766663 secs 
+
+Processing time step 13 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:45:38.581963 
+NOTE: Elapsed Time: 0.00458216667175293 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -34.42    -34.09     1.29     1.07   -36.94    -33.01 1.01
+ shape    144264.99 138014.66 58667.41 60886.92 60791.00 248035.23 1.01
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.01
+ location    -66.56    -66.60     2.00     2.00   -69.73    -63.18 1.01
+ ess_bulk ess_tail
+      510     1005
+      208      455
+      210      411
+      516     1017
+
+NOTE: Log Print Time:  2025-11-27 20:45:44.115323 
+NOTE: Elapsed Time: 5.53336000442505 secs 
+
+Processing time step 14 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:45:44.119901 
+NOTE: Elapsed Time: 0.0045778751373291 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:45:49.823238 
+NOTE: Elapsed Time: 5.70333695411682 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:45:49.870204 
+NOTE: Elapsed Time: 0.0469660758972168 secs 
+
+ variable      mean    median       sd      mad      q5       q95 rhat
+ lp__       -180.50    -34.75   252.96     1.95 -618.58    -33.05 1.54
+ shape    110208.60 111586.48 85936.11 91207.45    0.25 253495.72 1.56
+ scale         0.17      0.00     0.29     0.00    0.00      0.66 1.56
+ location    -49.65    -65.84    29.43     2.93  -69.41      1.23 1.53
+ ess_bulk ess_tail
+        7        4
+        7        4
+        7       NA
+        7       NA
+
+NOTE: Log Print Time:  2025-11-27 20:45:49.872971 
+NOTE: Elapsed Time: 0.00276708602905273 secs 
+
+Processing time step 15 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:45:49.877652 
+NOTE: Elapsed Time: 0.00468087196350098 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -34.46    -34.12     1.29     1.09   -37.06    -33.05 1.00
+ shape    149286.37 141294.32 61786.78 61919.34 61658.63 263577.09 1.01
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.01
+ location    -66.48    -66.52     1.96     2.02   -69.73    -63.33 1.01
+ ess_bulk ess_tail
+      564      627
+      232      363
+      234      351
+      437      808
+
+NOTE: Log Print Time:  2025-11-27 20:45:55.353688 
+NOTE: Elapsed Time: 5.47603607177734 secs 
+
+Processing time step 16 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:45:55.358291 
+NOTE: Elapsed Time: 0.00460290908813477 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -34.49    -34.14     1.32     1.10   -37.08    -33.03 1.00
+ shape    153418.96 143267.28 67972.49 64142.56 57855.65 281674.52 1.01
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.01
+ location    -66.45    -66.45     2.06     2.11   -69.84    -63.01 1.01
+ ess_bulk ess_tail
+      730      957
+      281      325
+      281      317
+      435      792
+
+NOTE: Log Print Time:  2025-11-27 20:46:00.61317 
+NOTE: Elapsed Time: 5.25487899780273 secs 
+
+Processing time step 17 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:46:00.617955 
+NOTE: Elapsed Time: 0.00478506088256836 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -34.78    -34.43     1.31     1.00   -37.39    -33.41 1.00
+ shape    146108.98 138473.96 60708.77 57044.51 61316.26 257324.63 1.02
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.02
+ location    -66.71    -66.67     2.02     2.02   -69.90    -63.34 1.00
+ ess_bulk ess_tail
+      659      559
+      202      325
+      202      325
+      557      839
+
+NOTE: Log Print Time:  2025-11-27 20:46:06.042957 
+NOTE: Elapsed Time: 5.4250020980835 secs 
+
+Processing time step 18 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:46:06.048005 
+NOTE: Elapsed Time: 0.00504803657531738 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -36.33    -36.01     1.24     1.01   -38.67    -34.99 1.00
+ shape    112929.62 106114.86 46288.11 44241.47 50146.05 198062.92 1.02
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.02
+ location    -66.59    -66.59     1.93     1.96   -69.74    -63.42 1.01
+ ess_bulk ess_tail
+      822     1058
+      386      666
+      396      624
+      580      904
+
+NOTE: Log Print Time:  2025-11-27 20:46:11.420769 
+NOTE: Elapsed Time: 5.37276387214661 secs 
+
+Processing time step 19 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:46:11.425598 
+NOTE: Elapsed Time: 0.00482892990112305 secs 
+
+ variable     mean   median       sd      mad       q5       q95 rhat
+ lp__       -38.50   -38.14     1.34     1.14   -41.16    -37.03 1.01
+ shape    79249.91 73660.12 34926.40 32149.95 32668.07 143752.56 1.01
+ scale        0.00     0.00     0.00     0.00     0.00      0.00 1.01
+ location   -66.63   -66.67     2.07     2.00   -70.07    -63.03 1.01
+ ess_bulk ess_tail
+      749     1618
+      399      622
+      404      590
+      848     1178
+
+NOTE: Log Print Time:  2025-11-27 20:46:16.64057 
+NOTE: Elapsed Time: 5.21497201919556 secs 
+
+Processing time step 20 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:46:16.645518 
+NOTE: Elapsed Time: 0.00494813919067383 secs 
+
+ variable     mean   median       sd      mad       q5       q95 rhat
+ lp__       -40.21   -39.89     1.23     1.01   -42.71    -38.87 1.00
+ shape    61325.12 57327.20 25420.90 22801.35 28105.04 110631.48 1.01
+ scale        0.00     0.00     0.00     0.00     0.00      0.00 1.01
+ location   -66.64   -66.58     1.97     1.95   -69.96    -63.49 1.01
+ ess_bulk ess_tail
+     1026     1170
+      533      793
+      535      765
+      877     1341
+
+NOTE: Log Print Time:  2025-11-27 20:46:21.503511 
+NOTE: Elapsed Time: 4.85799288749695 secs 
+
+Processing time step 21 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:46:21.50837 
+NOTE: Elapsed Time: 0.00485897064208984 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -42.94   -42.63     1.23     1.02   -45.39   -41.60 1.00
+ shape    39998.62 37604.57 16337.18 14623.96 17712.96 71379.80 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -66.68   -66.70     1.93     1.98   -69.80   -63.49 1.00
+ ess_bulk ess_tail
+     1285     1570
+      845     1120
+      847     1097
+     1345     1507
+
+NOTE: Log Print Time:  2025-11-27 20:46:25.931217 
+NOTE: Elapsed Time: 4.422847032547 secs 
+
+Processing time step 22 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:46:25.936073 
+NOTE: Elapsed Time: 0.00485610961914062 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -44.74   -44.42     1.24     1.00   -47.24   -43.42 1.00
+ shape    30486.77 28977.95 11896.69 11164.62 13888.92 52453.83 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -66.71   -66.66     1.95     1.98   -69.98   -63.61 1.00
+ ess_bulk ess_tail
+      999     1450
+      989     1013
+     1006      996
+     1438     1269
+
+NOTE: Log Print Time:  2025-11-27 20:46:30.678672 
+NOTE: Elapsed Time: 4.74259901046753 secs 
+
+Processing time step 23 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:46:30.683587 
+NOTE: Elapsed Time: 0.00491499900817871 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:46:35.002505 
+NOTE: Elapsed Time: 4.31891798973083 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:46:35.053836 
+NOTE: Elapsed Time: 0.0513310432434082 secs 
+
+ variable     mean   median       sd      mad      q5      q95 rhat
+ lp__      -189.27   -45.75   249.04     1.84 -621.59   -44.18 1.56
+ shape    20345.01 21350.15 14991.35 15097.81    0.35 44740.99 1.53
+ scale        0.10     0.00     0.17     0.00    0.00     0.40 1.53
+ location   -49.92   -65.92    29.12     3.04  -69.60     0.43 1.53
+ ess_bulk ess_tail
+        7       20
+        7        4
+        7       NA
+        7       NA
+
+NOTE: Log Print Time:  2025-11-27 20:46:35.056807 
+NOTE: Elapsed Time: 0.00297093391418457 secs 
+
+Processing time step 24 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:46:35.061762 
+NOTE: Elapsed Time: 0.00495505332946777 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -45.43   -45.10     1.29     1.05   -47.98   -44.07 1.00
+ shape    27942.88 26687.81 10612.54 10140.92 13010.19 47405.90 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.01 1.00
+ location   -66.72   -66.72     1.97     1.99   -69.96   -63.46 1.00
+ ess_bulk ess_tail
+     1118     1308
+     1063     1117
+     1075     1100
+     1312     1442
+
+NOTE: Log Print Time:  2025-11-27 20:46:39.560032 
+NOTE: Elapsed Time: 4.49826979637146 secs 
+
+Processing time step 25 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:46:39.564744 
+NOTE: Elapsed Time: 0.00471210479736328 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -44.51   -44.20     1.20     0.99   -46.91   -43.19 1.00
+ shape    29867.31 28227.54 11065.88 10497.24 14420.17 50128.24 1.01
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.01
+ location   -66.63   -66.65     1.97     1.96   -69.78   -63.31 1.00
+ ess_bulk ess_tail
+     1176     1648
+      865     1141
+      877      930
+     1316     1367
+
+NOTE: Log Print Time:  2025-11-27 20:46:44.026673 
+NOTE: Elapsed Time: 4.46192908287048 secs 
+
+Processing time step 26 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:46:44.032 
+NOTE: Elapsed Time: 0.00532698631286621 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -42.48   -42.16     1.24     1.00   -44.88   -41.10 1.00
+ shape    42451.08 39553.56 17141.70 15879.60 19088.27 73990.57 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -66.70   -66.70     2.00     2.07   -69.98   -63.32 1.00
+ ess_bulk ess_tail
+     1009     1281
+      700      902
+      709      887
+     1220     1356
+
+NOTE: Log Print Time:  2025-11-27 20:46:49.370534 
+NOTE: Elapsed Time: 5.33853387832642 secs 
+
+Processing time step 27 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:46:49.374381 
+NOTE: Elapsed Time: 0.00384712219238281 secs 
+
+ variable     mean   median       sd      mad       q5       q95 rhat
+ lp__       -40.24   -39.88     1.35     1.05   -42.88    -38.83 1.01
+ shape    58588.66 54903.13 24682.71 23036.16 25562.20 104768.89 1.00
+ scale        0.00     0.00     0.00     0.00     0.00      0.00 1.01
+ location   -66.58   -66.56     2.01     1.95   -69.85    -63.31 1.00
+ ess_bulk ess_tail
+      823     1416
+      510      672
+      507      661
+     1146     1496
+
+NOTE: Log Print Time:  2025-11-27 20:46:54.044078 
+NOTE: Elapsed Time: 4.66969704627991 secs 
+
+Processing time step 28 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:46:54.04927 
+NOTE: Elapsed Time: 0.00519180297851562 secs 
+
+ variable     mean   median       sd      mad       q5       q95 rhat
+ lp__       -38.11   -37.77     1.31     1.02   -40.62    -36.73 1.00
+ shape    81924.59 77229.45 35089.39 33526.90 36126.68 148394.87 1.01
+ scale        0.00     0.00     0.00     0.00     0.00      0.00 1.01
+ location   -66.54   -66.55     1.93     1.93   -69.60    -63.36 1.00
+ ess_bulk ess_tail
+      754      900
+      320      575
+      322      568
+      778      929
+
+NOTE: Log Print Time:  2025-11-27 20:46:59.130624 
+NOTE: Elapsed Time: 5.08135414123535 secs 
+
+Processing time step 29 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:46:59.134702 
+NOTE: Elapsed Time: 0.00407791137695312 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -36.50    -36.13     1.32     1.04   -39.06    -35.11 1.00
+ shape    107491.96 102065.67 43758.58 41342.44 47722.56 189789.97 1.00
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.00
+ location    -66.63    -66.59     2.02     2.02   -70.02    -63.31 1.01
+ ess_bulk ess_tail
+      906     1080
+      388      569
+      391      583
+      747      784
+
+NOTE: Log Print Time:  2025-11-27 20:47:04.608497 
+NOTE: Elapsed Time: 5.47379493713379 secs 
+
+Processing time step 30 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:47:04.613161 
+NOTE: Elapsed Time: 0.00466418266296387 secs 
+
+ variable      mean    median        sd       mad        q5       q95 rhat
+ lp__        -31.22    -30.91      1.21      1.01    -33.48    -29.89 1.01
+ shape    257216.78 242967.67 107362.00 105632.91 114007.21 451984.65 1.02
+ scale         0.00      0.00      0.00      0.00      0.00      0.00 1.02
+ location    -66.53    -66.51      1.98      2.04    -69.79    -63.34 1.01
+ ess_bulk ess_tail
+      583      654
+      164      249
+      166      258
+      240      499
+
+NOTE: Log Print Time:  2025-11-27 20:47:09.863428 
+NOTE: Elapsed Time: 5.25026702880859 secs 
+
+Processing time step 31 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:47:09.867387 
+NOTE: Elapsed Time: 0.00395894050598145 secs 
+
+ variable      mean    median        sd       mad        q5       q95 rhat
+ lp__        -29.56    -29.27      1.15      0.98    -31.84    -28.28 1.01
+ shape    328119.46 316084.72 131661.00 128123.95 143677.19 573680.82 1.04
+ scale         0.00      0.00      0.00      0.00      0.00      0.00 1.04
+ location    -66.68    -66.67      1.93      1.98    -69.81    -63.46 1.01
+ ess_bulk ess_tail
+      488      860
+      107      265
+      108      254
+      329      637
+
+NOTE: Log Print Time:  2025-11-27 20:47:15.468677 
+NOTE: Elapsed Time: 5.60128998756409 secs 
+
+Processing time step 32 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:47:15.473754 
+NOTE: Elapsed Time: 0.00507688522338867 secs 
+
+ variable      mean    median        sd       mad        q5       q95 rhat
+ lp__        -31.24    -30.88      1.34      1.11    -33.92    -29.78 1.01
+ shape    261306.08 246739.12 115007.02 112388.09 102737.26 459114.02 1.03
+ scale         0.00      0.00      0.00      0.00      0.00      0.00 1.03
+ location    -66.77    -66.76      2.05      2.05    -70.25    -63.45 1.01
+ ess_bulk ess_tail
+      355      439
+      130      195
+      127      191
+      212      440
+
+NOTE: Log Print Time:  2025-11-27 20:47:20.906215 
+NOTE: Elapsed Time: 5.43246102333069 secs 
+
+Processing time step 33 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:47:20.911269 
+NOTE: Elapsed Time: 0.00505399703979492 secs 
+
+ variable     mean   median       sd      mad       q5       q95 rhat
+ lp__       -36.75   -36.42     1.26     1.03   -39.17    -35.39 1.00
+ shape    98685.25 92998.34 41179.88 40518.31 41510.68 170790.62 1.01
+ scale        0.00     0.00     0.00     0.00     0.00      0.00 1.01
+ location   -66.67   -66.66     1.95     1.93   -69.88    -63.56 1.00
+ ess_bulk ess_tail
+      553      663
+      263      367
+      265      379
+      943     1155
+
+NOTE: Log Print Time:  2025-11-27 20:47:26.197348 
+NOTE: Elapsed Time: 5.2860791683197 secs 
+
+Processing time step 34 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:47:26.202616 
+NOTE: Elapsed Time: 0.00526785850524902 secs 
+
+ variable     mean   median      sd     mad      q5      q95 rhat ess_bulk
+ lp__       -50.79   -50.46    1.28    1.08  -53.36   -49.37 1.00     1124
+ shape    13005.61 12274.48 5244.57 4984.29 5853.94 23138.03 1.00     1112
+ scale        0.01     0.01    0.00    0.00    0.00     0.01 1.00     1093
+ location   -66.63   -66.66    2.01    1.98  -69.95   -63.32 1.01     1503
+ ess_tail
+     1611
+     1181
+     1156
+     1326
+
+NOTE: Log Print Time:  2025-11-27 20:47:30.010502 
+NOTE: Elapsed Time: 3.80788612365723 secs 
+
+Processing time step 35 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:47:30.015532 
+NOTE: Elapsed Time: 0.00502991676330566 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -55.03  -54.70    1.25    1.05  -57.43   -53.66 1.00     1132
+ shape    7256.88 6854.07 2719.77 2519.82 3567.65 12374.07 1.00      969
+ scale       0.01    0.01    0.00    0.00    0.01     0.02 1.00      971
+ location  -66.82  -66.80    2.03    1.95  -70.24   -63.42 1.00     1187
+ ess_tail
+     1625
+     1177
+     1132
+     1308
+
+NOTE: Log Print Time:  2025-11-27 20:47:33.184736 
+NOTE: Elapsed Time: 3.16920399665833 secs 
+
+Processing time step 36 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:47:33.189471 
+NOTE: Elapsed Time: 0.00473499298095703 secs 
+
+ variable    mean  median      sd     mad      q5     q95 rhat ess_bulk
+ lp__      -56.91  -56.61    1.22    1.05  -59.27  -55.57 1.01     1111
+ shape    5786.17 5590.64 2138.68 2103.23 2701.56 9669.83 1.00      756
+ scale       0.01    0.01    0.01    0.00    0.01    0.02 1.00      758
+ location  -66.80  -66.83    2.02    2.02  -70.12  -63.41 1.00     1330
+ ess_tail
+     1101
+      901
+      977
+     1040
+
+NOTE: Log Print Time:  2025-11-27 20:47:36.3794 
+NOTE: Elapsed Time: 3.18992900848389 secs 
+
+Processing time step 37 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:47:36.384183 
+NOTE: Elapsed Time: 0.00478291511535645 secs 
+
+ variable    mean  median      sd     mad      q5     q95 rhat ess_bulk
+ lp__      -58.01  -57.66    1.32    1.06  -60.63  -56.60 1.00     1147
+ shape    5063.79 4837.32 1833.32 1782.38 2426.58 8336.57 1.01     1059
+ scale       0.02    0.01    0.01    0.00    0.01    0.03 1.01     1040
+ location  -66.75  -66.73    2.07    1.96  -70.17  -63.39 1.00     1461
+ ess_tail
+     1603
+      962
+     1011
+     1390
+
+NOTE: Log Print Time:  2025-11-27 20:47:39.428607 
+NOTE: Elapsed Time: 3.04442405700684 secs 
+
+Processing time step 38 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:47:39.433943 
+NOTE: Elapsed Time: 0.00533604621887207 secs 
+
+ variable    mean  median      sd     mad      q5     q95 rhat ess_bulk
+ lp__      -59.07  -58.71    1.32    0.98  -61.54  -57.72 1.00     1062
+ shape    4398.16 4161.39 1608.36 1543.42 2191.55 7361.92 1.00     1275
+ scale       0.02    0.02    0.01    0.01    0.01    0.03 1.00     1288
+ location  -66.80  -66.81    2.07    2.05  -70.05  -63.49 1.00     1479
+ ess_tail
+     1120
+     1214
+     1418
+     1091
+
+NOTE: Log Print Time:  2025-11-27 20:47:42.582786 
+NOTE: Elapsed Time: 3.14884305000305 secs 
+
+Processing time step 39 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:47:42.587516 
+NOTE: Elapsed Time: 0.0047299861907959 secs 
+
+ variable    mean  median      sd     mad      q5     q95 rhat ess_bulk
+ lp__      -58.40  -58.10    1.21    1.00  -60.77  -57.05 1.00     1391
+ shape    4875.84 4697.80 1789.39 1783.70 2290.66 8107.64 1.00      873
+ scale       0.02    0.01    0.01    0.01    0.01    0.03 1.00      877
+ location  -66.81  -66.80    1.95    1.93  -69.98  -63.53 1.00     1776
+ ess_tail
+     1587
+     1063
+     1106
+     1660
+
+NOTE: Log Print Time:  2025-11-27 20:47:45.65352 
+NOTE: Elapsed Time: 3.06600403785706 secs 
+
+Processing time step 40 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:47:45.658246 
+NOTE: Elapsed Time: 0.00472593307495117 secs 
+
+ variable    mean  median      sd     mad      q5     q95 rhat ess_bulk
+ lp__      -57.20  -56.89    1.26    1.01  -59.64  -55.84 1.00     1135
+ shape    5613.50 5422.42 2054.03 1947.93 2629.03 9360.21 1.00      914
+ scale       0.01    0.01    0.01    0.00    0.01    0.03 1.00      928
+ location  -66.71  -66.70    1.94    1.87  -69.81  -63.48 1.00     1445
+ ess_tail
+     1550
+      910
+      908
+     1500
+
+NOTE: Log Print Time:  2025-11-27 20:47:48.871085 
+NOTE: Elapsed Time: 3.21283888816833 secs 
+
+Processing time step 41 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:47:48.876304 
+NOTE: Elapsed Time: 0.0052189826965332 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -54.98  -54.60    1.37    1.08  -57.67   -53.54 1.00      882
+ shape    7822.36 7322.44 3123.83 2790.55 3796.59 13952.80 1.01      510
+ scale       0.01    0.01    0.00    0.00    0.00     0.02 1.01      495
+ location  -66.71  -66.70    2.06    1.97  -70.09   -63.28 1.00     1210
+ ess_tail
+      959
+      152
+      153
+     1107
+
+NOTE: Log Print Time:  2025-11-27 20:47:52.097743 
+NOTE: Elapsed Time: 3.22143912315369 secs 
+
+Processing time step 42 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:47:52.102032 
+NOTE: Elapsed Time: 0.00428891181945801 secs 
+
+ variable     mean   median      sd     mad      q5      q95 rhat ess_bulk
+ lp__       -48.26   -47.92    1.29    1.04  -50.79   -46.86 1.01      964
+ shape    18385.72 17602.76 7095.30 6928.73 8265.16 31782.69 1.00      840
+ scale        0.00     0.00    0.00    0.00    0.00     0.01 1.00      851
+ location   -66.65   -66.65    1.99    2.03  -69.88   -63.40 1.00     1339
+ ess_tail
+     1220
+     1050
+     1114
+     1463
+
+NOTE: Log Print Time:  2025-11-27 20:47:56.305947 
+NOTE: Elapsed Time: 4.20391511917114 secs 
+
+Processing time step 43 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:47:56.31016 
+NOTE: Elapsed Time: 0.00421285629272461 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -36.60    -36.28     1.31     0.99   -39.16    -35.25 1.01
+ shape    112628.91 106142.43 46940.09 45842.25 49734.12 200384.41 1.00
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.00
+ location    -66.76    -66.79     2.08     1.97   -70.14    -63.30 1.01
+ ess_bulk ess_tail
+      965     1027
+      373      667
+      376      697
+      788     1002
+
+NOTE: Log Print Time:  2025-11-27 20:48:01.67288 
+NOTE: Elapsed Time: 5.36272001266479 secs 
+
+Processing time step 44 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:48:01.677234 
+NOTE: Elapsed Time: 0.00435400009155273 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -41.07   -40.72     1.26     1.00   -43.52   -39.73 1.00
+ shape    54320.11 51361.13 22114.52 21060.14 23860.64 95547.16 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -66.69   -66.72     1.93     1.93   -69.92   -63.53 1.00
+ ess_bulk ess_tail
+     1128     1062
+      786      786
+      783      792
+     1040     1437
+
+NOTE: Log Print Time:  2025-11-27 20:48:06.717375 
+NOTE: Elapsed Time: 5.04014110565186 secs 
+
+Processing time step 45 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:48:06.721405 
+NOTE: Elapsed Time: 0.00402998924255371 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -44.10   -43.80     1.25     1.00   -46.61   -42.74 1.01
+ shape    34392.73 33023.12 13202.86 13427.25 16549.42 58404.24 1.01
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.01
+ location   -66.69   -66.72     2.05     2.12   -70.01   -63.33 1.00
+ ess_bulk ess_tail
+      959     1217
+      727      983
+      716     1025
+     1078     1386
+
+NOTE: Log Print Time:  2025-11-27 20:48:11.482225 
+NOTE: Elapsed Time: 4.76081991195679 secs 
+
+Processing time step 46 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:48:11.487307 
+NOTE: Elapsed Time: 0.00508213043212891 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -44.54   -44.21     1.26     1.01   -47.00   -43.19 1.00
+ shape    32684.86 30888.68 12574.64 12139.32 14697.16 56077.92 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -66.70   -66.71     2.00     1.99   -69.96   -63.46 1.00
+ ess_bulk ess_tail
+     1114     1370
+      977      876
+      980      821
+     1512     1562
+
+NOTE: Log Print Time:  2025-11-27 20:48:16.404324 
+NOTE: Elapsed Time: 4.91701698303223 secs 
+
+Processing time step 47 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:48:16.40864 
+NOTE: Elapsed Time: 0.00431585311889648 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -44.11   -43.80     1.23     1.05   -46.52   -42.74 1.00
+ shape    34779.08 33232.50 13588.31 13739.33 15842.67 60595.34 1.01
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.01
+ location   -66.64   -66.65     2.04     2.02   -70.10   -63.28 1.00
+ ess_bulk ess_tail
+      877     1181
+      913      967
+      921     1024
+     1347      948
+
+NOTE: Log Print Time:  2025-11-27 20:48:21.007926 
+NOTE: Elapsed Time: 4.59928607940674 secs 
+
+Processing time step 48 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:48:21.012041 
+NOTE: Elapsed Time: 0.00411510467529297 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -44.06   -43.67     1.31     1.04   -46.63   -42.65 1.00
+ shape    34962.76 33151.61 13957.75 13584.30 15682.57 59079.68 1.01
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.01
+ location   -66.60   -66.64     2.00     2.01   -69.80   -63.24 1.00
+ ess_bulk ess_tail
+     1057     1468
+      886     1105
+      890     1070
+     1478     1321
+
+NOTE: Log Print Time:  2025-11-27 20:48:25.346943 
+NOTE: Elapsed Time: 4.33490180969238 secs 
+
+Processing time step 49 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:48:25.351902 
+NOTE: Elapsed Time: 0.0049591064453125 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -43.82   -43.49     1.20     0.98   -46.33   -42.51 1.00
+ shape    35791.43 33555.96 14602.92 13759.54 16022.42 62594.09 1.01
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.01
+ location   -66.65   -66.65     1.94     2.06   -69.77   -63.51 1.00
+ ess_bulk ess_tail
+     1137     1174
+      646      997
+      650     1030
+     1143     1314
+
+NOTE: Log Print Time:  2025-11-27 20:48:30.169611 
+NOTE: Elapsed Time: 4.81770896911621 secs 
+
+Processing time step 50 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:48:30.175741 
+NOTE: Elapsed Time: 0.00612998008728027 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -43.75   -43.40     1.30     1.06   -46.36   -42.36 1.00
+ shape    36452.45 34835.14 14299.16 14241.34 16592.12 62479.79 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -66.68   -66.71     1.97     2.03   -69.98   -63.47 1.00
+ ess_bulk ess_tail
+      934     1205
+      749      774
+      749      936
+     1255     1018
+
+NOTE: Log Print Time:  2025-11-27 20:48:35.149584 
+NOTE: Elapsed Time: 4.97384309768677 secs 
+
+Processing time step 51 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:48:35.154476 
+NOTE: Elapsed Time: 0.00489187240600586 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -43.34   -42.99     1.25     0.97   -45.85   -42.02 1.00
+ shape    38412.68 36773.10 14730.26 14324.89 16461.53 64701.74 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -66.66   -66.69     1.98     1.95   -69.88   -63.34 1.00
+ ess_bulk ess_tail
+     1071     1181
+      876      821
+      882      820
+     1173     1192
+
+NOTE: Log Print Time:  2025-11-27 20:48:40.896455 
+NOTE: Elapsed Time: 5.74197912216187 secs 
+
+Processing time step 52 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:48:40.901146 
+NOTE: Elapsed Time: 0.00469088554382324 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -42.73   -42.37     1.32     1.04   -45.34   -41.33 1.00
+ shape    42282.63 39625.94 17112.43 16321.95 17941.90 73337.00 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -66.64   -66.64     2.01     2.07   -69.95   -63.37 1.00
+ ess_bulk ess_tail
+      965     1340
+      755      939
+      765      948
+     1025     1035
+
+NOTE: Log Print Time:  2025-11-27 20:48:46.456867 
+NOTE: Elapsed Time: 5.55572104454041 secs 
+
+Processing time step 53 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:48:46.46147 
+NOTE: Elapsed Time: 0.00460290908813477 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -43.20   -42.86     1.28     1.03   -45.70   -41.83 1.00
+ shape    41016.09 38465.48 16550.63 15253.45 18388.29 72285.46 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -66.70   -66.68     1.98     1.93   -69.94   -63.41 1.00
+ ess_bulk ess_tail
+      928     1180
+      821      758
+      828      775
+     1216     1088
+
+NOTE: Log Print Time:  2025-11-27 20:48:51.67867 
+NOTE: Elapsed Time: 5.21720004081726 secs 
+
+Processing time step 54 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:48:51.683827 
+NOTE: Elapsed Time: 0.0051569938659668 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -41.98   -41.68     1.18     0.95   -44.35   -40.69 1.00
+ shape    46212.76 43723.87 17810.71 17107.77 21777.58 78428.45 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -66.69   -66.63     1.92     1.98   -69.83   -63.58 1.00
+ ess_bulk ess_tail
+     1054     1918
+      857     1026
+      850     1004
+     1202     1477
+
+NOTE: Log Print Time:  2025-11-27 20:48:57.183408 
+NOTE: Elapsed Time: 5.49958109855652 secs 
+
+Processing time step 55 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:48:57.187862 
+NOTE: Elapsed Time: 0.00445389747619629 secs 
+
+ variable     mean   median       sd      mad       q5       q95 rhat
+ lp__       -37.77   -37.42     1.30     1.02   -40.22    -36.40 1.01
+ shape    88041.05 84644.91 35053.48 35731.77 38210.20 149991.52 1.01
+ scale        0.00     0.00     0.00     0.00     0.00      0.00 1.01
+ location   -66.70   -66.68     1.94     1.92   -69.88    -63.60 1.00
+ ess_bulk ess_tail
+      813     1085
+      450      685
+      450      684
+     1014     1128
+
+NOTE: Log Print Time:  2025-11-27 20:49:02.483478 
+NOTE: Elapsed Time: 5.29561614990234 secs 
+
+Processing time step 56 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:49:02.491849 
+NOTE: Elapsed Time: 0.00837087631225586 secs 
+
+ variable      mean    median        sd       mad        q5       q95 rhat
+ lp__        -30.76    -30.45      1.27      1.04    -33.15    -29.37 1.01
+ shape    278789.13 257244.89 120438.87 113679.24 119346.92 503970.68 1.02
+ scale         0.00      0.00      0.00      0.00      0.00      0.00 1.02
+ location    -66.59    -66.60      2.01      2.12    -69.85    -63.26 1.02
+ ess_bulk ess_tail
+      336      612
+      152      257
+      151      280
+      230      611
+
+NOTE: Log Print Time:  2025-11-27 20:49:08.719714 
+NOTE: Elapsed Time: 6.22786498069763 secs 
+
+Processing time step 57 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:49:08.724172 
+NOTE: Elapsed Time: 0.00445818901062012 secs 
+
+ variable      mean    median        sd       mad        q5        q95 rhat
+ lp__        -25.12    -24.84      1.26      1.11    -27.54     -23.69 1.04
+ shape    747442.02 648817.18 375347.98 300998.16 304037.44 1513747.99 1.04
+ scale         0.00      0.00      0.00      0.00      0.00       0.00 1.04
+ location    -66.40    -66.42      1.93      1.93    -69.59     -63.17 1.04
+ ess_bulk ess_tail
+       93      418
+       64      168
+       65      176
+      148      367
+
+NOTE: Log Print Time:  2025-11-27 20:49:14.441739 
+NOTE: Elapsed Time: 5.7175669670105 secs 
+
+Processing time step 58 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:49:14.446502 
+NOTE: Elapsed Time: 0.00476288795471191 secs 
+
+ variable      mean    median        sd       mad        q5        q95 rhat
+ lp__        -24.88    -24.52      1.36      1.02    -27.74     -23.47 1.06
+ shape    726017.85 655470.23 350034.09 301858.44 274892.94 1362318.72 1.08
+ scale         0.00      0.00      0.00      0.00      0.00       0.00 1.09
+ location    -66.27    -66.34      1.72      1.72    -68.93     -63.43 1.07
+ ess_bulk ess_tail
+       52      106
+       39       38
+       39       39
+       56      234
+
+NOTE: Log Print Time:  2025-11-27 20:49:20.493479 
+NOTE: Elapsed Time: 6.04697704315186 secs 
+
+Processing time step 59 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:49:20.498493 
+NOTE: Elapsed Time: 0.00501394271850586 secs 
+
+ variable      mean    median        sd       mad        q5        q95 rhat
+ lp__        -25.04    -24.66      1.33      1.11    -27.74     -23.60 1.02
+ shape    766738.52 728982.72 322264.11 338272.81 290686.88 1330984.37 1.08
+ scale         0.00      0.00      0.00      0.00      0.00       0.00 1.08
+ location    -66.59    -66.50      2.08      2.00    -70.23     -63.31 1.17
+ ess_bulk ess_tail
+      121      314
+       52       68
+       54       75
+       17       31
+
+NOTE: Log Print Time:  2025-11-27 20:49:26.190157 
+NOTE: Elapsed Time: 5.69166398048401 secs 
+
+Processing time step 60 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:49:26.194456 
+NOTE: Elapsed Time: 0.00429916381835938 secs 
+
+ variable      mean    median        sd       mad        q5        q95 rhat
+ lp__        -27.20    -26.87      1.32      1.12    -29.92     -25.73 1.01
+ shape    580652.69 541275.98 263971.83 273589.92 225642.88 1049326.72 1.06
+ scale         0.00      0.00      0.00      0.00      0.00       0.00 1.06
+ location    -66.48    -66.34      2.11      2.07    -70.25     -63.31 1.02
+ ess_bulk ess_tail
+      276      418
+       67      100
+       67       95
+      153      263
+
+NOTE: Log Print Time:  2025-11-27 20:49:32.37834 
+NOTE: Elapsed Time: 6.18388390541077 secs 
+
+Processing time step 61 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:49:32.382754 
+NOTE: Elapsed Time: 0.00441408157348633 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -32.92    -32.59     1.26     0.98   -35.42    -31.56 1.01
+ shape    200293.71 189840.29 81921.97 80557.37 80407.70 354603.63 1.02
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.02
+ location    -66.75    -66.75     1.98     2.03   -69.97    -63.52 1.01
+ ess_bulk ess_tail
+      662      821
+      223      262
+      226      256
+      477      769
+
+NOTE: Log Print Time:  2025-11-27 20:49:38.190061 
+NOTE: Elapsed Time: 5.80730700492859 secs 
+
+Processing time step 62 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:49:38.194826 
+NOTE: Elapsed Time: 0.00476479530334473 secs 
+
+ variable      mean    median       sd      mad      q5       q95 rhat
+ lp__       -195.56    -34.46   279.41     1.79 -682.08    -32.90 1.58
+ shape    116708.93 121012.20 87857.06 94423.27    0.26 263178.35 1.58
+ scale         0.09      0.00     0.15     0.00    0.00      0.35 1.59
+ location    -49.30    -65.54    29.70     3.07  -69.39      2.05 1.56
+ ess_bulk ess_tail
+        6       13
+        7       13
+        7       10
+        7       19
+
+NOTE: Log Print Time:  2025-11-27 20:49:43.950745 
+NOTE: Elapsed Time: 5.75591921806335 secs 
+
+Processing time step 63 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:49:43.955068 
+NOTE: Elapsed Time: 0.00432300567626953 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -34.21    -33.92     1.11     0.95   -36.37    -32.96 1.00
+ shape    160862.60 153096.18 62056.62 61699.63 71514.94 271301.92 1.01
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.01
+ location    -66.45    -66.52     1.94     1.97   -69.60    -63.21 1.01
+ ess_bulk ess_tail
+      859     1308
+      301      484
+      302      455
+      586      836
+
+NOTE: Log Print Time:  2025-11-27 20:49:49.739759 
+NOTE: Elapsed Time: 5.78469085693359 secs 
+
+Processing time step 64 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:49:49.746085 
+NOTE: Elapsed Time: 0.00632596015930176 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -34.58    -34.24     1.24     1.03   -36.98    -33.20 1.00
+ shape    143955.66 135677.31 60055.09 59167.86 61164.78 257600.64 1.01
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.01
+ location    -66.49    -66.53     1.95     1.95   -69.66    -63.41 1.01
+ ess_bulk ess_tail
+      643      848
+      194      378
+      192      374
+      618      915
+
+NOTE: Log Print Time:  2025-11-27 20:49:56.401336 
+NOTE: Elapsed Time: 6.65525102615356 secs 
+
+Processing time step 65 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:49:56.464253 
+NOTE: Elapsed Time: 0.0629169940948486 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -34.85    -34.55     1.22     1.06   -37.31    -33.47 1.00
+ shape    147847.15 138201.07 61591.52 57014.10 64871.43 264144.99 1.01
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.01
+ location    -66.60    -66.58     2.04     2.07   -69.98    -63.36 1.01
+ ess_bulk ess_tail
+      885      967
+      321      512
+      318      486
+      471      756
+
+NOTE: Log Print Time:  2025-11-27 20:50:02.08755 
+NOTE: Elapsed Time: 5.62329697608948 secs 
+
+Processing time step 66 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:50:02.092332 
+NOTE: Elapsed Time: 0.00478196144104004 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -35.14    -34.81     1.28     1.05   -37.73    -33.76 1.01
+ shape    138702.42 130958.57 58087.67 54323.24 59023.47 245079.83 1.01
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.01
+ location    -66.68    -66.68     2.00     2.02   -69.97    -63.40 1.01
+ ess_bulk ess_tail
+      620      827
+      256      439
+      263      466
+      530      829
+
+NOTE: Log Print Time:  2025-11-27 20:50:07.895828 
+NOTE: Elapsed Time: 5.80349612236023 secs 
+
+Processing time step 67 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:50:07.900298 
+NOTE: Elapsed Time: 0.0044701099395752 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -35.56    -35.22     1.26     1.01   -38.10    -34.21 1.01
+ shape    125331.10 116691.24 52103.96 49191.29 57131.94 225050.00 1.01
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.01
+ location    -66.54    -66.51     1.95     1.91   -69.84    -63.28 1.01
+ ess_bulk ess_tail
+      858      898
+      324      459
+      324      434
+      550      946
+
+NOTE: Log Print Time:  2025-11-27 20:50:13.48652 
+NOTE: Elapsed Time: 5.58622193336487 secs 
+
+Processing time step 68 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:50:13.490851 
+NOTE: Elapsed Time: 0.00433087348937988 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -36.02    -35.69     1.29     1.07   -38.55    -34.61 1.00
+ shape    120332.75 112913.29 51204.44 49188.96 50473.49 218521.79 1.01
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.01
+ location    -66.68    -66.66     1.97     1.94   -69.89    -63.44 1.00
+ ess_bulk ess_tail
+      907     1203
+      424      535
+      429      542
+      692      813
+
+NOTE: Log Print Time:  2025-11-27 20:50:19.354261 
+NOTE: Elapsed Time: 5.86340999603271 secs 
+
+Processing time step 69 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:50:19.358635 
+NOTE: Elapsed Time: 0.00437402725219727 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -36.00    -35.68     1.24     0.97   -38.27    -34.67 1.00
+ shape    116932.75 110914.79 46443.03 46843.68 51828.36 199050.14 1.01
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.01
+ location    -66.62    -66.65     1.94     1.94   -69.81    -63.47 1.01
+ ess_bulk ess_tail
+      999     1218
+      461      656
+      470      644
+      873     1165
+
+NOTE: Log Print Time:  2025-11-27 20:50:25.112583 
+NOTE: Elapsed Time: 5.75394797325134 secs 
+
+Processing time step 70 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:50:25.117046 
+NOTE: Elapsed Time: 0.00446319580078125 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -36.36    -36.04     1.27     1.06   -38.86    -34.97 1.00
+ shape    113641.05 107926.02 47121.91 45386.88 49815.52 203412.12 1.01
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.01
+ location    -66.55    -66.54     1.96     1.87   -69.84    -63.29 1.01
+ ess_bulk ess_tail
+      733     1032
+      371      540
+      368      527
+      583     1041
+
+NOTE: Log Print Time:  2025-11-27 20:50:30.438565 
+NOTE: Elapsed Time: 5.32151889801025 secs 
+
+Processing time step 71 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:50:30.442955 
+NOTE: Elapsed Time: 0.00439000129699707 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -36.56    -36.22     1.28     1.01   -39.23    -35.15 1.00
+ shape    108958.87 101970.93 45629.74 41773.04 47664.05 195614.47 1.01
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.01
+ location    -66.59    -66.58     2.05     2.01   -69.92    -63.22 1.01
+ ess_bulk ess_tail
+     1025     1224
+      471      446
+      471      472
+      747      889
+
+NOTE: Log Print Time:  2025-11-27 20:50:36.038743 
+NOTE: Elapsed Time: 5.59578800201416 secs 
+
+Processing time step 72 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:50:36.043485 
+NOTE: Elapsed Time: 0.00474190711975098 secs 
+
+ variable     mean   median       sd      mad      q5       q95 rhat
+ lp__      -193.99   -37.11   272.11     1.77 -665.73    -35.59 1.57
+ shape    77311.69 82178.18 57512.77 59246.17    0.38 169777.58 1.60
+ scale        0.27     0.00     0.47     0.00    0.00      1.10 1.59
+ location   -49.53   -65.86    29.79     3.10  -69.75      1.98 1.53
+ ess_bulk ess_tail
+        6       12
+        6       11
+        6       13
+        7       24
+
+NOTE: Log Print Time:  2025-11-27 20:50:41.274362 
+NOTE: Elapsed Time: 5.230877161026 secs 
+
+Processing time step 73 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:50:41.280916 
+NOTE: Elapsed Time: 0.00655388832092285 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -34.28    -33.95     1.24     1.03   -36.61    -32.95 1.00
+ shape    158557.39 149476.82 63991.22 63355.51 70703.52 276929.30 1.01
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.01
+ location    -66.65    -66.65     1.97     1.92   -69.97    -63.34 1.01
+ ess_bulk ess_tail
+      563      644
+      209      315
+      206      307
+      413      533
+
+NOTE: Log Print Time:  2025-11-27 20:50:47.031411 
+NOTE: Elapsed Time: 5.75049495697021 secs 
+
+Processing time step 74 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:50:47.036426 
+NOTE: Elapsed Time: 0.00501513481140137 secs 
+
+ variable      mean    median        sd       mad        q5        q95 rhat
+ lp__        -24.86    -23.97      4.76      1.11    -27.83     -22.90 1.03
+ shape    857387.20 799198.36 387645.28 344007.31 319335.16 1576860.46 1.08
+ scale         0.00      0.00      0.00      0.00      0.00       0.00 1.08
+ location    -66.23    -66.49      2.79      1.93    -69.58     -62.63 1.05
+ ess_bulk ess_tail
+      101       75
+       45       62
+       50       64
+       65       59
+
+NOTE: Log Print Time:  2025-11-27 20:50:53.681666 
+NOTE: Elapsed Time: 6.64523983001709 secs 
+
+Processing time step 75 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:50:53.688622 
+NOTE: Elapsed Time: 0.00695610046386719 secs 
+
+ variable       mean     median        sd       mad        q5        q95
+ lp__         -23.46     -23.12      1.33      1.20    -26.01     -21.94
+ shape    1128793.03 1088676.80 558151.78 611353.10 369340.66 2130609.89
+ scale          0.00       0.00      0.00      0.00      0.00       0.00
+ location     -66.56     -66.52      2.00      1.94    -70.01     -63.25
+ rhat ess_bulk ess_tail
+ 1.09       33       75
+ 1.26       11       31
+ 1.26       11       31
+ 1.02       88      118
+
+NOTE: Log Print Time:  2025-11-27 20:51:00.514037 
+NOTE: Elapsed Time: 6.82541489601135 secs 
+
+Processing time step 76 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:51:00.518787 
+NOTE: Elapsed Time: 0.00475001335144043 secs 
+
+ variable       mean     median        sd       mad        q5        q95
+ lp__         -22.83     -22.65      1.10      1.24    -24.76     -21.42
+ shape    1349863.56 1131504.95 699901.19 545328.13 560669.91 2761889.58
+ scale          0.00       0.00      0.00      0.00      0.00       0.00
+ location     -66.44     -66.45      1.96      2.36    -69.75     -63.50
+ rhat ess_bulk ess_tail
+ 1.09       29      695
+ 1.19       26       12
+ 1.13       25       12
+ 1.16       22      148
+
+NOTE: Log Print Time:  2025-11-27 20:51:05.989306 
+NOTE: Elapsed Time: 5.47051906585693 secs 
+
+Processing time step 77 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:51:05.993922 
+NOTE: Elapsed Time: 0.00461602210998535 secs 
+
+ variable       mean     median        sd       mad        q5        q95
+ lp__         -22.74     -22.40      1.28      0.98    -25.28     -21.38
+ shape    1208213.34 1163972.80 517724.66 590791.07 470917.19 2094045.91
+ scale          0.00       0.00      0.00      0.00      0.00       0.00
+ location     -66.52     -66.46      1.94      1.93    -69.66     -63.25
+ rhat ess_bulk ess_tail
+ 1.08       57       80
+ 1.25       13       38
+ 1.25       14       39
+ 1.03       99      152
+
+NOTE: Log Print Time:  2025-11-27 20:51:11.664685 
+NOTE: Elapsed Time: 5.67076301574707 secs 
+
+Processing time step 78 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:51:11.669294 
+NOTE: Elapsed Time: 0.00460910797119141 secs 
+
+ variable       mean     median        sd       mad        q5        q95
+ lp__         -23.46     -23.21      1.19      1.06    -25.69     -22.12
+ shape    1275560.30 1123927.45 653940.21 554149.30 518810.62 2524642.69
+ scale          0.00       0.00      0.00      0.00      0.00       0.00
+ location     -66.12     -66.02      1.80      1.95    -69.13     -63.34
+ rhat ess_bulk ess_tail
+ 1.09       37      347
+ 1.34        9      100
+ 1.33       10       91
+ 1.18       18      164
+
+NOTE: Log Print Time:  2025-11-27 20:51:17.434741 
+NOTE: Elapsed Time: 5.76544690132141 secs 
+
+Processing time step 79 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:51:17.439422 
+NOTE: Elapsed Time: 0.00468087196350098 secs 
+
+ variable      mean    median        sd       mad        q5        q95 rhat
+ lp__        -23.60    -23.27      1.31      1.08    -26.00     -22.18 1.04
+ shape    962908.88 896987.69 455269.62 419397.48 369315.71 1831806.71 1.27
+ scale         0.00      0.00      0.00      0.00      0.00       0.00 1.27
+ location    -66.05    -66.18      1.85      1.86    -68.90     -62.97 1.03
+ ess_bulk ess_tail
+       74      132
+       11       39
+       11       41
+      104      181
+
+NOTE: Log Print Time:  2025-11-27 20:51:23.314949 
+NOTE: Elapsed Time: 5.87552714347839 secs 
+
+Processing time step 80 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:51:23.375556 
+NOTE: Elapsed Time: 0.0606069564819336 secs 
+
+ variable      mean    median        sd       mad        q5        q95 rhat
+ lp__        -23.45    -23.11      1.37      1.19    -26.20     -21.93 1.07
+ shape    973229.76 878368.28 492317.33 403722.77 394163.91 1931866.39 1.11
+ scale         0.00      0.00      0.00      0.00      0.00       0.00 1.11
+ location    -66.43    -66.51      2.07      1.99    -69.75     -62.87 1.09
+ ess_bulk ess_tail
+       46      366
+       41       91
+       42       89
+       35      101
+
+NOTE: Log Print Time:  2025-11-27 20:51:29.124428 
+NOTE: Elapsed Time: 5.74887204170227 secs 
+
+Processing time step 81 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:51:29.130565 
+NOTE: Elapsed Time: 0.00613689422607422 secs 
+
+ variable       mean     median        sd       mad        q5        q95
+ lp__         -22.87     -22.49      1.39      1.01    -25.40     -21.51
+ shape    1365820.85 1284128.20 617888.42 554258.11 529010.31 2535543.04
+ scale          0.00       0.00      0.00      0.00      0.00       0.00
+ location     -66.67     -66.69      1.99      1.87    -69.78     -63.52
+ rhat ess_bulk ess_tail
+ 1.02      157      184
+ 1.30       11       28
+ 1.30       11       29
+ 1.04      100      136
+
+NOTE: Log Print Time:  2025-11-27 20:51:34.824107 
+NOTE: Elapsed Time: 5.69354200363159 secs 
+
+Processing time step 82 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:51:34.829027 
+NOTE: Elapsed Time: 0.00492000579833984 secs 
+
+ variable       mean     median        sd       mad        q5        q95
+ lp__         -23.12     -22.78      1.19      0.87    -25.37     -21.92
+ shape    1166735.49 1146027.75 446074.42 451262.15 492895.29 1967080.86
+ scale          0.00       0.00      0.00      0.00      0.00       0.00
+ location     -66.66     -66.45      1.86      1.74    -69.91     -63.96
+ rhat ess_bulk ess_tail
+ 1.01      156      443
+ 1.10       39       59
+ 1.10       38       57
+ 1.02       82       96
+
+NOTE: Log Print Time:  2025-11-27 20:51:40.770154 
+NOTE: Elapsed Time: 5.94112706184387 secs 
+
+Processing time step 83 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:51:40.7749 
+NOTE: Elapsed Time: 0.0047459602355957 secs 
+
+ variable       mean     median        sd       mad        q5        q95
+ lp__         -23.20     -22.88      1.25      1.08    -25.66     -21.82
+ shape    1280043.36 1178043.00 560943.09 516054.73 498060.06 2271873.12
+ scale          0.00       0.00      0.00      0.00      0.00       0.00
+ location     -66.70     -66.75      2.13      2.20    -70.23     -63.28
+ rhat ess_bulk ess_tail
+ 1.05       75      418
+ 1.22       13       35
+ 1.22       13       35
+ 1.06       43      123
+
+NOTE: Log Print Time:  2025-11-27 20:51:46.697012 
+NOTE: Elapsed Time: 5.92211198806763 secs 
+
+Processing time step 84 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:51:46.701541 
+NOTE: Elapsed Time: 0.00452899932861328 secs 
+
+ variable       mean     median         sd        mad         q5        q95
+ lp__         -16.57     -16.37       1.06       0.95     -18.49     -15.28
+ shape    3905083.02 3420204.75 1656293.09 1401749.67 2024206.45 7146573.43
+ scale          0.00       0.00       0.00       0.00       0.00       0.00
+ location     -66.25     -66.10       1.95       1.93     -69.92     -63.36
+ rhat ess_bulk ess_tail
+ 1.04       99      378
+ 1.45        8       30
+ 1.43        8       32
+ 1.14       24       62
+
+NOTE: Log Print Time:  2025-11-27 20:51:52.558275 
+NOTE: Elapsed Time: 5.85673403739929 secs 
+
+Processing time step 85 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:51:52.562899 
+NOTE: Elapsed Time: 0.0046241283416748 secs 
+
+ variable       mean     median         sd        mad         q5        q95
+ lp__         -17.52     -17.28       1.29       1.32     -19.96     -15.93
+ shape    3645384.49 3101601.50 1990770.06 2008415.06 1201468.39 7281825.16
+ scale          0.00       0.00       0.00       0.00       0.00       0.00
+ location     -66.27     -66.35       2.16       2.29     -69.86     -62.62
+ rhat ess_bulk ess_tail
+ 1.14       24      132
+ 1.64        6       23
+ 1.63        6       23
+ 1.53        7       85
+
+NOTE: Log Print Time:  2025-11-27 20:51:58.511619 
+NOTE: Elapsed Time: 5.94871997833252 secs 
+
+Processing time step 86 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:51:58.517313 
+NOTE: Elapsed Time: 0.00569391250610352 secs 
+
+ variable       mean     median         sd        mad         q5        q95
+ lp__         -18.59     -18.22       1.55       1.29     -21.68     -16.85
+ shape    3350985.24 2827869.55 2061937.31 1756416.28 1130923.53 7891918.39
+ scale          0.00       0.00       0.00       0.00       0.00       0.00
+ location     -67.09     -66.61       2.37       2.02     -71.74     -63.97
+ rhat ess_bulk ess_tail
+ 1.11       39       69
+ 1.37        9       21
+ 1.35        9       28
+ 1.23       13       50
+
+NOTE: Log Print Time:  2025-11-27 20:52:04.498905 
+NOTE: Elapsed Time: 5.98159193992615 secs 
+
+Processing time step 87 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:52:04.504364 
+NOTE: Elapsed Time: 0.00545907020568848 secs 
+
+ variable       mean     median         sd        mad        q5        q95
+ lp__         -19.39     -19.01       1.42       1.16    -22.54     -17.84
+ shape    2669406.83 2428164.90 1384205.25 1281104.36 743687.86 5325409.38
+ scale          0.00       0.00       0.00       0.00      0.00       0.00
+ location     -66.23     -66.20       2.18       2.35    -69.81     -62.61
+ rhat ess_bulk ess_tail
+ 1.16       20       28
+ 1.29       11       12
+ 1.29       11       12
+ 1.20       15       28
+
+NOTE: Log Print Time:  2025-11-27 20:52:10.4667 
+NOTE: Elapsed Time: 5.96233606338501 secs 
+
+Processing time step 88 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:52:10.47148 
+NOTE: Elapsed Time: 0.00477981567382812 secs 
+
+ variable       mean     median        sd       mad        q5        q95
+ lp__         -20.05     -19.70      1.33      1.07    -22.80     -18.62
+ shape    1892197.05 1749014.75 865207.67 837290.27 731469.36 3500125.66
+ scale          0.00       0.00      0.00      0.00      0.00       0.00
+ location     -66.30     -66.47      1.92      2.08    -69.21     -63.00
+ rhat ess_bulk ess_tail
+ 1.14       19       39
+ 1.33        9       15
+ 1.33        9       15
+ 1.04       97      285
+
+NOTE: Log Print Time:  2025-11-27 20:52:16.385476 
+NOTE: Elapsed Time: 5.91399621963501 secs 
+
+Processing time step 89 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:52:16.389907 
+NOTE: Elapsed Time: 0.00443077087402344 secs 
+
+ variable       mean     median         sd       mad        q5        q95
+ lp__         -20.69     -20.34       1.23      1.01    -23.24     -19.37
+ shape    2012699.86 1845866.35 1033700.91 980471.70 599903.83 3861207.83
+ scale          0.00       0.00       0.00      0.00      0.00       0.00
+ location     -66.59     -66.58       1.63      1.51    -69.28     -63.81
+ rhat ess_bulk ess_tail
+ 1.04       71      185
+ 1.44        8       23
+ 1.45        8       24
+ 1.06       77      167
+
+NOTE: Log Print Time:  2025-11-27 20:52:22.386688 
+NOTE: Elapsed Time: 5.99678111076355 secs 
+
+Processing time step 90 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:52:22.39178 
+NOTE: Elapsed Time: 0.00509190559387207 secs 
+
+ variable       mean     median        sd       mad        q5        q95
+ lp__         -21.46     -21.17      1.30      1.17    -24.10     -19.93
+ shape    1547211.42 1461225.55 738802.77 691845.70 609308.87 2816923.26
+ scale          0.00       0.00      0.00      0.00      0.00       0.00
+ location     -66.58     -66.61      2.15      2.30    -70.06     -62.98
+ rhat ess_bulk ess_tail
+ 1.04       79      309
+ 1.24       13       30
+ 1.25       12       35
+ 1.07       43       39
+
+NOTE: Log Print Time:  2025-11-27 20:52:28.341606 
+NOTE: Elapsed Time: 5.94982600212097 secs 
+
+Processing time step 91 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:52:28.346302 
+NOTE: Elapsed Time: 0.00469613075256348 secs 
+
+ variable       mean     median        sd       mad        q5        q95
+ lp__         -21.37     -21.07      1.19      0.93    -23.72     -20.11
+ shape    1644783.37 1554310.95 648516.76 619617.53 784134.13 2887691.22
+ scale          0.00       0.00      0.00      0.00      0.00       0.00
+ location     -66.56     -66.51      2.06      2.08    -70.01     -63.24
+ rhat ess_bulk ess_tail
+ 1.03      167      478
+ 1.10       33       47
+ 1.10       34       45
+ 1.01      152      310
+
+NOTE: Log Print Time:  2025-11-27 20:52:34.206268 
+NOTE: Elapsed Time: 5.85996603965759 secs 
+
+Processing time step 92 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:52:34.211931 
+NOTE: Elapsed Time: 0.00566291809082031 secs 
+
+ variable      mean    median        sd       mad        q5        q95 rhat
+ lp__        -24.60    -24.16      1.53      1.12    -27.64     -23.03 1.08
+ shape    938181.12 874090.92 461892.47 481699.88 282014.93 1771958.68 1.16
+ scale         0.00      0.00      0.00      0.00      0.00       0.00 1.16
+ location    -66.67    -66.68      2.12      2.11    -70.03     -63.10 1.07
+ ess_bulk ess_tail
+       38      120
+       20       44
+       20       52
+       65      166
+
+NOTE: Log Print Time:  2025-11-27 20:52:40.027373 
+NOTE: Elapsed Time: 5.81544208526611 secs 
+
+Processing time step 10 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:52:40.049149 
+NOTE: Elapsed Time: 0.0217759609222412 secs 
+
+ variable     mean   median      sd     mad      q5      q95 rhat ess_bulk
+ lp__       -19.89   -19.55    1.26    1.01  -22.40   -18.55 1.00     1137
+ shape    21050.64 19358.89 9840.96 8957.21 7717.68 38972.98 1.00      979
+ scale        0.00     0.00    0.00    0.00    0.00     0.01 1.00      975
+ location   -39.38   -39.40    2.00    2.02  -42.52   -36.03 1.00     1249
+ ess_tail
+      981
+      936
+      897
+     1104
+
+NOTE: Log Print Time:  2025-11-27 20:52:44.581049 
+NOTE: Elapsed Time: 4.53189992904663 secs 
+
+Processing time step 11 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:52:44.586093 
+NOTE: Elapsed Time: 0.00504398345947266 secs 
+
+ variable     mean   median      sd     mad      q5      q95 rhat ess_bulk
+ lp__       -21.46   -21.14    1.27    1.04  -23.97   -20.08 1.00     1069
+ shape    15322.09 13975.20 7015.36 6407.56 5902.87 28672.67 1.00      881
+ scale        0.00     0.00    0.00    0.00    0.00     0.01 1.00      863
+ location   -39.48   -39.43    1.96    2.00  -42.76   -36.30 1.00     1271
+ ess_tail
+     1508
+     1128
+     1104
+     1197
+
+NOTE: Log Print Time:  2025-11-27 20:52:49.317824 
+NOTE: Elapsed Time: 4.73173093795776 secs 
+
+Processing time step 12 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:52:49.324317 
+NOTE: Elapsed Time: 0.00649309158325195 secs 
+
+ variable     mean   median      sd     mad      q5      q95 rhat ess_bulk
+ lp__       -22.37   -22.02    1.29    1.07  -24.96   -20.94 1.00     1047
+ shape    12920.51 12006.70 5816.00 5398.19 5035.63 24319.63 1.01      884
+ scale        0.00     0.00    0.00    0.00    0.00     0.01 1.00      903
+ location   -39.41   -39.43    2.02    2.05  -42.77   -36.08 1.00     1531
+ ess_tail
+     1348
+      822
+      888
+     1402
+
+NOTE: Log Print Time:  2025-11-27 20:52:53.634144 
+NOTE: Elapsed Time: 4.30982708930969 secs 
+
+Processing time step 13 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:52:53.639314 
+NOTE: Elapsed Time: 0.00516986846923828 secs 
+
+ variable     mean   median      sd     mad      q5      q95 rhat ess_bulk
+ lp__       -21.35   -21.04    1.25    1.04  -23.88   -19.99 1.01     1181
+ shape    15823.19 14607.56 7039.10 6853.75 6326.36 29026.63 1.01      878
+ scale        0.00     0.00    0.00    0.00    0.00     0.01 1.01      907
+ location   -39.46   -39.46    2.01    2.00  -42.81   -36.18 1.00     1375
+ ess_tail
+     1492
+     1138
+     1102
+     1418
+
+NOTE: Log Print Time:  2025-11-27 20:52:58.080973 
+NOTE: Elapsed Time: 4.44165897369385 secs 
+
+Processing time step 14 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:52:58.085343 
+NOTE: Elapsed Time: 0.00436997413635254 secs 
+
+ variable     mean   median      sd     mad      q5      q95 rhat ess_bulk
+ lp__       -21.53   -21.21    1.26    1.01  -23.97   -20.18 1.01      996
+ shape    15118.71 14061.19 6725.62 6172.15 5886.41 27607.68 1.00     1039
+ scale        0.00     0.00    0.00    0.00    0.00     0.01 1.01     1042
+ location   -39.42   -39.44    1.95    1.91  -42.67   -36.22 1.00     1583
+ ess_tail
+     1113
+      837
+      906
+     1465
+
+NOTE: Log Print Time:  2025-11-27 20:53:02.579518 
+NOTE: Elapsed Time: 4.49417519569397 secs 
+
+Processing time step 15 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:53:02.583894 
+NOTE: Elapsed Time: 0.00437593460083008 secs 
+
+ variable     mean   median      sd     mad      q5      q95 rhat ess_bulk
+ lp__       -21.61   -21.28    1.25    1.02  -23.98   -20.26 1.00     1269
+ shape    15251.63 14187.28 6799.17 6340.58 6239.73 28036.77 1.00     1110
+ scale        0.00     0.00    0.00    0.00    0.00     0.01 1.00     1115
+ location   -39.38   -39.40    2.03    2.05  -42.68   -36.02 1.00     1370
+ ess_tail
+     1807
+     1263
+     1360
+     1255
+
+NOTE: Log Print Time:  2025-11-27 20:53:07.006007 
+NOTE: Elapsed Time: 4.42211294174194 secs 
+
+Processing time step 16 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:53:07.010503 
+NOTE: Elapsed Time: 0.00449609756469727 secs 
+
+ variable     mean   median      sd     mad      q5      q95 rhat ess_bulk
+ lp__       -21.42   -21.11    1.25    1.07  -23.87   -20.05 1.01     1152
+ shape    15461.15 14554.55 6787.81 6503.86 6294.16 28567.65 1.00      945
+ scale        0.00     0.00    0.00    0.00    0.00     0.01 1.00      959
+ location   -39.50   -39.52    1.96    1.95  -42.67   -36.26 1.00     1444
+ ess_tail
+     1218
+     1121
+     1151
+     1266
+
+NOTE: Log Print Time:  2025-11-27 20:53:11.186376 
+NOTE: Elapsed Time: 4.17587304115295 secs 
+
+Processing time step 17 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:53:11.190898 
+NOTE: Elapsed Time: 0.00452184677124023 secs 
+
+ variable     mean   median      sd     mad      q5      q95 rhat ess_bulk
+ lp__       -22.43   -22.10    1.28    1.06  -24.93   -21.04 1.00     1042
+ shape    12731.06 11817.01 5881.22 5711.59 4821.36 23614.29 1.01      794
+ scale        0.00     0.00    0.00    0.00    0.00     0.01 1.01      795
+ location   -39.38   -39.39    1.98    2.01  -42.60   -36.00 1.00     1544
+ ess_tail
+     1340
+     1105
+     1028
+     1373
+
+NOTE: Log Print Time:  2025-11-27 20:53:15.620498 
+NOTE: Elapsed Time: 4.42960000038147 secs 
+
+Processing time step 18 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:53:15.625194 
+NOTE: Elapsed Time: 0.00469613075256348 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -24.23  -23.92    1.24    1.03  -26.72   -22.87 1.00     1190
+ shape    9459.89 8788.92 4245.26 4040.08 3913.79 17337.75 1.00      908
+ scale       0.01    0.00    0.00    0.00    0.00     0.01 1.00      913
+ location  -39.51  -39.56    1.97    1.97  -42.74   -36.35 1.00     1339
+ ess_tail
+     1525
+     1126
+     1068
+     1235
+
+NOTE: Log Print Time:  2025-11-27 20:53:19.378125 
+NOTE: Elapsed Time: 3.7529308795929 secs 
+
+Processing time step 19 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:53:19.382479 
+NOTE: Elapsed Time: 0.00435400009155273 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -25.48  -25.14    1.30    1.01  -28.14   -24.07 1.00     1164
+ shape    7418.07 6903.41 3218.86 3109.71 3020.78 13454.03 1.01      695
+ scale       0.01    0.01    0.00    0.00    0.00     0.01 1.01      705
+ location  -39.42  -39.38    2.03    2.07  -42.77   -36.17 1.00     1207
+ ess_tail
+     1064
+      702
+      696
+     1286
+
+NOTE: Log Print Time:  2025-11-27 20:53:23.158092 
+NOTE: Elapsed Time: 3.7756130695343 secs 
+
+Processing time step 20 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:53:23.162473 
+NOTE: Elapsed Time: 0.00438094139099121 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -26.73  -26.41    1.24    1.01  -29.10   -25.36 1.00     1099
+ shape    5980.73 5633.16 2641.29 2436.65 2294.71 11099.37 1.01     1066
+ scale       0.01    0.01    0.00    0.00    0.00     0.02 1.01     1074
+ location  -39.48  -39.46    1.99    2.02  -42.82   -36.23 1.00     1338
+ ess_tail
+     1354
+     1051
+     1048
+     1407
+
+NOTE: Log Print Time:  2025-11-27 20:53:26.39449 
+NOTE: Elapsed Time: 3.23201704025269 secs 
+
+Processing time step 21 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:53:26.399052 
+NOTE: Elapsed Time: 0.0045619010925293 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -26.59  -26.25    1.31    1.05  -29.25   -25.18 1.00     1082
+ shape    6101.13 5672.80 2724.30 2610.77 2420.42 11168.37 1.00      802
+ scale       0.01    0.01    0.00    0.00    0.00     0.02 1.00      810
+ location  -39.55  -39.51    1.97    1.94  -42.77   -36.34 1.00     1377
+ ess_tail
+     1478
+     1116
+     1187
+     1449
+
+NOTE: Log Print Time:  2025-11-27 20:53:30.162877 
+NOTE: Elapsed Time: 3.76382517814636 secs 
+
+Processing time step 22 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:53:30.167774 
+NOTE: Elapsed Time: 0.00489687919616699 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -26.61  -26.21    1.42    1.09  -29.74   -25.13 1.02      194
+ shape    6725.48 5867.44 3749.33 2750.62 2711.14 14389.95 1.04       95
+ scale       0.01    0.01    0.00    0.00    0.00     0.01 1.04       91
+ location  -39.61  -39.53    2.06    2.05  -42.83   -36.22 1.01      397
+ ess_tail
+       63
+       20
+       20
+     1062
+
+NOTE: Log Print Time:  2025-11-27 20:53:33.62324 
+NOTE: Elapsed Time: 3.4554660320282 secs 
+
+Processing time step 23 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:53:33.628161 
+NOTE: Elapsed Time: 0.00492095947265625 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -26.05  -25.75    1.25    1.05  -28.54   -24.67 1.00     1138
+ shape    6502.47 6038.42 2888.15 2608.71 2621.72 11879.28 1.01      911
+ scale       0.01    0.01    0.00    0.00    0.00     0.02 1.00      915
+ location  -39.51  -39.47    1.99    2.04  -42.74   -36.27 1.00     1535
+ ess_tail
+     1376
+     1032
+     1033
+     1379
+
+NOTE: Log Print Time:  2025-11-27 20:53:37.195064 
+NOTE: Elapsed Time: 3.56690311431885 secs 
+
+Processing time step 24 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:53:37.199416 
+NOTE: Elapsed Time: 0.00435185432434082 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -25.24  -24.86    1.38    1.02  -27.92   -23.82 1.01      880
+ shape    7496.21 6892.60 3342.05 3022.98 2983.50 13866.22 1.01      750
+ scale       0.01    0.01    0.00    0.00    0.00     0.01 1.01      749
+ location  -39.57  -39.63    2.10    2.05  -42.88   -36.02 1.00     1130
+ ess_tail
+      730
+      681
+      662
+      936
+
+NOTE: Log Print Time:  2025-11-27 20:53:41.053015 
+NOTE: Elapsed Time: 3.85359907150269 secs 
+
+Processing time step 25 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:53:41.057462 
+NOTE: Elapsed Time: 0.00444698333740234 secs 
+
+ variable     mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__       -23.51  -23.22    1.24    1.01  -25.84   -22.13 1.00     1054
+ shape    10274.51 9652.47 4479.32 4458.69 4200.00 18526.17 1.01      556
+ scale        0.00    0.00    0.00    0.00    0.00     0.01 1.01      566
+ location   -39.47  -39.46    2.01    1.99  -42.78   -36.26 1.01     1305
+ ess_tail
+      798
+      585
+      655
+     1275
+
+NOTE: Log Print Time:  2025-11-27 20:53:44.991621 
+NOTE: Elapsed Time: 3.93415904045105 secs 
+
+Processing time step 26 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:53:44.996076 
+NOTE: Elapsed Time: 0.0044550895690918 secs 
+
+ variable     mean   median      sd     mad      q5      q95 rhat ess_bulk
+ lp__       -19.99   -19.67    1.25    1.00  -22.49   -18.61 1.00     1294
+ shape    19726.02 18574.05 8826.90 8521.89 7776.62 36571.20 1.01      630
+ scale        0.00     0.00    0.00    0.00    0.00     0.01 1.01      654
+ location   -39.51   -39.51    2.00    2.01  -42.84   -36.24 1.00     1267
+ ess_tail
+     1272
+      916
+      881
+     1233
+
+NOTE: Log Print Time:  2025-11-27 20:53:49.823647 
+NOTE: Elapsed Time: 4.82757091522217 secs 
+
+Processing time step 27 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:53:49.828513 
+NOTE: Elapsed Time: 0.00486588478088379 secs 
+
+ variable     mean   median       sd      mad      q5      q95 rhat
+ lp__       -18.59   -18.26     1.29     1.03  -21.21   -17.22 1.01
+ shape    25985.80 23908.51 12042.89 10751.40 9852.85 48987.94 1.01
+ scale        0.00     0.00     0.00     0.00    0.00     0.00 1.01
+ location   -39.37   -39.35     1.97     1.99  -42.72   -36.20 1.00
+ ess_bulk ess_tail
+     1066     1278
+      971     1048
+      972     1012
+     1296     1394
+
+NOTE: Log Print Time:  2025-11-27 20:53:54.776191 
+NOTE: Elapsed Time: 4.94767808914185 secs 
+
+Processing time step 28 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:53:54.780694 
+NOTE: Elapsed Time: 0.00450301170349121 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -18.36   -18.06     1.24     1.04   -20.81   -16.99 1.01
+ shape    27187.54 25098.45 12565.03 11452.51 11082.02 50522.81 1.01
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -39.43   -39.44     1.97     1.89   -42.67   -36.24 1.01
+ ess_bulk ess_tail
+     1069     1662
+      889     1197
+      895     1195
+     1083     1176
+
+NOTE: Log Print Time:  2025-11-27 20:53:59.356241 
+NOTE: Elapsed Time: 4.57554697990417 secs 
+
+Processing time step 29 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:53:59.360894 
+NOTE: Elapsed Time: 0.00465297698974609 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -18.33   -18.01     1.34     1.06   -20.84   -16.93 1.00
+ shape    27840.49 25355.16 13060.04 11463.62 10965.10 52797.77 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.01
+ location   -39.42   -39.40     2.01     1.99   -42.77   -36.01 1.01
+ ess_bulk ess_tail
+      857     1170
+      751      870
+      767      866
+     1078      977
+
+NOTE: Log Print Time:  2025-11-27 20:54:03.991056 
+NOTE: Elapsed Time: 4.63016200065613 secs 
+
+Processing time step 30 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:03.996089 
+NOTE: Elapsed Time: 0.00503301620483398 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -18.34   -18.00     1.28     1.04   -20.89   -16.95 1.00
+ shape    26354.74 24715.39 11797.56 11232.54 10479.29 47502.05 1.01
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.01
+ location   -39.45   -39.47     2.00     2.02   -42.67   -36.13 1.00
+ ess_bulk ess_tail
+     1032     1334
+      745      710
+      786      671
+      848     1150
+
+NOTE: Log Print Time:  2025-11-27 20:54:08.705076 
+NOTE: Elapsed Time: 4.70898699760437 secs 
+
+Processing time step 31 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:08.710054 
+NOTE: Elapsed Time: 0.00497794151306152 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -18.23   -17.91     1.30     1.05   -20.73   -16.86 1.00
+ shape    27229.10 25416.12 12077.38 12017.57 10855.11 49951.77 1.01
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.01
+ location   -39.32   -39.28     2.00     2.02   -42.64   -36.07 1.00
+ ess_bulk ess_tail
+      907     1181
+      818      986
+      824      953
+     1391     1313
+
+NOTE: Log Print Time:  2025-11-27 20:54:13.337679 
+NOTE: Elapsed Time: 4.62762498855591 secs 
+
+Processing time step 32 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:13.34324 
+NOTE: Elapsed Time: 0.00556111335754395 secs 
+
+ variable     mean   median      sd      mad      q5      q95 rhat ess_bulk
+ lp__       -20.31   -20.04    1.27     0.99  -22.73   -18.91 1.03     1034
+ shape    20998.22 19294.83 9782.95 10050.63 7692.58 36489.17 1.18       17
+ scale        0.00     0.00    0.00     0.00    0.00     0.01 1.15       19
+ location   -39.79   -39.84    2.05     2.29  -42.76   -36.32 1.10       28
+ ess_tail
+     1420
+      138
+      461
+     1317
+
+NOTE: Log Print Time:  2025-11-27 20:54:17.968983 
+NOTE: Elapsed Time: 4.62574291229248 secs 
+
+Processing time step 33 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:17.974307 
+NOTE: Elapsed Time: 0.00532412528991699 secs 
+
+ variable     mean   median       sd      mad      q5      q95 rhat
+ lp__       -19.13   -18.79     1.29     1.10  -21.75   -17.69 1.00
+ shape    23229.64 21327.36 10898.04 10390.34 8734.88 43882.13 1.00
+ scale        0.00     0.00     0.00     0.00    0.00     0.00 1.00
+ location   -39.36   -39.35     2.03     2.05  -42.71   -36.06 1.00
+ ess_bulk ess_tail
+     1291     1533
+      943      962
+      951      907
+     1144     1232
+
+NOTE: Log Print Time:  2025-11-27 20:54:22.613924 
+NOTE: Elapsed Time: 4.63961696624756 secs 
+
+Processing time step 34 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:22.618904 
+NOTE: Elapsed Time: 0.00498008728027344 secs 
+
+ variable    mean median     sd    mad     q5     q95 rhat ess_bulk
+ lp__      -37.62 -37.29   1.24   1.04 -40.13  -36.24 1.00     1117
+ shape    1011.76 949.39 426.23 386.42 430.34 1819.81 1.00      995
+ scale       0.05   0.04   0.02   0.02   0.02    0.09 1.01     1002
+ location  -39.67 -39.63   1.98   1.95 -43.04  -36.39 1.00     1429
+ ess_tail
+     1326
+      907
+      907
+     1310
+
+NOTE: Log Print Time:  2025-11-27 20:54:25.426074 
+NOTE: Elapsed Time: 2.80716991424561 secs 
+
+Processing time step 35 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:25.430465 
+NOTE: Elapsed Time: 0.00439095497131348 secs 
+
+ variable   mean median     sd    mad     q5     q95 rhat ess_bulk ess_tail
+ lp__     -38.94 -38.62   1.26   1.02 -41.39  -37.58 1.00     1088     1120
+ shape    823.54 777.55 333.58 319.18 356.59 1445.45 1.00      987      797
+ scale      0.06   0.05   0.03   0.02   0.03    0.11 1.00      990      975
+ location -39.61 -39.59   1.96   1.97 -42.80  -36.35 1.00     1446     1690
+
+NOTE: Log Print Time:  2025-11-27 20:54:27.880664 
+NOTE: Elapsed Time: 2.45019912719727 secs 
+
+Processing time step 36 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:27.88554 
+NOTE: Elapsed Time: 0.00487589836120605 secs 
+
+ variable   mean median     sd    mad     q5     q95 rhat ess_bulk ess_tail
+ lp__     -39.82 -39.48   1.28   0.98 -42.37  -38.46 1.00     1082     1391
+ shape    759.22 715.89 301.35 284.52 340.48 1322.41 1.00      998     1084
+ scale      0.06   0.06   0.03   0.02   0.03    0.12 1.00     1005     1067
+ location -39.70 -39.76   1.95   1.88 -42.86  -36.51 1.00     1319     1150
+
+NOTE: Log Print Time:  2025-11-27 20:54:30.464534 
+NOTE: Elapsed Time: 2.57899403572083 secs 
+
+Processing time step 37 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:30.469385 
+NOTE: Elapsed Time: 0.00485086441040039 secs 
+
+ variable   mean median     sd    mad     q5     q95 rhat ess_bulk ess_tail
+ lp__     -40.18 -39.83   1.31   1.02 -42.80  -38.79 1.01      775      947
+ shape    716.75 670.34 286.29 269.53 333.16 1255.81 1.01      990     1112
+ scale      0.07   0.06   0.03   0.02   0.03    0.12 1.01     1011     1130
+ location -39.64 -39.64   2.05   2.03 -43.01  -36.26 1.01     1441     1088
+
+NOTE: Log Print Time:  2025-11-27 20:54:33.009287 
+NOTE: Elapsed Time: 2.5399022102356 secs 
+
+Processing time step 38 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:33.014375 
+NOTE: Elapsed Time: 0.00508785247802734 secs 
+
+ variable   mean median     sd    mad     q5     q95 rhat ess_bulk ess_tail
+ lp__     -39.95 -39.60   1.37   1.03 -42.50  -38.55 1.00      944      798
+ shape    754.45 709.15 312.94 282.39 323.56 1309.50 1.00      609      702
+ scale      0.07   0.06   0.04   0.02   0.03    0.13 1.00      601      690
+ location -39.68 -39.74   2.00   2.10 -42.89  -36.38 1.00     1516     1525
+
+NOTE: Log Print Time:  2025-11-27 20:54:35.555934 
+NOTE: Elapsed Time: 2.54155898094177 secs 
+
+Processing time step 39 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:35.560672 
+NOTE: Elapsed Time: 0.00473809242248535 secs 
+
+ variable   mean median     sd    mad     q5     q95 rhat ess_bulk ess_tail
+ lp__     -39.46 -39.09   1.38   1.08 -42.17  -38.03 1.00     1112     1267
+ shape    812.13 760.57 342.84 306.91 345.16 1443.49 1.00     1067      987
+ scale      0.06   0.05   0.03   0.02   0.03    0.12 1.00     1050     1059
+ location -39.64 -39.57   2.02   2.00 -42.94  -36.44 1.00     1363     1562
+
+NOTE: Log Print Time:  2025-11-27 20:54:37.850294 
+NOTE: Elapsed Time: 2.28962206840515 secs 
+
+Processing time step 40 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:37.918302 
+NOTE: Elapsed Time: 0.0680079460144043 secs 
+
+ variable   mean median     sd    mad     q5     q95 rhat ess_bulk ess_tail
+ lp__     -38.68 -38.33   1.32   1.03 -41.23  -37.29 1.00     1047     1036
+ shape    899.32 842.27 366.65 347.21 388.40 1587.42 1.00      989      951
+ scale      0.06   0.05   0.03   0.02   0.03    0.11 1.00     1019     1043
+ location -39.68 -39.70   1.92   1.95 -42.87  -36.50 1.00     1344     1276
+
+NOTE: Log Print Time:  2025-11-27 20:54:40.321181 
+NOTE: Elapsed Time: 2.40287899971008 secs 
+
+Processing time step 41 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:40.325814 
+NOTE: Elapsed Time: 0.00463294982910156 secs 
+
+ variable    mean median     sd    mad     q5     q95 rhat ess_bulk
+ lp__      -37.78 -37.45   1.25   1.03 -40.32  -36.40 1.00     1158
+ shape    1017.41 960.13 405.60 399.13 450.72 1742.83 1.00     1044
+ scale       0.05   0.04   0.02   0.02   0.02    0.09 1.00     1051
+ location  -39.58 -39.60   1.94   1.98 -42.71  -36.26 1.00     1156
+ ess_tail
+     1252
+     1068
+     1117
+     1341
+
+NOTE: Log Print Time:  2025-11-27 20:54:43.125707 
+NOTE: Elapsed Time: 2.79989290237427 secs 
+
+Processing time step 42 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:43.130585 
+NOTE: Elapsed Time: 0.00487804412841797 secs 
+
+ variable    mean  median     sd    mad     q5     q95 rhat ess_bulk
+ lp__      -35.36  -35.01   1.32   1.08 -37.91  -33.92 1.00      984
+ shape    1541.58 1443.32 667.41 621.39 646.82 2828.41 1.01      834
+ scale       0.03    0.03   0.02   0.01   0.02    0.06 1.00      857
+ location  -39.58  -39.56   2.04   2.02 -42.94  -36.36 1.00     1431
+ ess_tail
+     1212
+      916
+     1044
+     1162
+
+NOTE: Log Print Time:  2025-11-27 20:54:45.771077 
+NOTE: Elapsed Time: 2.64049196243286 secs 
+
+Processing time step 43 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:45.775621 
+NOTE: Elapsed Time: 0.00454401969909668 secs 
+
+ variable    mean  median     sd    mad     q5     q95 rhat ess_bulk
+ lp__      -32.80  -32.48   1.26   1.04 -35.22  -31.42 1.00     1249
+ shape    2271.63 2115.90 961.08 890.22 973.33 4043.54 1.01      949
+ scale       0.02    0.02   0.01   0.01   0.01    0.04 1.01      956
+ location  -39.48  -39.54   2.01   2.04 -42.68  -36.13 1.00     1417
+ ess_tail
+     1362
+      993
+     1006
+     1418
+
+NOTE: Log Print Time:  2025-11-27 20:54:48.541256 
+NOTE: Elapsed Time: 2.76563501358032 secs 
+
+Processing time step 44 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:48.545775 
+NOTE: Elapsed Time: 0.00451898574829102 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -27.21  -26.89    1.23    0.96  -29.68   -25.89 1.00     1310
+ shape    5778.05 5353.56 2482.38 2342.21 2528.67 10292.36 1.00     1120
+ scale       0.01    0.01    0.00    0.00    0.00     0.02 1.00     1128
+ location  -39.61  -39.58    1.98    1.99  -42.90   -36.43 1.00     1259
+ ess_tail
+     1906
+     1358
+     1390
+     1746
+
+NOTE: Log Print Time:  2025-11-27 20:54:51.937093 
+NOTE: Elapsed Time: 3.39131808280945 secs 
+
+Processing time step 45 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:51.94155 
+NOTE: Elapsed Time: 0.00445699691772461 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -27.03  -26.66    1.31    0.96  -29.64   -25.68 1.00     1180
+ shape    5892.33 5588.16 2518.35 2412.89 2472.08 10553.73 1.00      778
+ scale       0.01    0.01    0.00    0.00    0.00     0.02 1.00      788
+ location  -39.57  -39.62    1.99    1.86  -42.88   -36.30 1.00     1137
+ ess_tail
+     1234
+      985
+      957
+      985
+
+NOTE: Log Print Time:  2025-11-27 20:54:55.312697 
+NOTE: Elapsed Time: 3.37114691734314 secs 
+
+Processing time step 46 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:55.317177 
+NOTE: Elapsed Time: 0.00448012351989746 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -26.06  -25.74    1.26    1.07  -28.53   -24.66 1.00     1104
+ shape    6917.53 6450.24 3043.46 3012.43 2786.97 12563.27 1.00      645
+ scale       0.01    0.01    0.00    0.00    0.00     0.01 1.00      662
+ location  -39.46  -39.43    1.99    2.02  -42.80   -36.26 1.00     1713
+ ess_tail
+     1023
+      832
+      854
+     1635
+
+NOTE: Log Print Time:  2025-11-27 20:54:58.789761 
+NOTE: Elapsed Time: 3.47258400917053 secs 
+
+Processing time step 47 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:54:58.794303 
+NOTE: Elapsed Time: 0.00454187393188477 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -25.47  -25.09    1.33    1.07  -28.13   -24.06 1.01     1010
+ shape    7761.30 7133.17 3541.97 3267.00 3018.25 14216.00 1.01      807
+ scale       0.01    0.01    0.00    0.00    0.00     0.01 1.01      800
+ location  -39.51  -39.51    2.00    2.07  -42.78   -36.31 1.01     1355
+ ess_tail
+     1461
+      736
+      699
+     1411
+
+NOTE: Log Print Time:  2025-11-27 20:55:02.972367 
+NOTE: Elapsed Time: 4.1780641078949 secs 
+
+Processing time step 48 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:55:02.976982 
+NOTE: Elapsed Time: 0.00461506843566895 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -25.45  -25.15    1.21    0.96  -27.90   -24.07 1.01     1037
+ shape    7932.54 7255.49 3540.75 3498.31 3194.67 14658.68 1.05      110
+ scale       0.01    0.01    0.00    0.00    0.00     0.01 1.05      107
+ location  -39.41  -39.30    1.95    1.92  -42.62   -36.23 1.04     1320
+ ess_tail
+     1278
+       96
+       87
+     1310
+
+NOTE: Log Print Time:  2025-11-27 20:55:06.485693 
+NOTE: Elapsed Time: 3.50871086120605 secs 
+
+Processing time step 49 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:55:06.490279 
+NOTE: Elapsed Time: 0.00458598136901855 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -25.36  -25.01    1.32    1.02  -27.98   -23.99 1.00     1183
+ shape    7904.16 7513.39 3430.63 3381.61 3052.64 14356.30 1.00      910
+ scale       0.01    0.01    0.00    0.00    0.00     0.01 1.00      913
+ location  -39.51  -39.53    2.01    1.98  -42.67   -36.20 1.00     1487
+ ess_tail
+     1265
+      986
+      994
+     1358
+
+NOTE: Log Print Time:  2025-11-27 20:55:10.691076 
+NOTE: Elapsed Time: 4.20079708099365 secs 
+
+Processing time step 50 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:55:10.69508 
+NOTE: Elapsed Time: 0.00400400161743164 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -25.18  -24.84    1.25    1.04  -27.68   -23.80 1.00     1215
+ shape    8188.74 7734.35 3647.85 3315.51 3293.08 15077.99 1.00      884
+ scale       0.01    0.01    0.00    0.00    0.00     0.01 1.00      895
+ location  -39.47  -39.51    1.97    1.89  -42.79   -36.14 1.00     1143
+ ess_tail
+     1664
+      925
+      912
+     1244
+
+NOTE: Log Print Time:  2025-11-27 20:55:14.435771 
+NOTE: Elapsed Time: 3.74069094657898 secs 
+
+Processing time step 51 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:55:14.440392 
+NOTE: Elapsed Time: 0.00462102890014648 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -24.86  -24.54    1.27    1.05  -27.42   -23.47 1.00     1066
+ shape    8752.84 8104.70 3973.04 3748.12 3601.61 16264.59 1.00      953
+ scale       0.01    0.01    0.00    0.00    0.00     0.01 1.01      956
+ location  -39.47  -39.47    1.98    1.93  -42.66   -36.12 1.00     1490
+ ess_tail
+     1202
+      974
+      922
+     1663
+
+NOTE: Log Print Time:  2025-11-27 20:55:18.035839 
+NOTE: Elapsed Time: 3.59544706344604 secs 
+
+Processing time step 52 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:55:18.040625 
+NOTE: Elapsed Time: 0.00478601455688477 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -24.38  -24.05    1.28    1.09  -26.78   -22.99 1.01      679
+ shape    9636.42 8866.61 4411.08 4093.09 3644.07 18351.92 1.02      229
+ scale       0.01    0.00    0.00    0.00    0.00     0.01 1.02      200
+ location  -39.40  -39.38    1.98    2.04  -42.68   -36.14 1.01      719
+ ess_tail
+     1357
+       84
+       38
+     1364
+
+NOTE: Log Print Time:  2025-11-27 20:55:21.943151 
+NOTE: Elapsed Time: 3.90252590179443 secs 
+
+Processing time step 53 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:55:21.948101 
+NOTE: Elapsed Time: 0.00495004653930664 secs 
+
+ variable    mean  median      sd     mad      q5      q95 rhat ess_bulk
+ lp__      -24.87  -24.50    1.34    1.05  -27.46   -23.47 1.00     1028
+ shape    8418.77 7773.64 3776.99 3328.14 3307.05 15618.70 1.00      945
+ scale       0.01    0.01    0.00    0.00    0.00     0.01 1.00      939
+ location  -39.49  -39.43    1.98    1.89  -42.84   -36.31 1.00     1342
+ ess_tail
+     1519
+      979
+      977
+     1221
+
+NOTE: Log Print Time:  2025-11-27 20:55:25.74941 
+NOTE: Elapsed Time: 3.80130887031555 secs 
+
+Processing time step 54 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:55:25.75413 
+NOTE: Elapsed Time: 0.00471997261047363 secs 
+
+ variable     mean   median      sd     mad      q5      q95 rhat ess_bulk
+ lp__       -22.76   -22.44    1.26    1.05  -25.21   -21.37 1.00     1268
+ shape    12457.96 11567.01 5823.22 5312.12 4746.57 23513.36 1.00     1138
+ scale        0.00     0.00    0.00    0.00    0.00     0.01 1.00     1151
+ location   -39.46   -39.47    1.91    1.89  -42.65   -36.31 1.00     1478
+ ess_tail
+     1294
+     1134
+     1044
+     1385
+
+NOTE: Log Print Time:  2025-11-27 20:55:29.618295 
+NOTE: Elapsed Time: 3.86416506767273 secs 
+
+Processing time step 55 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:55:29.622898 
+NOTE: Elapsed Time: 0.00460314750671387 secs 
+
+ variable     mean   median       sd      mad      q5      q95 rhat
+ lp__       -80.98   -19.67   106.89     2.16 -267.94   -17.79 1.61
+ shape    21896.00 19655.60 19309.58 18857.25    0.17 67386.99 1.79
+ scale        0.73     0.00     1.27     0.00    0.00     2.93 1.78
+ location   -29.06   -38.67    18.16     2.87  -42.29     2.25 1.60
+ ess_bulk ess_tail
+        6       12
+        5       11
+        6       11
+        6       29
+
+NOTE: Log Print Time:  2025-11-27 20:55:33.895544 
+NOTE: Elapsed Time: 4.27264595031738 secs 
+
+Processing time step 56 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:55:33.900238 
+NOTE: Elapsed Time: 0.00469398498535156 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -16.26   -15.86     1.44     1.09   -19.25   -14.79 1.00
+ shape    44911.82 41617.67 21797.31 20932.29 15255.79 85409.44 1.01
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.01
+ location   -39.31   -39.35     2.02     1.97   -42.52   -35.89 1.00
+ ess_bulk ess_tail
+      829      981
+      490      747
+      522      727
+     1148     1417
+
+NOTE: Log Print Time:  2025-11-27 20:55:38.886681 
+NOTE: Elapsed Time: 4.98644304275513 secs 
+
+Processing time step 57 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:55:38.891409 
+NOTE: Elapsed Time: 0.00472784042358398 secs 
+
+ variable     mean   median       sd      mad       q5       q95 rhat
+ lp__       -15.08   -14.76     1.27     1.02   -17.59    -13.69 1.01
+ shape    56528.88 52339.04 25932.34 25003.52 20976.73 105143.07 1.01
+ scale        0.00     0.00     0.00     0.00     0.00      0.00 1.01
+ location   -39.36   -39.35     2.05     2.17   -42.63    -36.12 1.00
+ ess_bulk ess_tail
+     1016     1619
+      487      652
+      501      670
+      674     1121
+
+NOTE: Log Print Time:  2025-11-27 20:55:43.71549 
+NOTE: Elapsed Time: 4.82408118247986 secs 
+
+Processing time step 58 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:55:43.720108 
+NOTE: Elapsed Time: 0.00461792945861816 secs 
+
+ variable     mean   median       sd      mad       q5       q95 rhat
+ lp__       -14.31   -13.98     1.27     1.08   -16.84    -12.92 1.01
+ shape    67586.52 62052.61 33472.78 31526.98 23128.39 131163.28 1.01
+ scale        0.00     0.00     0.00     0.00     0.00      0.00 1.01
+ location   -39.35   -39.36     2.01     1.95   -42.72    -36.08 1.00
+ ess_bulk ess_tail
+      823      931
+      367      682
+      368      732
+      757      819
+
+NOTE: Log Print Time:  2025-11-27 20:55:48.544099 
+NOTE: Elapsed Time: 4.82399106025696 secs 
+
+Processing time step 59 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:55:48.548736 
+NOTE: Elapsed Time: 0.00463700294494629 secs 
+
+ variable     mean   median       sd      mad       q5       q95 rhat
+ lp__       -13.48   -13.14     1.28     1.04   -15.94    -12.11 1.01
+ shape    81620.20 74530.20 40714.25 36120.35 28783.57 157429.61 1.01
+ scale        0.00     0.00     0.00     0.00     0.00      0.00 1.01
+ location   -39.32   -39.34     1.98     1.96   -42.55    -36.07 1.00
+ ess_bulk ess_tail
+      492      841
+      230      338
+      233      346
+      345      579
+
+NOTE: Log Print Time:  2025-11-27 20:55:53.630754 
+NOTE: Elapsed Time: 5.08201789855957 secs 
+
+Processing time step 60 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:55:53.635121 
+NOTE: Elapsed Time: 0.00436711311340332 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -11.99    -11.66     1.25     1.02   -14.45    -10.65 1.00
+ shape    113275.02 105860.52 53204.08 51420.89 40355.93 209560.07 1.03
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.03
+ location    -39.28    -39.27     2.01     2.03   -42.55    -36.01 1.01
+ ess_bulk ess_tail
+      669      833
+      217      569
+      214      567
+      418      803
+
+NOTE: Log Print Time:  2025-11-27 20:55:58.646534 
+NOTE: Elapsed Time: 5.01141285896301 secs 
+
+Processing time step 61 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:55:58.651189 
+NOTE: Elapsed Time: 0.00465512275695801 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -10.80    -10.44     1.34     1.03   -13.55     -9.40 1.00
+ shape    148086.47 134611.42 76452.10 68411.88 51256.20 286496.54 1.02
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.02
+ location    -39.28    -39.23     1.98     1.99   -42.64    -36.18 1.01
+ ess_bulk ess_tail
+      461      471
+      157      210
+      161      209
+      298      677
+
+NOTE: Log Print Time:  2025-11-27 20:56:03.998672 
+NOTE: Elapsed Time: 5.34748291969299 secs 
+
+Processing time step 62 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:56:04.003138 
+NOTE: Elapsed Time: 0.00446605682373047 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__         -9.73     -9.37     1.38     1.17   -12.39     -8.20 1.01
+ shape    176785.30 159611.84 95403.47 87719.76 55466.37 343968.67 1.02
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.02
+ location    -39.27    -39.27     2.06     2.13   -42.65    -35.88 1.00
+ ess_bulk ess_tail
+      313      714
+      148      298
+      147      302
+      324      515
+
+NOTE: Log Print Time:  2025-11-27 20:56:09.525499 
+NOTE: Elapsed Time: 5.52236104011536 secs 
+
+Processing time step 63 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:56:09.530012 
+NOTE: Elapsed Time: 0.00451278686523438 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -16.68   -16.40     1.26     1.07   -19.26   -15.29 1.00
+ shape    39386.64 36651.03 18844.60 18217.14 15127.31 75070.65 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -39.37   -39.40     1.97     1.93   -42.59   -36.04 1.00
+ ess_bulk ess_tail
+     1165     1744
+      780      840
+      786      837
+     1194     1581
+
+NOTE: Log Print Time:  2025-11-27 20:56:14.294073 
+NOTE: Elapsed Time: 4.76406121253967 secs 
+
+Processing time step 64 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:56:14.299415 
+NOTE: Elapsed Time: 0.00534200668334961 secs 
+
+ variable     mean   median       sd      mad      q5      q95 rhat
+ lp__       -18.99   -18.62     1.30     1.04  -21.50   -17.61 1.00
+ shape    25225.94 23047.80 11858.93 10903.37 9433.12 48295.11 1.00
+ scale        0.00     0.00     0.00     0.00    0.00     0.00 1.01
+ location   -39.46   -39.41     1.98     1.97  -42.74   -36.21 1.00
+ ess_bulk ess_tail
+     1012     1562
+      920      931
+      932     1056
+     1032     1141
+
+NOTE: Log Print Time:  2025-11-27 20:56:19.037418 
+NOTE: Elapsed Time: 4.73800277709961 secs 
+
+Processing time step 65 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:56:19.042749 
+NOTE: Elapsed Time: 0.00533103942871094 secs 
+
+ variable     mean   median       sd      mad      q5      q95 rhat
+ lp__       -18.96   -18.59     1.32     1.01  -21.67   -17.56 1.00
+ shape    24830.82 23028.01 11357.27 11071.76 9350.57 45366.66 1.01
+ scale        0.00     0.00     0.00     0.00    0.00     0.00 1.01
+ location   -39.46   -39.44     1.99     1.93  -42.73   -36.20 1.00
+ ess_bulk ess_tail
+     1037     1196
+      702      889
+      722     1018
+     1439     1390
+
+NOTE: Log Print Time:  2025-11-27 20:56:23.281418 
+NOTE: Elapsed Time: 4.2386691570282 secs 
+
+Processing time step 66 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:56:23.286382 
+NOTE: Elapsed Time: 0.00496387481689453 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -18.98   -18.69     1.24     1.08   -21.42   -17.57 1.00
+ shape    26168.78 24061.90 12305.43 11537.99 10282.45 49233.60 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -39.42   -39.45     2.07     2.13   -42.66   -35.86 1.00
+ ess_bulk ess_tail
+     1214     1526
+     1002     1317
+     1027     1322
+     1343     1381
+
+NOTE: Log Print Time:  2025-11-27 20:56:27.708684 
+NOTE: Elapsed Time: 4.42230200767517 secs 
+
+Processing time step 67 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:56:27.712968 
+NOTE: Elapsed Time: 0.00428414344787598 secs 
+
+ variable     mean   median       sd      mad      q5      q95 rhat
+ lp__       -18.98   -18.62     1.42     1.05  -21.59   -17.54 1.00
+ shape    25874.31 23834.46 12449.65 12017.41 9334.33 49509.99 1.00
+ scale        0.00     0.00     0.00     0.00    0.00     0.00 1.00
+ location   -39.36   -39.45     2.08     1.96  -42.68   -35.95 1.00
+ ess_bulk ess_tail
+     1074     1223
+      755      875
+      762      868
+     1331     1219
+
+NOTE: Log Print Time:  2025-11-27 20:56:32.116064 
+NOTE: Elapsed Time: 4.40309596061707 secs 
+
+Processing time step 68 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:56:32.120674 
+NOTE: Elapsed Time: 0.00460982322692871 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -18.82   -18.48     1.30     1.03   -21.32   -17.44 1.00
+ shape    26538.40 24596.66 12344.49 11372.44 10053.70 49460.80 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -39.48   -39.42     2.02     2.02   -42.76   -36.17 1.00
+ ess_bulk ess_tail
+     1150     1225
+      956     1115
+      947     1101
+     1329     1269
+
+NOTE: Log Print Time:  2025-11-27 20:56:36.680156 
+NOTE: Elapsed Time: 4.55948209762573 secs 
+
+Processing time step 69 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:56:36.684776 
+NOTE: Elapsed Time: 0.00462007522583008 secs 
+
+ variable     mean   median       sd      mad      q5      q95 rhat
+ lp__       -18.93   -18.61     1.27     1.03  -21.52   -17.55 1.00
+ shape    26505.98 24669.68 12370.13 12144.66 9864.65 49369.23 1.00
+ scale        0.00     0.00     0.00     0.00    0.00     0.00 1.00
+ location   -39.53   -39.49     2.02     2.01  -42.83   -36.14 1.00
+ ess_bulk ess_tail
+     1109     1353
+      842      871
+      841      845
+     1312     1454
+
+NOTE: Log Print Time:  2025-11-27 20:56:41.067045 
+NOTE: Elapsed Time: 4.38226890563965 secs 
+
+Processing time step 70 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:56:41.071522 
+NOTE: Elapsed Time: 0.00447702407836914 secs 
+
+ variable     mean   median       sd      mad      q5      q95 rhat
+ lp__       -19.33   -18.98     1.25     1.04  -21.80   -17.95 1.00
+ shape    23989.35 22214.83 11075.38 10442.41 9056.18 45447.94 1.00
+ scale        0.00     0.00     0.00     0.00    0.00     0.00 1.00
+ location   -39.38   -39.37     1.99     2.08  -42.59   -36.09 1.00
+ ess_bulk ess_tail
+     1098     1480
+      968      995
+      970     1016
+     1113     1428
+
+NOTE: Log Print Time:  2025-11-27 20:56:45.520894 
+NOTE: Elapsed Time: 4.44937205314636 secs 
+
+Processing time step 71 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:56:45.525326 
+NOTE: Elapsed Time: 0.00443196296691895 secs 
+
+ variable     mean   median       sd     mad      q5      q95 rhat ess_bulk
+ lp__       -19.74   -19.42     1.26    1.06  -22.25   -18.34 1.00     1211
+ shape    21570.12 19807.57 10388.58 9735.00 7901.22 41079.29 1.00      913
+ scale        0.00     0.00     0.00    0.00    0.00     0.01 1.00      910
+ location   -39.35   -39.38     2.02    2.04  -42.65   -36.00 1.00     1508
+ ess_tail
+     1781
+      849
+      824
+     1620
+
+NOTE: Log Print Time:  2025-11-27 20:56:50.104556 
+NOTE: Elapsed Time: 4.57923007011414 secs 
+
+Processing time step 72 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:56:50.10883 
+NOTE: Elapsed Time: 0.00427389144897461 secs 
+
+ variable     mean   median       sd     mad      q5      q95 rhat ess_bulk
+ lp__       -20.18   -19.83     1.34    1.11  -22.81   -18.71 1.00     1043
+ shape    20544.70 18591.19 10338.49 8880.43 7777.79 40451.77 1.00      870
+ scale        0.00     0.00     0.00    0.00    0.00     0.01 1.00      888
+ location   -39.55   -39.54     2.03    2.07  -42.86   -36.21 1.00     1418
+ ess_tail
+     1539
+     1081
+     1062
+     1148
+
+NOTE: Log Print Time:  2025-11-27 20:56:54.669971 
+NOTE: Elapsed Time: 4.56114101409912 secs 
+
+Processing time step 73 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:56:54.674346 
+NOTE: Elapsed Time: 0.00437498092651367 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -18.40   -18.05     1.29     1.06   -20.96   -17.00 1.00
+ shape    28291.15 26115.90 13165.06 12608.91 10816.18 52611.63 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -39.44   -39.44     2.01     1.99   -42.66   -36.09 1.00
+ ess_bulk ess_tail
+      948     1274
+      804      745
+      795      779
+     1034     1141
+
+NOTE: Log Print Time:  2025-11-27 20:56:59.097487 
+NOTE: Elapsed Time: 4.42314100265503 secs 
+
+Processing time step 74 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:56:59.102185 
+NOTE: Elapsed Time: 0.00469803810119629 secs 
+
+ variable      mean   median       sd      mad       q5       q95 rhat
+ lp__        -12.38   -12.08     1.25     1.02   -14.84    -11.03 1.01
+ shape    106458.47 95707.35 54421.72 49811.68 38421.57 207422.42 1.03
+ scale         0.00     0.00     0.00     0.00     0.00      0.00 1.03
+ location    -39.23   -39.17     1.95     2.00   -42.49    -36.08 1.00
+ ess_bulk ess_tail
+      740      740
+      193      321
+      202      344
+      533     1082
+
+NOTE: Log Print Time:  2025-11-27 20:57:04.463573 
+NOTE: Elapsed Time: 5.36138796806335 secs 
+
+Processing time step 75 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:57:04.468624 
+NOTE: Elapsed Time: 0.0050511360168457 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -11.69    -11.28     1.49     1.15   -14.60    -10.13 1.01
+ shape    122048.46 111255.90 63917.99 60514.77 37443.98 242411.26 1.01
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.01
+ location    -39.37    -39.37     2.12     2.10   -42.90    -35.83 1.01
+ ess_bulk ess_tail
+      256      324
+      181      239
+      177      248
+      310      567
+
+NOTE: Log Print Time:  2025-11-27 20:57:10.050232 
+NOTE: Elapsed Time: 5.58160781860352 secs 
+
+Processing time step 76 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:57:10.054595 
+NOTE: Elapsed Time: 0.00436305999755859 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -11.42    -11.06     1.37     1.14   -14.13     -9.96 1.02
+ shape    119234.49 107126.43 61874.71 56612.54 38663.89 238047.07 1.04
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.04
+ location    -39.19    -39.19     1.96     1.94   -42.45    -36.02 1.01
+ ess_bulk ess_tail
+      386      683
+      213      394
+      213      369
+      348      551
+
+NOTE: Log Print Time:  2025-11-27 20:57:15.275619 
+NOTE: Elapsed Time: 5.22102403640747 secs 
+
+Processing time step 77 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:57:15.279958 
+NOTE: Elapsed Time: 0.00433897972106934 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -10.69    -10.37     1.26     1.07   -13.18     -9.29 1.00
+ shape    140582.90 128590.87 70347.16 67077.57 48017.16 278204.03 1.01
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.01
+ location    -38.98    -38.93     1.96     1.95   -42.20    -35.75 1.01
+ ess_bulk ess_tail
+      529     1018
+      201      372
+      198      421
+      275      520
+
+NOTE: Log Print Time:  2025-11-27 20:57:20.817676 
+NOTE: Elapsed Time: 5.53771805763245 secs 
+
+Processing time step 78 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:57:20.822381 
+NOTE: Elapsed Time: 0.00470495223999023 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -10.23     -9.90     1.22     0.97   -12.54     -8.96 1.01
+ shape    167068.07 156701.83 75876.38 74448.95 60921.74 306230.10 1.01
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.02
+ location    -39.33    -39.36     1.94     1.89   -42.61    -36.06 1.01
+ ess_bulk ess_tail
+      380      558
+      168      263
+      170      272
+      179      429
+
+NOTE: Log Print Time:  2025-11-27 20:57:26.052924 
+NOTE: Elapsed Time: 5.2305428981781 secs 
+
+Processing time step 79 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:57:26.057411 
+NOTE: Elapsed Time: 0.00448703765869141 secs 
+
+ variable      mean    median       sd      mad       q5       q95 rhat
+ lp__        -11.35    -11.01     1.25     0.99   -13.81    -10.03 1.01
+ shape    125612.27 114584.84 60772.35 58102.95 46678.53 242225.87 1.02
+ scale         0.00      0.00     0.00     0.00     0.00      0.00 1.02
+ location    -39.02    -39.02     1.91     1.83   -42.22    -35.95 1.00
+ ess_bulk ess_tail
+      564      694
+      165      386
+      167      365
+      397      638
+
+NOTE: Log Print Time:  2025-11-27 20:57:31.644932 
+NOTE: Elapsed Time: 5.58752107620239 secs 
+
+Processing time step 80 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:57:31.649796 
+NOTE: Elapsed Time: 0.00486397743225098 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -15.81   -15.41     1.48     1.13   -18.62   -14.28 1.01
+ shape    48879.30 45106.15 24464.32 22389.11 15555.26 95478.32 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -39.33   -39.31     2.06     1.99   -42.77   -35.88 1.01
+ ess_bulk ess_tail
+      591      605
+      432      396
+      438      399
+      728     1257
+
+NOTE: Log Print Time:  2025-11-27 20:57:36.755953 
+NOTE: Elapsed Time: 5.10615706443787 secs 
+
+Processing time step 81 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:57:36.761156 
+NOTE: Elapsed Time: 0.0052030086517334 secs 
+
+ variable     mean   median       sd      mad      q5      q95 rhat
+ lp__       -47.69   -15.92    68.03     1.83 -250.79   -14.39 1.60
+ shape    38207.76 36993.42 26873.19 27416.97    0.56 84490.32 1.53
+ scale        0.02     0.00     0.09     0.00    0.00     0.29 1.39
+ location   -31.96   -38.38    13.71     3.13  -42.52     1.82 1.60
+ ess_bulk ess_tail
+        6       11
+        7       11
+        8       12
+        6       11
+
+NOTE: Log Print Time:  2025-11-27 20:57:41.564515 
+NOTE: Elapsed Time: 4.80335903167725 secs 
+
+Processing time step 82 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:57:41.629353 
+NOTE: Elapsed Time: 0.0648379325866699 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -16.04   -15.70     1.30     1.02   -18.46   -14.66 1.00
+ shape    45257.14 41769.82 21430.37 20216.22 16486.36 86716.88 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -39.45   -39.46     2.00     1.94   -42.55   -36.08 1.01
+ ess_bulk ess_tail
+     1046     1367
+      809     1202
+      808     1190
+     1172     1179
+
+NOTE: Log Print Time:  2025-11-27 20:57:46.715066 
+NOTE: Elapsed Time: 5.08571290969849 secs 
+
+Processing time step 83 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:57:46.719807 
+NOTE: Elapsed Time: 0.00474095344543457 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -15.85   -15.49     1.36     1.08   -18.52   -14.41 1.00
+ shape    46849.93 42876.39 22519.37 21911.72 16435.42 88231.48 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -39.42   -39.41     2.02     2.11   -42.61   -36.13 1.00
+ ess_bulk ess_tail
+      993     1355
+      643      795
+      660      835
+      994     1393
+
+NOTE: Log Print Time:  2025-11-27 20:57:51.84106 
+NOTE: Elapsed Time: 5.12125301361084 secs 
+
+Processing time step 84 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:57:51.845631 
+NOTE: Elapsed Time: 0.00457096099853516 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -15.45   -15.10     1.28     1.05   -18.02   -14.08 1.00
+ shape    49491.97 46449.60 22637.98 21288.63 18331.49 90968.68 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -39.35   -39.35     2.01     2.05   -42.60   -36.08 1.01
+ ess_bulk ess_tail
+      803      984
+      640      566
+      646      681
+      729     1105
+
+NOTE: Log Print Time:  2025-11-27 20:57:56.987482 
+NOTE: Elapsed Time: 5.14185118675232 secs 
+
+Processing time step 85 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:57:56.992077 
+NOTE: Elapsed Time: 0.00459504127502441 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -15.72   -15.36     1.37     1.05   -18.40   -14.30 1.01
+ shape    51173.82 46760.28 24549.05 22246.24 18798.22 97805.38 1.01
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.01
+ location   -39.32   -39.35     2.08     2.04   -42.63   -35.84 1.01
+ ess_bulk ess_tail
+      738     1090
+      322      663
+      325      687
+      502      693
+
+NOTE: Log Print Time:  2025-11-27 20:58:02.38956 
+NOTE: Elapsed Time: 5.39748287200928 secs 
+
+Processing time step 86 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:58:02.394267 
+NOTE: Elapsed Time: 0.00470709800720215 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -16.06   -15.68     1.40     1.09   -18.93   -14.59 1.00
+ shape    46728.06 43357.98 23213.50 22284.85 15658.11 90271.98 1.01
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.01
+ location   -39.32   -39.32     2.00     1.99   -42.53   -36.06 1.00
+ ess_bulk ess_tail
+      860      967
+      574      590
+      587      600
+     1015     1265
+
+NOTE: Log Print Time:  2025-11-27 20:58:07.435716 
+NOTE: Elapsed Time: 5.04144883155823 secs 
+
+Processing time step 87 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:58:07.440443 
+NOTE: Elapsed Time: 0.00472712516784668 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -16.58   -16.27     1.29     1.06   -19.17   -15.18 1.00
+ shape    36665.38 34772.21 16176.72 16936.01 14091.90 65563.36 1.01
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -39.20   -39.17     1.94     1.95   -42.42   -36.07 1.00
+ ess_bulk ess_tail
+     1014     1155
+      606      781
+      613      760
+     1131     1487
+
+NOTE: Log Print Time:  2025-11-27 20:58:12.140475 
+NOTE: Elapsed Time: 4.70003199577332 secs 
+
+Processing time step 88 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:58:12.14579 
+NOTE: Elapsed Time: 0.00531506538391113 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -16.98   -16.65     1.27     1.01   -19.49   -15.62 1.00
+ shape    38221.23 35498.80 18296.04 17402.76 14003.43 73021.28 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -39.49   -39.45     1.92     1.92   -42.63   -36.42 1.01
+ ess_bulk ess_tail
+     1149     1047
+      696      838
+      700      822
+     1089     1424
+
+NOTE: Log Print Time:  2025-11-27 20:58:16.863199 
+NOTE: Elapsed Time: 4.71740889549255 secs 
+
+Processing time step 89 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:58:16.867996 
+NOTE: Elapsed Time: 0.00479698181152344 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -17.13   -16.80     1.25     0.97   -19.57   -15.79 1.00
+ shape    36576.05 33619.29 16851.27 15481.49 13778.42 67415.56 1.00
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.00
+ location   -39.33   -39.30     1.95     1.97   -42.57   -36.25 1.00
+ ess_bulk ess_tail
+     1146     1143
+      849      833
+      856      854
+     1093     1303
+
+NOTE: Log Print Time:  2025-11-27 20:58:21.776555 
+NOTE: Elapsed Time: 4.9085590839386 secs 
+
+Processing time step 90 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:58:21.782026 
+NOTE: Elapsed Time: 0.00547099113464355 secs 
+
+ variable     mean   median       sd      mad       q5       q95 rhat
+ lp__       -13.88   -13.53     1.33     1.08   -16.47    -12.44 1.00
+ shape    76120.92 70035.85 38623.49 34921.51 26316.45 148968.67 1.02
+ scale        0.00     0.00     0.00     0.00     0.00      0.00 1.02
+ location   -39.39   -39.38     2.03     2.01   -42.73    -36.00 1.02
+ ess_bulk ess_tail
+      654      732
+      271      281
+      271      298
+      487      650
+
+NOTE: Log Print Time:  2025-11-27 20:58:27.04536 
+NOTE: Elapsed Time: 5.26333403587341 secs 
+
+Processing time step 91 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:58:27.049807 
+NOTE: Elapsed Time: 0.00444698333740234 secs 
+
+ variable     mean   median       sd      mad       q5       q95 rhat
+ lp__       -13.14   -12.79     1.24     0.85   -15.45    -11.84 1.03
+ shape    84903.28 85860.33 34612.58 36479.43 31710.10 140747.87 1.05
+ scale        0.00     0.00     0.00     0.00     0.00      0.00 1.07
+ location   -38.89   -38.77     2.00     2.35   -42.29    -36.06 1.07
+ ess_bulk ess_tail
+      847     1052
+       81      622
+       49      622
+       44     1150
+
+NOTE: Log Print Time:  2025-11-27 20:58:32.393298 
+NOTE: Elapsed Time: 5.34349083900452 secs 
+
+Processing time step 92 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:58:32.397712 
+NOTE: Elapsed Time: 0.00441408157348633 secs 
+
+ variable     mean   median       sd      mad       q5      q95 rhat
+ lp__       -15.82   -15.51     1.28     1.07   -18.38   -14.40 1.01
+ shape    47888.72 43542.25 23418.19 21328.04 17402.10 92520.00 1.01
+ scale        0.00     0.00     0.00     0.00     0.00     0.00 1.01
+ location   -39.31   -39.32     2.02     2.07   -42.65   -36.02 1.00
+ ess_bulk ess_tail
+      838     1046
+      505      649
+      507      663
+      850      858
+
+NOTE: Log Print Time:  2025-11-27 20:58:37.354948 
+NOTE: Elapsed Time: 4.95723605155945 secs 
+
+Processing time step 10 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:58:37.372206 
+NOTE: Elapsed Time: 0.0172579288482666 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:58:42.616015 
+NOTE: Elapsed Time: 5.24380898475647 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:58:42.668798 
+NOTE: Elapsed Time: 0.0527830123901367 secs 
+
+ variable  mean median    sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     19.56  10.51 16.87 1.34 7.97 48.73 1.54        7       NA
+ shape     6.10   2.98  9.17 4.00 0.28 22.23 1.60        6        4
+ scale     0.47   0.04  0.75 0.04 0.01  1.76 1.59        6       NA
+ location  1.35   1.38  0.08 0.06 1.18  1.42 1.58        7       NA
+
+NOTE: Log Print Time:  2025-11-27 20:58:42.671398 
+NOTE: Elapsed Time: 0.00259995460510254 secs 
+
+Processing time step 11 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:58:42.6757 
+NOTE: Elapsed Time: 0.00430202484130859 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:58:46.175253 
+NOTE: Elapsed Time: 3.49955296516418 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:58:46.228914 
+NOTE: Elapsed Time: 0.0536611080169678 secs 
+
+ variable mean median   sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     8.86   8.92 3.69 3.23 2.45 15.37 1.86        5       13
+ shape    0.55   0.55 0.28 0.04 0.28  0.93 2.17        6       13
+ scale    0.92   0.71 0.66 0.40 0.18  2.01 3.10        4       17
+ location 1.42   1.42 0.02 0.00 1.39  1.42 2.33        5       NA
+
+NOTE: Log Print Time:  2025-11-27 20:58:46.231523 
+NOTE: Elapsed Time: 0.0026090145111084 secs 
+
+Processing time step 12 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:58:46.235832 
+NOTE: Elapsed Time: 0.00430893898010254 secs 
+
+ variable mean median   sd  mad    q5  q95 rhat ess_bulk ess_tail
+ lp__     3.55   3.78 2.28 2.09 -0.36 7.24 1.30       11       41
+ shape    0.67   0.55 0.43 0.18  0.31 1.40 1.34       10       25
+ scale    0.45   0.46 0.22 0.28  0.16 0.77 1.37        9       58
+ location 1.41   1.42 0.03 0.00  1.35 1.42 1.36        9       35
+
+NOTE: Log Print Time:  2025-11-27 20:58:48.360032 
+NOTE: Elapsed Time: 2.12420010566711 secs 
+
+Processing time step 13 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:58:48.364928 
+NOTE: Elapsed Time: 0.00489592552185059 secs 
+
+ variable mean median   sd  mad    q5  q95 rhat ess_bulk ess_tail
+ lp__     0.64   1.05 1.84 1.80 -2.99 2.53 1.13       25      164
+ shape    1.49   1.00 2.20 0.63  0.40 3.95 1.32       10        4
+ scale    0.30   0.26 0.15 0.15  0.11 0.50 1.19       16       68
+ location 1.35   1.40 0.13 0.03  1.13 1.42 1.25       12      111
+
+NOTE: Log Print Time:  2025-11-27 20:58:50.494466 
+NOTE: Elapsed Time: 2.12953805923462 secs 
+
+Processing time step 14 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:58:50.500841 
+NOTE: Elapsed Time: 0.00637483596801758 secs 
+
+ variable mean median   sd  mad    q5  q95 rhat ess_bulk ess_tail
+ lp__     0.65   0.96 1.52 1.35 -2.34 2.56 1.03      207      351
+ shape    1.30   1.02 1.03 0.50  0.51 3.02 1.04       97      167
+ scale    0.32   0.26 0.23 0.14  0.11 0.78 1.03      101       75
+ location 1.37   1.40 0.07 0.02  1.22 1.42 1.05      112      141
+
+NOTE: Log Print Time:  2025-11-27 20:58:52.657098 
+NOTE: Elapsed Time: 2.15625715255737 secs 
+
+Processing time step 15 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:58:52.661142 
+NOTE: Elapsed Time: 0.0040440559387207 secs 
+
+ variable mean median   sd  mad    q5  q95 rhat ess_bulk ess_tail
+ lp__     0.48   0.79 1.62 1.46 -2.52 2.62 1.03      160      211
+ shape    1.49   1.10 1.89 0.51  0.58 3.22 1.02       99      206
+ scale    0.26   0.23 0.14 0.11  0.10 0.52 1.02      124      185
+ location 1.36   1.39 0.12 0.03  1.21 1.42 1.02      135      203
+
+NOTE: Log Print Time:  2025-11-27 20:58:54.87294 
+NOTE: Elapsed Time: 2.21179795265198 secs 
+
+Processing time step 16 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:58:54.877658 
+NOTE: Elapsed Time: 0.00471782684326172 secs 
+
+ variable mean median   sd  mad    q5  q95 rhat ess_bulk ess_tail
+ lp__     0.67   0.92 1.80 1.62 -2.58 3.00 1.05       61       25
+ shape    1.33   1.02 1.17 0.53  0.48 3.22 1.08       37       31
+ scale    0.32   0.24 0.25 0.12  0.11 0.91 1.07       38       17
+ location 1.37   1.40 0.08 0.03  1.23 1.42 1.05       57       22
+
+NOTE: Log Print Time:  2025-11-27 20:58:57.422587 
+NOTE: Elapsed Time: 2.54492902755737 secs 
+
+Processing time step 17 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:58:57.42717 
+NOTE: Elapsed Time: 0.00458312034606934 secs 
+
+ variable mean median   sd  mad    q5  q95 rhat ess_bulk ess_tail
+ lp__     0.98   1.21 1.68 1.63 -2.05 3.40 1.04       99      308
+ shape    1.01   0.76 0.87 0.43  0.29 2.46 1.33        9       14
+ scale    0.44   0.35 0.30 0.24  0.13 1.00 1.28       11       52
+ location 1.38   1.40 0.07 0.02  1.26 1.42 1.08       43      192
+
+NOTE: Log Print Time:  2025-11-27 20:58:59.561669 
+NOTE: Elapsed Time: 2.13449907302856 secs 
+
+Processing time step 18 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:58:59.566076 
+NOTE: Elapsed Time: 0.00440692901611328 secs 
+
+ variable  mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -2.25  -1.95 1.55 1.49 -5.09 -0.29 1.05       83      225
+ shape     2.86   1.74 3.73 1.13  0.74  8.80 1.04      108      125
+ scale     0.26   0.21 0.17 0.12  0.08  0.59 1.03      140      214
+ location  1.17   1.26 0.23 0.08  0.72  1.32 1.06       59      106
+
+NOTE: Log Print Time:  2025-11-27 20:59:01.646627 
+NOTE: Elapsed Time: 2.08055090904236 secs 
+
+Processing time step 19 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:01.651424 
+NOTE: Elapsed Time: 0.00479698181152344 secs 
+
+ variable  mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -5.28  -4.90 1.46 1.24 -8.18 -3.68 1.00      518      722
+ shape     5.72   3.31 6.59 2.48  1.17 19.53 1.03      173      150
+ scale     0.23   0.19 0.14 0.11  0.07  0.50 1.02      217      232
+ location  0.81   0.95 0.41 0.23 -0.02  1.14 1.02      269      555
+
+NOTE: Log Print Time:  2025-11-27 20:59:03.780995 
+NOTE: Elapsed Time: 2.12957096099854 secs 
+
+Processing time step 20 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:03.786009 
+NOTE: Elapsed Time: 0.00501418113708496 secs 
+
+ variable  mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -5.65  -5.46 1.44 1.33 -8.14 -3.81 1.02      123      199
+ shape     3.54   1.65 8.45 1.87  0.36 12.38 1.65        6       11
+ scale     0.36   0.32 0.19 0.25  0.10  0.61 1.31       10      228
+ location  0.90   1.05 0.33 0.12  0.23  1.13 1.51        7       34
+
+NOTE: Log Print Time:  2025-11-27 20:59:07.712154 
+NOTE: Elapsed Time: 3.92614483833313 secs 
+
+Processing time step 21 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:07.717364 
+NOTE: Elapsed Time: 0.00521016120910645 secs 
+
+ variable  mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -3.44  -2.92 1.89 1.47 -7.84 -1.39 1.25       12       14
+ shape     5.41   2.54 7.94 3.55  0.14 20.63 1.60        7       21
+ scale     0.34   0.19 0.31 0.16  0.05  0.86 1.52        7       31
+ location  0.83   0.95 0.33 0.19  0.15  1.08 1.60        6       13
+
+NOTE: Log Print Time:  2025-11-27 20:59:10.436477 
+NOTE: Elapsed Time: 2.71911287307739 secs 
+
+Processing time step 22 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:10.441458 
+NOTE: Elapsed Time: 0.00498104095458984 secs 
+
+ variable  mean median    sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -2.79  -2.48  1.28 1.05 -5.22 -1.36 1.01      504      927
+ shape     8.96   4.42 15.00 3.89  1.11 29.94 1.03      132       36
+ scale     0.16   0.13  0.13 0.08  0.04  0.44 1.02      158       42
+ location  0.65   0.78  0.38 0.24 -0.09  0.99 1.02      223      501
+
+NOTE: Log Print Time:  2025-11-27 20:59:12.559794 
+NOTE: Elapsed Time: 2.11833596229553 secs 
+
+Processing time step 23 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:12.566222 
+NOTE: Elapsed Time: 0.00642800331115723 secs 
+
+ variable  mean median    sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -3.32  -2.99  1.31 1.10 -5.97 -1.91 1.01      559      501
+ shape     8.85   4.73 11.27 4.16  1.10 32.15 1.06       60       72
+ scale     0.16   0.13  0.11 0.09  0.04  0.41 1.04      111      125
+ location  0.52   0.65  0.42 0.26 -0.28  0.88 1.05       80      168
+
+NOTE: Log Print Time:  2025-11-27 20:59:14.69525 
+NOTE: Elapsed Time: 2.12902808189392 secs 
+
+Processing time step 24 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:14.700787 
+NOTE: Elapsed Time: 0.00553703308105469 secs 
+
+ variable  mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -3.34  -3.08 1.26 1.11 -5.73 -1.86 1.01      427     1201
+ shape     7.22   3.94 7.99 3.52  1.00 24.96 1.02       78       52
+ scale     0.19   0.14 0.16 0.09  0.05  0.52 1.04       90       62
+ location  0.51   0.63 0.33 0.25 -0.17  0.84 1.02      111      225
+
+NOTE: Log Print Time:  2025-11-27 20:59:16.90419 
+NOTE: Elapsed Time: 2.20340299606323 secs 
+
+Processing time step 25 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:16.909295 
+NOTE: Elapsed Time: 0.00510501861572266 secs 
+
+ variable mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     2.18   0.85 4.23 3.71 -3.20 10.04 1.92        5       14
+ shape    1.49   0.54 3.19 0.20  0.40  5.13 2.61        4       11
+ scale    0.36   0.40 0.14 0.16  0.11  0.57 2.13        5       14
+ location 0.80   0.85 0.16 0.00  0.51  0.86 2.13        5       14
+
+NOTE: Log Print Time:  2025-11-27 20:59:19.800129 
+NOTE: Elapsed Time: 2.89083385467529 secs 
+
+Processing time step 26 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:19.804952 
+NOTE: Elapsed Time: 0.00482296943664551 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:59:25.021218 
+NOTE: Elapsed Time: 5.21626615524292 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:59:25.069684 
+NOTE: Elapsed Time: 0.0484659671783447 secs 
+
+ variable  mean median    sd   mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     31.71  33.18 23.88 36.79 -1.06 63.29 3.85        4       NA
+ shape     1.02   0.56  1.73  0.01  0.34  3.54 3.46        4        4
+ scale     0.46   0.26  0.40  0.05  0.11  1.15 4.19        5       NA
+ location  0.82   0.86  0.10  0.00  0.65  0.86 3.65        4       NA
+
+NOTE: Log Print Time:  2025-11-27 20:59:25.072629 
+NOTE: Elapsed Time: 0.0029449462890625 secs 
+
+Processing time step 27 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:25.077508 
+NOTE: Elapsed Time: 0.00487899780273438 secs 
+
+ variable mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     1.13   1.45 1.55 1.35 -1.82  3.00 1.01      174      374
+ shape    3.71   2.00 5.14 1.52  0.62 12.93 1.09       37       26
+ scale    0.18   0.14 0.14 0.09  0.05  0.52 1.11       30       43
+ location 0.67   0.74 0.20 0.07  0.33  0.79 1.04       88      207
+
+NOTE: Log Print Time:  2025-11-27 20:59:27.18252 
+NOTE: Elapsed Time: 2.10501194000244 secs 
+
+Processing time step 28 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:27.187261 
+NOTE: Elapsed Time: 0.00474119186401367 secs 
+
+ variable  mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -0.51  -0.21 1.23 0.98 -2.94  0.83 1.00      707     1155
+ shape     9.54   6.01 9.94 5.33  1.44 29.40 1.02      231      161
+ scale     0.11   0.08 0.08 0.06  0.03  0.29 1.02      258      208
+ location  0.35   0.43 0.26 0.20 -0.18  0.62 1.01      303      439
+
+NOTE: Log Print Time:  2025-11-27 20:59:29.26998 
+NOTE: Elapsed Time: 2.08271884918213 secs 
+
+Processing time step 29 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:29.274353 
+NOTE: Elapsed Time: 0.00437307357788086 secs 
+
+ variable  mean median    sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -6.96  -6.58  1.33 1.00 -9.55 -5.58 1.01      486      274
+ shape    14.15   9.65 15.91 7.76  2.10 40.67 1.02      206      152
+ scale     0.18   0.12  0.21 0.08  0.04  0.44 1.02      206      155
+ location -0.45  -0.34  0.48 0.39 -1.33  0.08 1.01      350      400
+
+NOTE: Log Print Time:  2025-11-27 20:59:31.409006 
+NOTE: Elapsed Time: 2.13465309143066 secs 
+
+Processing time step 30 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:31.413427 
+NOTE: Elapsed Time: 0.00442099571228027 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:59:36.412793 
+NOTE: Elapsed Time: 4.99936580657959 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:59:36.456527 
+NOTE: Elapsed Time: 0.043734073638916 secs 
+
+ variable  mean median    sd   mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     15.36  15.25 23.11 33.56 -9.38 40.18 2.31        5       NA
+ shape     4.68   0.42  8.83  0.30  0.22 21.87 2.34        5        4
+ scale     1.75   1.37  1.94  1.75  0.08  5.01 3.51        5       NA
+ location -0.11   0.18  0.47  0.00 -1.13  0.18 2.15        5       NA
+
+NOTE: Log Print Time:  2025-11-27 20:59:36.459179 
+NOTE: Elapsed Time: 0.00265192985534668 secs 
+
+Processing time step 31 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:36.463745 
+NOTE: Elapsed Time: 0.00456619262695312 secs 
+
+ variable  mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -5.52  -6.29 3.10 1.41 -8.94  1.97 1.53        7       25
+ shape     5.96   2.72 8.98 3.33  0.44 22.34 1.57        7       27
+ scale     0.59   0.28 0.60 0.25  0.07  1.61 1.57        7       17
+ location -0.20  -0.03 0.47 0.31 -1.11  0.18 1.55        7       24
+
+NOTE: Log Print Time:  2025-11-27 20:59:38.829473 
+NOTE: Elapsed Time: 2.36572790145874 secs 
+
+Processing time step 32 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:38.834265 
+NOTE: Elapsed Time: 0.0047919750213623 secs 
+
+ variable  mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -6.42  -6.14 1.18 1.00 -8.68 -5.12 1.01      370      345
+ shape     5.55   3.21 7.11 3.11  0.52 18.17 1.13       21       25
+ scale     0.34   0.23 0.32 0.16  0.08  1.19 1.12       23       40
+ location -0.19  -0.07 0.38 0.28 -0.92  0.16 1.10       28       71
+
+NOTE: Log Print Time:  2025-11-27 20:59:41.077293 
+NOTE: Elapsed Time: 2.24302792549133 secs 
+
+Processing time step 33 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:41.082122 
+NOTE: Elapsed Time: 0.00482916831970215 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:59:43.06079 
+NOTE: Elapsed Time: 1.97866797447205 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:59:43.17054 
+NOTE: Elapsed Time: 0.109750032424927 secs 
+
+ variable  mean median    sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__      1.38  -6.33 14.67 1.48 -9.22 28.05 1.55        7       88
+ shape     4.94   2.14  7.85 2.58  0.40 19.44 1.59        6        4
+ scale     0.55   0.32  0.49 0.30  0.08  1.34 1.57        7      516
+ location -0.15   0.02  0.43 0.24 -1.09  0.18 1.59        6       NA
+
+NOTE: Log Print Time:  2025-11-27 20:59:43.174175 
+NOTE: Elapsed Time: 0.00363492965698242 secs 
+
+Processing time step 34 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:43.18013 
+NOTE: Elapsed Time: 0.00595498085021973 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:59:48.401737 
+NOTE: Elapsed Time: 5.22160696983337 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:59:48.451367 
+NOTE: Elapsed Time: 0.0496299266815186 secs 
+
+ variable mean median    sd   mad     q5   q95 rhat ess_bulk ess_tail
+ lp__     5.48  -3.58 19.80 12.94 -12.95 37.53 2.27        5       NA
+ shape    1.26   0.32  2.61  0.26   0.15  4.43 2.40        4        4
+ scale    1.16   0.79  1.01  0.54   0.28  3.53 2.35        6       23
+ location 0.03   0.18  0.32  0.00  -0.59  0.18 2.41        4       NA
+
+NOTE: Log Print Time:  2025-11-27 20:59:48.454445 
+NOTE: Elapsed Time: 0.00307798385620117 secs 
+
+Processing time step 35 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:48.459263 
+NOTE: Elapsed Time: 0.00481820106506348 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:59:53.980187 
+NOTE: Elapsed Time: 5.52092385292053 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 20:59:54.021465 
+NOTE: Elapsed Time: 0.0412781238555908 secs 
+
+ variable mean median    sd   mad     q5   q95 rhat ess_bulk ess_tail
+ lp__     9.39   5.92 16.95 15.28 -11.38 36.18 4.01        4       NA
+ shape    0.53   0.52  0.66  0.08   0.13  0.79 2.40        5        4
+ scale    1.15   1.11  0.23  0.14   0.98  1.49 3.47        6       19
+ location 0.16   0.18  0.13  0.00   0.15  0.18 3.06        4       NA
+
+NOTE: Log Print Time:  2025-11-27 20:59:54.023707 
+NOTE: Elapsed Time: 0.00224184989929199 secs 
+
+Processing time step 36 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:54.027631 
+NOTE: Elapsed Time: 0.00392413139343262 secs 
+
+ variable   mean median   sd  mad     q5    q95 rhat ess_bulk ess_tail
+ lp__     -13.74 -13.71 1.90 1.90 -16.88 -10.45 1.14       21       14
+ shape      1.57   0.97 1.67 0.52   0.51   4.69 1.22       15       37
+ scale      1.19   1.09 0.60 0.56   0.40   2.38 1.12       28      151
+ location  -0.09   0.08 0.39 0.14  -0.90   0.18 1.13       29       35
+
+NOTE: Log Print Time:  2025-11-27 20:59:56.253909 
+NOTE: Elapsed Time: 2.22627806663513 secs 
+
+Processing time step 37 ... 
+
+NOTE: Log Print Time:  2025-11-27 20:59:56.258426 
+NOTE: Elapsed Time: 0.0045168399810791 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 21:00:04.783562 
+NOTE: Elapsed Time: 8.52513599395752 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 21:00:04.827607 
+NOTE: Elapsed Time: 0.0440449714660645 secs 
+
+ variable  mean median    sd   mad     q5   q95 rhat ess_bulk ess_tail
+ lp__      8.49   9.67 24.71 35.47 -18.30 33.59 2.40        4       NA
+ shape     1.34   0.34  2.14  0.22   0.19  5.39 2.43        4        4
+ scale     6.87   1.30  9.95  0.72   0.44 24.09 3.49        6       NA
+ location -0.08   0.18  0.51  0.00  -1.21  0.18 2.24        5       NA
+
+NOTE: Log Print Time:  2025-11-27 21:00:04.830429 
+NOTE: Elapsed Time: 0.0028221607208252 secs 
+
+Processing time step 38 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:04.834959 
+NOTE: Elapsed Time: 0.00452995300292969 secs 
+
+ variable   mean median   sd  mad     q5   q95 rhat ess_bulk ess_tail
+ lp__     -16.23 -17.11 3.21 1.68 -19.75 -8.03 1.42        8       11
+ shape      2.20   1.27 2.56 1.18   0.46  6.99 1.56        7       27
+ scale      1.37   1.26 0.69 1.03   0.40  2.24 1.24       12       92
+ location  -0.31  -0.02 0.66 0.30  -1.64  0.18 1.49        7       11
+
+NOTE: Log Print Time:  2025-11-27 21:00:07.558251 
+NOTE: Elapsed Time: 2.72329187393188 secs 
+
+Processing time step 39 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:07.563245 
+NOTE: Elapsed Time: 0.00499415397644043 secs 
+
+ variable   mean median   sd  mad     q5    q95 rhat ess_bulk ess_tail
+ lp__     -19.09 -18.78 1.21 0.97 -21.50 -17.82 1.01      501      635
+ shape      3.82   2.75 3.48 2.03   0.83  10.48 1.01      157       82
+ scale      1.08   0.88 0.82 0.53   0.33   2.39 1.02      188      101
+ location  -0.68  -0.48 0.76 0.66  -2.19   0.14 1.01      193      177
+
+NOTE: Log Print Time:  2025-11-27 21:00:09.700518 
+NOTE: Elapsed Time: 2.13727283477783 secs 
+
+Processing time step 40 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:09.705392 
+NOTE: Elapsed Time: 0.00487399101257324 secs 
+
+ variable   mean median   sd  mad     q5    q95 rhat ess_bulk ess_tail
+ lp__     -19.24 -18.92 1.13 0.90 -21.47 -18.04 1.00      801     1444
+ shape      5.50   4.17 4.41 2.98   1.28  14.58 1.01      459      509
+ scale      0.84   0.68 0.57 0.38   0.28   1.98 1.00      532      452
+ location  -0.79  -0.61 0.80 0.77  -2.31   0.16 1.01      507      872
+
+NOTE: Log Print Time:  2025-11-27 21:00:11.795951 
+NOTE: Elapsed Time: 2.0905590057373 secs 
+
+Processing time step 41 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:11.801145 
+NOTE: Elapsed Time: 0.00519418716430664 secs 
+
+ variable   mean median   sd  mad     q5    q95 rhat ess_bulk ess_tail
+ lp__     -17.79 -17.45 1.18 0.95 -20.15 -16.54 1.00      902     1515
+ shape      7.51   5.37 6.31 4.17   1.52  20.39 1.01      223      100
+ scale      0.66   0.51 0.54 0.30   0.20   1.61 1.01      249      102
+ location  -0.46  -0.28 0.89 0.84  -2.19   0.64 1.01      366      236
+
+NOTE: Log Print Time:  2025-11-27 21:00:13.933433 
+NOTE: Elapsed Time: 2.13228797912598 secs 
+
+Processing time step 42 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:13.938385 
+NOTE: Elapsed Time: 0.00495195388793945 secs 
+
+ variable   mean median    sd  mad     q5    q95 rhat ess_bulk ess_tail
+ lp__     -15.37 -15.05  1.21 0.93 -17.72 -14.09 1.00      988      771
+ shape     12.39   9.10 10.66 7.25   2.19  34.42 1.01      326      197
+ scale      0.40   0.31  0.34 0.19   0.12   0.93 1.01      349      337
+ location  -0.17   0.00  0.88 0.82  -1.75   0.92 1.01      446      692
+
+NOTE: Log Print Time:  2025-11-27 21:00:16.070985 
+NOTE: Elapsed Time: 2.13260006904602 secs 
+
+Processing time step 43 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:16.076017 
+NOTE: Elapsed Time: 0.00503182411193848 secs 
+
+ variable  mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -6.83  -6.57 1.35 1.25 -9.45 -5.04 1.01      244      452
+ shape     4.46   2.12 7.62 1.62  0.71 15.00 1.05       57       55
+ scale     0.37   0.29 0.26 0.17  0.10  0.93 1.05       66       74
+ location  2.11   2.28 0.44 0.19  1.11  2.44 1.03      104      112
+
+NOTE: Log Print Time:  2025-11-27 21:00:18.220392 
+NOTE: Elapsed Time: 2.14437508583069 secs 
+
+Processing time step 44 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:18.225706 
+NOTE: Elapsed Time: 0.00531411170959473 secs 
+
+ variable  mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -5.90  -6.20 2.38 1.75 -9.34 -1.22 1.54        7       25
+ shape     3.92   1.59 7.23 1.82  0.36 15.60 1.56        7       42
+ scale     0.70   0.38 0.65 0.31  0.10  1.78 1.57        7       11
+ location  2.14   2.35 0.52 0.15  1.04  2.45 1.54        7       25
+
+NOTE: Log Print Time:  2025-11-27 21:00:21.384207 
+NOTE: Elapsed Time: 3.1585009098053 secs 
+
+Processing time step 45 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:21.388964 
+NOTE: Elapsed Time: 0.00475692749023438 secs 
+
+ variable  mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -7.07  -6.81 1.35 1.24 -9.57 -5.42 1.02      163      285
+ shape     5.31   2.49 8.32 2.11  0.67 19.26 1.06       76       82
+ scale     0.38   0.29 0.35 0.20  0.08  1.25 1.06       82       69
+ location  2.06   2.26 0.53 0.23  1.09  2.43 1.04       99      162
+
+NOTE: Log Print Time:  2025-11-27 21:00:23.527771 
+NOTE: Elapsed Time: 2.13880705833435 secs 
+
+Processing time step 46 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:23.532575 
+NOTE: Elapsed Time: 0.00480389595031738 secs 
+
+ variable  mean median   sd  mad    q5  q95 rhat ess_bulk ess_tail
+ lp__     -2.62  -2.49 2.24 2.38 -6.56 0.51 1.38        9       83
+ shape     1.59   0.77 4.42 0.42  0.42 4.78 1.32        9       68
+ scale     0.54   0.50 0.30 0.29  0.15 0.89 1.22       13      113
+ location  2.51   2.59 0.25 0.02  2.10 2.61 1.39        8       82
+
+NOTE: Log Print Time:  2025-11-27 21:00:25.741154 
+NOTE: Elapsed Time: 2.20857906341553 secs 
+
+Processing time step 47 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:25.746135 
+NOTE: Elapsed Time: 0.00498104095458984 secs 
+
+ variable  mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -5.83  -5.64 1.54 1.50 -8.57 -3.57 1.02      148      132
+ shape     4.01   1.84 8.16 1.50  0.54 14.33 1.07       43       28
+ scale     0.39   0.29 0.27 0.20  0.10  0.94 1.05       57       78
+ location  2.23   2.40 0.45 0.16  1.30  2.52 1.05       69      238
+
+NOTE: Log Print Time:  2025-11-27 21:00:28.689715 
+NOTE: Elapsed Time: 2.94357991218567 secs 
+
+Processing time step 48 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:28.694524 
+NOTE: Elapsed Time: 0.00480914115905762 secs 
+
+ variable  mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -6.87  -6.64 1.40 1.26 -9.51 -5.07 1.04      121      265
+ shape     4.60   2.47 6.07 2.00  0.69 15.98 1.09       38       47
+ scale     0.32   0.28 0.19 0.17  0.10  0.65 1.04      109       93
+ location  2.07   2.24 0.46 0.27  1.14  2.45 1.08       45      201
+
+NOTE: Log Print Time:  2025-11-27 21:00:30.821374 
+NOTE: Elapsed Time: 2.12684988975525 secs 
+
+Processing time step 49 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:30.826146 
+NOTE: Elapsed Time: 0.00477194786071777 secs 
+
+ variable  mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -6.05  -5.72 1.55 1.44 -9.05 -4.14 1.01      206      350
+ shape     4.45   2.16 7.80 1.67  0.66 16.44 1.03       78       40
+ scale     0.34   0.27 0.30 0.16  0.09  0.66 1.03      113       60
+ location  2.05   2.24 0.51 0.19  1.00  2.38 1.01      132      205
+
+NOTE: Log Print Time:  2025-11-27 21:00:33.350612 
+NOTE: Elapsed Time: 2.52446603775024 secs 
+
+Processing time step 50 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:33.355613 
+NOTE: Elapsed Time: 0.00500106811523438 secs 
+
+ variable  mean median   sd  mad    q5  q95 rhat ess_bulk ess_tail
+ lp__     -1.32  -1.92 3.06 2.40 -5.28 5.36 1.38        8       29
+ shape     2.29   0.71 4.59 0.48  0.35 9.33 1.72        6       12
+ scale     0.28   0.28 0.13 0.09  0.08 0.52 1.68       27      133
+ location  2.27   2.38 0.23 0.01  1.86 2.39 1.69        6       28
+
+NOTE: Log Print Time:  2025-11-27 21:00:36.889746 
+NOTE: Elapsed Time: 3.5341329574585 secs 
+
+Processing time step 51 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:36.894198 
+NOTE: Elapsed Time: 0.00445199012756348 secs 
+
+ variable  mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     -0.48  -0.27 1.49 1.34 -3.29  1.52 1.01      217      238
+ shape     4.72   2.19 6.78 1.95  0.50 18.28 1.20       16       11
+ scale     0.22   0.16 0.23 0.11  0.05  0.61 1.17       18       11
+ location  2.16   2.26 0.25 0.12  1.65  2.35 1.11       34       45
+
+NOTE: Log Print Time:  2025-11-27 21:00:39.616386 
+NOTE: Elapsed Time: 2.72218799591064 secs 
+
+Processing time step 52 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:39.620707 
+NOTE: Elapsed Time: 0.00432109832763672 secs 
+
+ variable mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     0.63   0.91 1.44 1.32 -2.06  2.43 1.01      235      322
+ shape    6.33   2.86 9.85 2.40  0.81 24.57 1.13       26       22
+ scale    0.15   0.11 0.13 0.08  0.04  0.41 1.14       22       19
+ location 2.10   2.20 0.25 0.13  1.55  2.31 1.06       70      145
+
+NOTE: Log Print Time:  2025-11-27 21:00:42.049418 
+NOTE: Elapsed Time: 2.4287109375 secs 
+
+Processing time step 53 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:42.054217 
+NOTE: Elapsed Time: 0.00479912757873535 secs 
+
+ variable mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     1.77   2.04 1.39 1.23 -0.72  3.54 1.06       51       90
+ shape    4.11   1.71 9.28 1.69  0.43 15.69 1.23       13       23
+ scale    0.20   0.15 0.15 0.11  0.04  0.49 1.20       15       59
+ location 2.17   2.25 0.21 0.06  1.78  2.29 1.16       17       92
+
+NOTE: Log Print Time:  2025-11-27 21:00:44.201868 
+NOTE: Elapsed Time: 2.14765095710754 secs 
+
+Processing time step 54 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:44.20881 
+NOTE: Elapsed Time: 0.0069420337677002 secs 
+
+ variable mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     2.81   3.07 1.49 1.35 -0.05  4.75 1.02      167      282
+ shape    5.34   2.70 7.79 2.05  1.03 18.33 1.02      117      226
+ scale    0.11   0.09 0.07 0.06  0.03  0.25 1.02      129      157
+ location 2.11   2.18 0.21 0.10  1.73  2.26 1.02      145      285
+
+NOTE: Log Print Time:  2025-11-27 21:00:46.321304 
+NOTE: Elapsed Time: 2.11249399185181 secs 
+
+Processing time step 55 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:46.325972 
+NOTE: Elapsed Time: 0.00466799736022949 secs 
+
+ variable mean median    sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     4.50   4.82  1.53 1.30 1.71  6.34 1.04      149      138
+ shape    5.17   2.42 10.70 1.97 0.77 17.61 1.08       40       31
+ scale    0.11   0.09  0.08 0.05 0.03  0.26 1.09       42       76
+ location 2.13   2.19  0.18 0.07 1.81  2.24 1.05       67      153
+
+NOTE: Log Print Time:  2025-11-27 21:00:48.628207 
+NOTE: Elapsed Time: 2.30223488807678 secs 
+
+Processing time step 56 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:48.634383 
+NOTE: Elapsed Time: 0.00617599487304688 secs 
+
+ variable mean median   sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     6.59   6.83 1.73 1.71 3.37  9.06 1.21       14       52
+ shape    2.58   1.12 5.01 0.99 0.31 10.24 1.48        7       20
+ scale    0.37   0.12 0.46 0.12 0.03  1.39 1.63        6       16
+ location 2.20   2.23 0.08 0.02 2.06  2.25 1.24       12       72
+
+NOTE: Log Print Time:  2025-11-27 21:00:50.854671 
+NOTE: Elapsed Time: 2.22028803825378 secs 
+
+Processing time step 57 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:50.859592 
+NOTE: Elapsed Time: 0.00492095947265625 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 21:00:53.036321 
+NOTE: Elapsed Time: 2.17672896385193 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 21:00:53.088099 
+NOTE: Elapsed Time: 0.0517780780792236 secs 
+
+ variable  mean median   sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     10.28  10.45 3.83 4.96 4.23 15.46 2.61        4       NA
+ shape     0.92   0.52 2.28 0.14 0.18  2.76 2.21        5       16
+ scale     0.72   0.27 0.87 0.14 0.04  2.54 2.35        4       10
+ location  2.24   2.24 0.03 0.00 2.20  2.25 1.92        5       NA
+
+NOTE: Log Print Time:  2025-11-27 21:00:53.091327 
+NOTE: Elapsed Time: 0.00322794914245605 secs 
+
+Processing time step 58 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:53.09651 
+NOTE: Elapsed Time: 0.00518298149108887 secs 
+
+ variable  mean median    sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__      6.45   6.78  1.33 1.06 3.76  7.88 1.02      457      726
+ shape    13.63   7.16 18.03 6.69 1.54 50.64 1.03      167       93
+ scale     0.05   0.04  0.04 0.02 0.01  0.13 1.02      197      100
+ location  1.99   2.04  0.17 0.11 1.68  2.14 1.03      221      377
+
+NOTE: Log Print Time:  2025-11-27 21:00:55.218326 
+NOTE: Elapsed Time: 2.12181615829468 secs 
+
+Processing time step 59 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:55.223211 
+NOTE: Elapsed Time: 0.00488495826721191 secs 
+
+ variable  mean median    sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__      6.83   7.20  1.29 1.08 4.21  8.29 1.03      219      871
+ shape    15.65   7.44 23.87 6.89 1.27 73.38 1.10       38       34
+ scale     0.05   0.03  0.04 0.02 0.01  0.16 1.09       45       36
+ location  1.99   2.04  0.17 0.11 1.71  2.15 1.07       50       70
+
+NOTE: Log Print Time:  2025-11-27 21:00:57.59596 
+NOTE: Elapsed Time: 2.37274885177612 secs 
+
+Processing time step 60 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:57.600865 
+NOTE: Elapsed Time: 0.00490498542785645 secs 
+
+ variable mean median   sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     3.38   3.68 1.42 1.33 0.70  5.06 1.01      415     1103
+ shape    5.19   2.62 8.34 2.05 0.76 18.56 1.12       28       89
+ scale    0.11   0.09 0.07 0.06 0.03  0.25 1.05      128      119
+ location 2.03   2.09 0.17 0.07 1.68  2.15 1.07       50      141
+
+NOTE: Log Print Time:  2025-11-27 21:00:59.724229 
+NOTE: Elapsed Time: 2.12336421012878 secs 
+
+Processing time step 61 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:00:59.729115 
+NOTE: Elapsed Time: 0.00488591194152832 secs 
+
+ variable mean median   sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     3.57   3.93 1.51 1.36 0.67  5.32 1.02      317      565
+ shape    5.24   2.78 8.93 2.29 0.76 17.48 1.05       58       55
+ scale    0.11   0.09 0.09 0.06 0.03  0.30 1.04       77       63
+ location 2.03   2.09 0.17 0.08 1.68  2.15 1.04       89      258
+
+NOTE: Log Print Time:  2025-11-27 21:01:01.904883 
+NOTE: Elapsed Time: 2.17576789855957 secs 
+
+Processing time step 62 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:01.910581 
+NOTE: Elapsed Time: 0.00569820404052734 secs 
+
+ variable mean median   sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     4.02   4.35 1.42 1.28 1.29  5.72 1.02      258      672
+ shape    3.75   2.25 5.55 1.71 0.70 11.38 1.10       32       42
+ scale    0.13   0.09 0.10 0.06 0.04  0.36 1.10       31       30
+ location 2.06   2.11 0.13 0.05 1.81  2.15 1.05      103      133
+
+NOTE: Log Print Time:  2025-11-27 21:01:04.055357 
+NOTE: Elapsed Time: 2.14477586746216 secs 
+
+Processing time step 63 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:04.059984 
+NOTE: Elapsed Time: 0.00462698936462402 secs 
+
+ variable mean median   sd  mad   q5  q95 rhat ess_bulk ess_tail
+ lp__     4.36   4.68 1.47 1.30 1.58 6.10 1.01      260      547
+ shape    3.23   2.09 3.54 1.28 0.86 9.64 1.02      148      263
+ scale    0.11   0.10 0.08 0.05 0.04 0.24 1.02      173      258
+ location 2.07   2.11 0.10 0.05 1.87 2.15 1.01      209      577
+
+NOTE: Log Print Time:  2025-11-27 21:01:06.256464 
+NOTE: Elapsed Time: 2.19648003578186 secs 
+
+Processing time step 64 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:06.260948 
+NOTE: Elapsed Time: 0.00448393821716309 secs 
+
+ variable mean median   sd  mad   q5  q95 rhat ess_bulk ess_tail
+ lp__     4.82   5.13 1.60 1.53 1.73 6.88 1.02      154      132
+ shape    2.21   1.37 3.04 0.81 0.61 6.38 1.03       73       29
+ scale    0.14   0.13 0.08 0.07 0.05 0.31 1.08       71       25
+ location 2.10   2.13 0.09 0.03 1.94 2.15 1.02      110      182
+
+NOTE: Log Print Time:  2025-11-27 21:01:08.485527 
+NOTE: Elapsed Time: 2.22457909584045 secs 
+
+Processing time step 65 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:08.490005 
+NOTE: Elapsed Time: 0.00447797775268555 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 21:01:11.448975 
+NOTE: Elapsed Time: 2.95897006988525 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 21:01:11.502787 
+NOTE: Elapsed Time: 0.0538120269775391 secs 
+
+ variable  mean median   sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     10.05  12.48 6.55 4.05 -3.14 17.98 2.41        4       20
+ shape     0.42   0.43 0.06 0.06  0.34  0.48 3.34        4        5
+ scale     3.49   1.33 4.10 0.45  0.73 10.58 3.43        4        5
+ location  2.16   2.16 0.00 0.00  2.15  2.16 1.86        5       NA
+
+NOTE: Log Print Time:  2025-11-27 21:01:11.564661 
+NOTE: Elapsed Time: 0.0618739128112793 secs 
+
+Processing time step 66 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:11.570156 
+NOTE: Elapsed Time: 0.00549507141113281 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 21:01:16.354805 
+NOTE: Elapsed Time: 4.78464889526367 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 21:01:16.407252 
+NOTE: Elapsed Time: 0.0524470806121826 secs 
+
+ variable  mean median    sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     23.24  13.73 16.67 7.82 7.54 50.76 2.58        4       NA
+ shape     0.54   0.53  0.19 0.13 0.22  0.76 2.29        5       11
+ scale     0.40   0.34  0.22 0.23 0.13  0.88 2.30        5       11
+ location  2.15   2.16  0.01 0.00 2.15  2.16 2.34        4       NA
+
+NOTE: Log Print Time:  2025-11-27 21:01:16.410403 
+NOTE: Elapsed Time: 0.00315093994140625 secs 
+
+Processing time step 67 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:16.415561 
+NOTE: Elapsed Time: 0.0051579475402832 secs 
+
+ variable mean median    sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     3.63   4.33  2.64 1.93 -2.37  6.56 1.17       21       17
+ shape    9.53   1.38 28.30 0.85  0.52 63.85 1.18       15       16
+ scale    0.16   0.13  0.15 0.08  0.03  0.38 1.15       17       17
+ location 1.90   2.08  0.47 0.04  0.54  2.11 1.17       18       14
+
+NOTE: Log Print Time:  2025-11-27 21:01:19.246136 
+NOTE: Elapsed Time: 2.83057498931885 secs 
+
+Processing time step 68 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:19.251261 
+NOTE: Elapsed Time: 0.00512504577636719 secs 
+
+ variable mean median   sd  mad   q5  q95 rhat ess_bulk ess_tail
+ lp__     3.54   3.82 1.72 1.65 0.35 5.80 1.03      106      190
+ shape    2.01   1.21 3.00 0.76 0.46 5.70 1.06       44       44
+ scale    0.20   0.16 0.16 0.09 0.06 0.60 1.07       48       23
+ location 2.03   2.07 0.11 0.03 1.84 2.10 1.04       69      173
+
+NOTE: Log Print Time:  2025-11-27 21:01:21.656228 
+NOTE: Elapsed Time: 2.40496706962585 secs 
+
+Processing time step 69 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:21.661102 
+NOTE: Elapsed Time: 0.00487399101257324 secs 
+
+ variable mean median   sd  mad   q5  q95 rhat ess_bulk ess_tail
+ lp__     3.57   3.83 1.54 1.41 0.70 5.47 1.01      246      367
+ shape    1.98   1.20 3.12 0.68 0.58 5.56 1.07       53      142
+ scale    0.18   0.16 0.10 0.09 0.06 0.36 1.05       79       85
+ location 2.01   2.04 0.10 0.03 1.84 2.06 1.05      120      350
+
+NOTE: Log Print Time:  2025-11-27 21:01:23.860617 
+NOTE: Elapsed Time: 2.19951486587524 secs 
+
+Processing time step 70 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:23.865479 
+NOTE: Elapsed Time: 0.00486207008361816 secs 
+
+ variable mean median   sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     8.11   8.40 1.26 1.10 5.58  9.53 1.00      564     1264
+ shape    6.99   4.15 8.12 3.14 1.30 22.08 1.01      163      221
+ scale    0.05   0.04 0.03 0.02 0.01  0.12 1.01      182      188
+ location 1.96   2.00 0.10 0.06 1.76  2.06 1.01      232      328
+
+NOTE: Log Print Time:  2025-11-27 21:01:26.076676 
+NOTE: Elapsed Time: 2.21119689941406 secs 
+
+Processing time step 71 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:26.081497 
+NOTE: Elapsed Time: 0.0048210620880127 secs 
+
+ variable mean median   sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     9.64  10.01 1.47 1.30 6.94 11.27 1.11       25      177
+ shape    6.58   3.21 9.29 3.68 0.46 25.77 1.43        8       25
+ scale    0.07   0.04 0.07 0.04 0.01  0.24 1.35        9       30
+ location 2.00   2.03 0.08 0.05 1.82  2.06 1.38        8       17
+
+NOTE: Log Print Time:  2025-11-27 21:01:29.137888 
+NOTE: Elapsed Time: 3.05639100074768 secs 
+
+Processing time step 72 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:29.142191 
+NOTE: Elapsed Time: 0.004302978515625 secs 
+
+ variable  mean median    sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     10.27  11.04  2.28 1.42 4.64 12.37 1.26       11       13
+ shape     7.12   3.00 12.04 2.76 0.28 31.13 1.38        9       12
+ scale     0.25   0.04  0.72 0.03 0.01  2.73 1.37        9       11
+ location  1.99   2.03  0.12 0.04 1.79  2.06 1.25       12       40
+
+NOTE: Log Print Time:  2025-11-27 21:01:32.73177 
+NOTE: Elapsed Time: 3.5895791053772 secs 
+
+Processing time step 73 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:32.73678 
+NOTE: Elapsed Time: 0.00500988960266113 secs 
+
+ variable  mean median    sd  mad    q5   q95 rhat ess_bulk ess_tail
+ lp__     12.31  12.60  1.18 1.03 10.04 13.67 1.02      348      970
+ shape     8.26   4.25 11.52 3.97  0.93 34.06 1.04       71       30
+ scale     0.04   0.03  0.03 0.02  0.01  0.11 1.04       76       43
+ location  2.00   2.02  0.06 0.04  1.87  2.06 1.03      100      228
+
+NOTE: Log Print Time:  2025-11-27 21:01:35.494482 
+NOTE: Elapsed Time: 2.75770211219788 secs 
+
+Processing time step 74 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:35.498382 
+NOTE: Elapsed Time: 0.00390005111694336 secs 
+
+ variable  mean median    sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     11.37  12.70  3.27 2.21 4.32 14.64 1.53        7       42
+ shape     4.89   1.76 10.65 2.24 0.24 20.40 1.65        6       18
+ scale     2.57   0.04  4.39 0.04 0.01 10.41 1.65        6       11
+ location  2.02   2.05  0.07 0.02 1.87  2.06 1.53        7       38
+
+NOTE: Log Print Time:  2025-11-27 21:01:37.788043 
+NOTE: Elapsed Time: 2.28966093063354 secs 
+
+Processing time step 75 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:37.792682 
+NOTE: Elapsed Time: 0.0046389102935791 secs 
+
+ variable  mean median    sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     10.17  10.58  1.61 1.41 6.87 11.98 1.14       19       80
+ shape     7.09   3.42 10.22 3.72 0.46 27.92 1.22       13       32
+ scale     0.11   0.04  0.18 0.03 0.01  0.57 1.28       11       19
+ location  1.96   1.99  0.08 0.05 1.78  2.02 1.21       13       34
+
+NOTE: Log Print Time:  2025-11-27 21:01:40.190367 
+NOTE: Elapsed Time: 2.39768505096436 secs 
+
+Processing time step 76 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:40.194789 
+NOTE: Elapsed Time: 0.00442194938659668 secs 
+
+ variable mean median   sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     7.58   8.17 2.01 1.84 3.76  9.90 1.28       10      118
+ shape    3.77   2.07 5.72 2.49 0.26 13.59 1.41        8       30
+ scale    0.30   0.07 0.45 0.05 0.02  1.21 1.48        7       11
+ location 1.97   2.00 0.08 0.04 1.79  2.02 1.33       10       28
+
+NOTE: Log Print Time:  2025-11-27 21:01:42.202207 
+NOTE: Elapsed Time: 2.00741815567017 secs 
+
+Processing time step 77 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:42.207069 
+NOTE: Elapsed Time: 0.00486183166503906 secs 
+
+ variable mean median    sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     7.17   7.48  1.48 1.35 4.34  8.94 1.01      241      652
+ shape    5.81   2.31 10.06 2.22 0.52 23.86 1.38        9       34
+ scale    0.10   0.07  0.08 0.05 0.02  0.26 1.36       10       50
+ location 1.93   1.99  0.14 0.05 1.66  2.02 1.24       12       63
+
+NOTE: Log Print Time:  2025-11-27 21:01:44.171364 
+NOTE: Elapsed Time: 1.96429514884949 secs 
+
+Processing time step 78 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:44.176428 
+NOTE: Elapsed Time: 0.00506401062011719 secs 
+
+ variable mean median   sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     7.05   7.55 1.97 1.64 2.93  9.32 1.27       11       15
+ shape    2.86   1.53 4.70 1.61 0.33 10.33 1.59        6       27
+ scale    0.29   0.08 0.47 0.06 0.03  1.24 1.65        6       11
+ location 1.98   2.01 0.08 0.03 1.82  2.02 1.22       14       79
+
+NOTE: Log Print Time:  2025-11-27 21:01:46.183472 
+NOTE: Elapsed Time: 2.00704383850098 secs 
+
+Processing time step 79 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:46.188232 
+NOTE: Elapsed Time: 0.0047600269317627 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 21:01:51.222357 
+NOTE: Elapsed Time: 5.03412508964539 secs 
+
+Warning: NAs introduced by coercion 
+
+NOTE: Log Print Time:  2025-11-27 21:01:51.271241 
+NOTE: Elapsed Time: 0.0488839149475098 secs 
+
+ variable  mean median    sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     12.20   8.32  8.13 1.72 5.35 26.13 1.53        7       NA
+ shape     3.57   1.53 13.05 1.99 0.19 11.01 1.56        7        4
+ scale     0.16   0.09  0.13 0.08 0.03  0.36 1.46        8       89
+ location  1.97   2.01  0.13 0.03 1.82  2.03 1.55        7       NA
+
+NOTE: Log Print Time:  2025-11-27 21:01:51.274684 
+NOTE: Elapsed Time: 0.00344300270080566 secs 
+
+Processing time step 80 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:51.279652 
+NOTE: Elapsed Time: 0.00496816635131836 secs 
+
+ variable mean median   sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     7.01   7.68 2.61 2.48 1.99 10.15 1.36        9       50
+ shape    1.78   0.88 2.70 0.81 0.25  6.78 1.76        6       12
+ scale    0.81   0.13 1.11 0.13 0.03  2.93 1.72        6       24
+ location 2.00   2.02 0.05 0.01 1.89  2.03 1.36        9       65
+
+NOTE: Log Print Time:  2025-11-27 21:01:53.594217 
+NOTE: Elapsed Time: 2.3145649433136 secs 
+
+Processing time step 81 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:53.599749 
+NOTE: Elapsed Time: 0.00553202629089355 secs 
+
+ variable mean median   sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     7.86   8.34 1.99 2.13 4.42 10.52 1.31       10       56
+ shape    2.04   1.22 3.02 1.21 0.39  6.61 1.57        7       26
+ scale    0.61   0.10 0.90 0.07 0.03  2.18 1.61        6       17
+ location 1.98   2.00 0.06 0.02 1.87  2.01 1.50        7       25
+
+NOTE: Log Print Time:  2025-11-27 21:01:56.832567 
+NOTE: Elapsed Time: 3.23281788825989 secs 
+
+Processing time step 82 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:56.837264 
+NOTE: Elapsed Time: 0.00469708442687988 secs 
+
+ variable mean median   sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     7.51   7.82 1.67 1.57 4.24  9.60 1.04       89      235
+ shape    3.86   1.95 5.69 1.43 0.71 13.28 1.06       81       85
+ scale    0.08   0.07 0.04 0.04 0.02  0.17 1.03      120      122
+ location 1.92   1.96 0.10 0.04 1.72  1.99 1.06       80      136
+
+NOTE: Log Print Time:  2025-11-27 21:01:59.00463 
+NOTE: Elapsed Time: 2.16736602783203 secs 
+
+Processing time step 83 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:01:59.009877 
+NOTE: Elapsed Time: 0.00524687767028809 secs 
+
+ variable mean median   sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     7.35   7.65 1.65 1.56 4.16  9.55 1.09       42       80
+ shape    3.23   1.34 8.01 0.99 0.41 10.49 1.22       13       15
+ scale    0.14   0.10 0.11 0.08 0.03  0.33 1.14       24       49
+ location 1.92   1.96 0.11 0.02 1.70  1.97 1.15       19       86
+
+NOTE: Log Print Time:  2025-11-27 21:02:01.527672 
+NOTE: Elapsed Time: 2.51779508590698 secs 
+
+Processing time step 84 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:02:01.532698 
+NOTE: Elapsed Time: 0.00502586364746094 secs 
+
+ variable mean median   sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     5.77   6.07 1.49 1.34 2.79  7.56 1.01      320      709
+ shape    4.35   2.28 6.78 1.62 0.84 15.93 1.04       72       29
+ scale    0.09   0.08 0.06 0.05 0.03  0.21 1.04      105      134
+ location 1.85   1.89 0.12 0.05 1.62  1.94 1.02      129      301
+
+NOTE: Log Print Time:  2025-11-27 21:02:04.750031 
+NOTE: Elapsed Time: 3.2173330783844 secs 
+
+Processing time step 85 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:02:04.754833 
+NOTE: Elapsed Time: 0.00480198860168457 secs 
+
+ variable mean median   sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     7.00   7.07 2.12 1.84 3.61 10.95 1.27       12       26
+ shape    2.00   0.87 4.18 0.74 0.37  7.20 1.62        6       25
+ scale    0.17   0.16 0.10 0.13 0.04  0.34 1.26       12      100
+ location 1.90   1.93 0.10 0.01 1.73  1.94 1.47        8       26
+
+NOTE: Log Print Time:  2025-11-27 21:02:07.365129 
+NOTE: Elapsed Time: 2.61029601097107 secs 
+
+Processing time step 86 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:02:07.369222 
+NOTE: Elapsed Time: 0.00409293174743652 secs 
+
+ variable mean median   sd  mad   q5  q95 rhat ess_bulk ess_tail
+ lp__     7.90   8.16 1.46 1.27 5.14 9.70 1.01      242      659
+ shape    3.18   1.77 4.72 1.25 0.68 9.44 1.02       89      159
+ scale    0.10   0.08 0.07 0.05 0.03 0.24 1.02       99      123
+ location 1.86   1.89 0.08 0.03 1.72 1.92 1.01      127      349
+
+NOTE: Log Print Time:  2025-11-27 21:02:09.743667 
+NOTE: Elapsed Time: 2.37444496154785 secs 
+
+Processing time step 87 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:02:09.747859 
+NOTE: Elapsed Time: 0.00419211387634277 secs 
+
+ variable mean median    sd  mad   q5   q95 rhat ess_bulk ess_tail
+ lp__     9.36   9.70  1.46 1.29 6.42 11.07 1.01      271      174
+ shape    6.94   2.93 10.70 2.59 0.67 28.20 1.08       48       28
+ scale    0.06   0.04  0.05 0.03 0.01  0.18 1.06       47       38
+ location 1.81   1.86  0.13 0.05 1.56  1.90 1.06       91       56
+
+NOTE: Log Print Time:  2025-11-27 21:02:12.097222 
+NOTE: Elapsed Time: 2.34936308860779 secs 
+
+Processing time step 88 ... 
+
+NOTE: Log Print Time:  2025-11-27 21:02:12.100716 
+NOTE: Elapsed Time: 0.0034940242767334 secs 
+
+ variable  mean median    sd  mad   q5    q95 rhat ess_bulk ess_tail
+ lp__      6.58   7.40  2.35 1.88 2.45   9.26 1.40        8       45
+ shape    24.98   2.60 43.51 2.26 0.79 126.75 1.48        7       25
+ scale     0.07   0.06  0.07 0.05 0.01   0.20 1.48        7       22
+ location  1.65   1.85  0.38 0.06 0.92   1.90 1.48        7       15
+
+NOTE: Log Print Time:  2025-11-27 21:02:14.864822 
+NOTE: Elapsed Time: 2.76410579681396 secs 
+
+Error in plot.new() : figure margins too large 
+Traceback: 
+[1] "3: plot.new()"                                                            
+[2] "2: plot.default(log10(gage_values), type = \"l\", main = paste(\"Gage\", "
+[3] "       gage), xlab = \"timestep\", ylab = \"discharge\")"                 
+[4] "1: plot(log10(gage_values), type = \"l\", main = paste(\"Gage\", gage), " 
+[5] "       xlab = \"timestep\", ylab = \"discharge\")"                        
+
+NOTE: Log Print Time:  2025-11-27 21:07:53.372217 
+NOTE: Elapsed Time: 5.64178991715113 mins 
+
+========================================================================= 
+Log End Time: 2025-11-27 21:07:53.373881 
+Log Elapsed Time: 0 00:22:34 
+========================================================================= 

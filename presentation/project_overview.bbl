@@ -1,0 +1,30 @@
+\begin{thebibliography}{}
+
+\bibitem[Adams and MacKay, 2007]{AdamsMacKay2007}
+Adams, R.~P. and MacKay, D. J.~C. (2007).
+\newblock Bayesian online changepoint detection.
+\newblock {\em arXiv preprint arXiv:0710.3742}.
+\newblock Accessed October 2025.
+
+\bibitem[DeCicco et~al., 2023]{dataRetrieval}
+DeCicco, L., Lorenz, D., Read, J., and Johnson, M. (2023).
+\newblock {\em dataRetrieval: R packages for discovering and retrieving water
+  data available from U.S. federal hydrologic web services}.
+\newblock U.S. Geological Survey.
+\newblock R package version 2.7.8.
+
+\bibitem[England et~al., 2018]{England2018Bulletin17C}
+England, J. F.~J., Cohn, T.~A., Faber, B.~A., Stedinger, J.~R., Thomas, W.~J.,
+  Veilleux, A.~G., Kiang, J.~E., and Mason, R. R.~J. (2018).
+\newblock Guidelines for determining flood flow frequency—bulletin 17c.
+\newblock Techniques and Methods Book 4, Chapter B5, U.S. Geological Survey.
+
+\bibitem[Zhao et~al., 2019]{ZHAO2019}
+Zhao, K., Wulder, M.~A., Hu, T., Bright, R., Wu, Q., Qin, H., Li, Y., Toman,
+  E., Mallick, B., Zhang, X., and Brown, M. (2019).
+\newblock Detecting change-point, trend, and seasonality in satellite time
+  series data to track abrupt changes and nonlinear dynamics: A bayesian
+  ensemble algorithm.
+\newblock {\em Remote Sensing of Environment}, 232:111181.
+
+\end{thebibliography}

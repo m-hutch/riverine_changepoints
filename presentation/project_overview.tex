@@ -164,22 +164,22 @@ The parameters can be estimated using the first three L-moments of past observed
 \begin{itemize}
 \item shape $\kappa = (2/\gamma)^2$
 \item scale $\theta = 2\sigma/\gamma $
-\item location $\tau = \mu - \theta \cdot \beta$
+\item location $\tau = \mu - \theta \cdot \kappa$
 \end{itemize}
 \end{frame}
 
 \section{Analytical Solution}
 \begin{frame}
 \frametitle{Bayesian Framework}
-For this solution, we use a simplified model where $X \sim \Gamma(\alpha,\beta)$  with shape parameter $\alpha$
+For this solution, we use a simplified model where $X \sim \text{Gamma}(\alpha,\beta)$  with shape parameter $\alpha$
 and rate parameter $\beta$ (inverse of scale).
 
 With a Gamma-Gamma conjugage prior, the likelihood is Gamma and the conjugate prior for the rate 
 parameter $\beta$ (given $\alpha$) is also Gamma.
 \begin{itemize}
- \item Prior: $\beta \sim \Gamma(a_0, b_0)$   
- \item Likelihood: $x_i | \beta \sim \Gamma(\alpha, \beta)$
- \item Analytical posterior (with $n$ observed data points): $\beta | x_{1:n}\sim \Gamma(a_0+n\alpha, b_0+\sum_{i=1}^n x_i)$
+ \item Prior: $\beta \sim \text{Gamma}(a_0, b_0)$   
+ \item Likelihood: $x_i | \beta \sim \text{Gamma}(\alpha, \beta)$
+ \item Analytical posterior (with $n$ observed data points): $\beta | x_{1:n}\sim \text{Gamma}(a_0+n\alpha, b_0+\sum_{i=1}^n x_i)$
 \end{itemize}
 \end{frame}
 
@@ -192,7 +192,7 @@ With online updates, we can only see past data at each timestep. When a new obse
 		\item $n \gets n+1$
 		\item $S \gets S+x_t$
 	\end{itemize}
-\item Posterior becomes $\beta|x_{1:n} \sim \Gamma(a_0+n\alpha, b_0 +S)$
+\item Posterior becomes $\beta|x_{1:n} \sim \text{Gamma}(a_0+n\alpha, b_0 +S)$
 \end{itemize}
 \end{frame}
 

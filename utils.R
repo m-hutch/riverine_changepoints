@@ -163,11 +163,13 @@ plot.density <- function(data, variable='discharge_max',
 }
 
 
-plot.changepoints <- function(gage.data, results, image_filename){
-  png(image_filename
-      , width = 800
-      , height = 400*length(gage.data)
-      , res = 150)
+plot.changepoints <- function(gage.data, results, image_filename=""){
+  if(length(image_filename)>1){
+    png(image_filename
+        , width = 800
+        , height = 400*length(gage.data)
+        , res = 150)
+  }
   par(mfrow = c(length(gage.data),1), mar = c(4, 4, 4, 4))
   
   for(gage in names(gage.data)){
@@ -193,6 +195,6 @@ plot.changepoints <- function(gage.data, results, image_filename){
     legend("bottomright", legend = c("Log Data", "Changepoint Probability"),
            col = c("blue", "orange"), lwd = 2)
   }
-  dev.off()
+  if(length(image_filename)>1){dev.off()}
   par(mfrow = c(1,1), mar = c(1, 1, 1, 1)) # reset plot settings
 }

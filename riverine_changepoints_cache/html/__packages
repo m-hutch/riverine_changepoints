@@ -1,0 +1,14 @@
+pacman
+dataRetrieval
+dplyr
+tidyr
+lmom
+lmomco
+kdensity
+leaflet
+nhdplusTools
+knitr
+Rcpp
+microbenchmark
+StanHeaders
+rstan
